@@ -1,0 +1,72 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[33mCMake Warning at CMakeLists.txt:15 (find_package):
+  By not providing "Findsample_subpub.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "sample_subpub", but CMake did not find one.
+
+  Could not find a package configuration file provided by "sample_subpub"
+  with any of the following names:
+
+    sample_subpubConfig.cmake
+    sample_subpub-config.cmake
+
+  Add the installation prefix of "sample_subpub" to CMAKE_PREFIX_PATH or set
+  "sample_subpub_DIR" to a directory containing one of the above files.  If
+  "sample_subpub" provides a separate development package or SDK, be sure it
+  has been installed.
+
+[0m
+-- Configuring done (1.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/tomoni11/Documents/ROS2/sample_ws/build/sample_subpub
+[ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/pub.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/sub.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable talker[0m
+[ 75%] Built target talker
+[100%] [32m[1mLinking CXX executable listener[0m
+[100%] Built target listener
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/lib/sample_subpub//talker
+-- Symlinking: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/lib/sample_subpub//listener
+-- Symlinking: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share///launch/subpub.launch.py
+-- Symlinking: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/ament_index/resource_index/package_run_dependencies/sample_subpub
+-- Symlinking: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/ament_index/resource_index/parent_prefix_path/sample_subpub
+-- Symlinking: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/environment/ament_prefix_path.sh
+-- Symlinking: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/environment/ament_prefix_path.dsv
+-- Symlinking: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/environment/path.sh
+-- Symlinking: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/environment/path.dsv
+-- Symlinking: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/local_setup.bash
+-- Symlinking: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/local_setup.sh
+-- Symlinking: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/local_setup.zsh
+-- Symlinking: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/local_setup.dsv
+-- Symlinking: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/package.dsv
+-- Symlinking: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/ament_index/resource_index/packages/sample_subpub
+-- Symlinking: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/cmake/sample_subpubConfig.cmake
+-- Symlinking: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/cmake/sample_subpubConfig-version.cmake
+-- Symlinking: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/package.xml

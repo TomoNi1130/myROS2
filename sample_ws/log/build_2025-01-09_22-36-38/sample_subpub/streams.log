@@ -1,0 +1,78 @@
+[0.007s] Invoking command in '/home/tomoni11/Documents/ROS2/sample_ws/build/sample_subpub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tomoni11/Documents/ROS2/sample_ws/src/sample_subpub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub
+[0.088s] -- The C compiler identification is GNU 13.3.0
+[0.162s] -- The CXX compiler identification is GNU 13.3.0
+[0.175s] -- Detecting C compiler ABI info
+[0.246s] -- Detecting C compiler ABI info - done
+[0.253s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.253s] -- Detecting C compile features
+[0.254s] -- Detecting C compile features - done
+[0.261s] -- Detecting CXX compiler ABI info
+[0.339s] -- Detecting CXX compiler ABI info - done
+[0.346s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.346s] -- Detecting CXX compile features
+[0.347s] -- Detecting CXX compile features - done
+[0.353s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.473s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.534s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.577s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.615s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.627s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.640s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.655s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.721s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.723s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.789s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.807s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.829s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.893s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.911s] [33mCMake Warning at CMakeLists.txt:15 (find_package):
+[0.911s]   By not providing "Findsample_subpub.cmake" in CMAKE_MODULE_PATH this
+[0.911s]   project has asked CMake to find a package configuration file provided by
+[0.911s]   "sample_subpub", but CMake did not find one.
+[0.911s] 
+[0.911s]   Could not find a package configuration file provided by "sample_subpub"
+[0.911s]   with any of the following names:
+[0.911s] 
+[0.911s]     sample_subpubConfig.cmake
+[0.911s]     sample_subpub-config.cmake
+[0.911s] 
+[0.911s]   Add the installation prefix of "sample_subpub" to CMAKE_PREFIX_PATH or set
+[0.911s]   "sample_subpub_DIR" to a directory containing one of the above files.  If
+[0.911s]   "sample_subpub" provides a separate development package or SDK, be sure it
+[0.912s]   has been installed.
+[0.912s] 
+[0.912s] [0m
+[0.989s] -- Configuring done (1.0s)
+[0.999s] -- Generating done (0.0s)
+[1.002s] -- Build files have been written to: /home/tomoni11/Documents/ROS2/sample_ws/build/sample_subpub
+[1.011s] Invoked command in '/home/tomoni11/Documents/ROS2/sample_ws/build/sample_subpub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tomoni11/Documents/ROS2/sample_ws/src/sample_subpub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub
+[1.012s] Invoking command in '/home/tomoni11/Documents/ROS2/sample_ws/build/sample_subpub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/sample_ws/build/sample_subpub -- -j24 -l24
+[1.056s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/pub.cpp.o[0m
+[1.056s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/sub.cpp.o[0m
+[4.321s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[4.464s] [ 75%] Built target talker
+[5.630s] [100%] [32m[1mLinking CXX executable listener[0m
+[6.034s] [100%] Built target listener
+[6.045s] Invoked command in '/home/tomoni11/Documents/ROS2/sample_ws/build/sample_subpub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/sample_ws/build/sample_subpub -- -j24 -l24
+[6.054s] Invoking command in '/home/tomoni11/Documents/ROS2/sample_ws/build/sample_subpub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tomoni11/Documents/ROS2/sample_ws/build/sample_subpub
+[6.061s] -- Install configuration: ""
+[6.061s] -- Execute custom install script
+[6.061s] -- Symlinking: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/lib/sample_subpub//talker
+[6.069s] -- Symlinking: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/lib/sample_subpub//listener
+[6.076s] -- Symlinking: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share///launch/subpub.launch.py
+[6.083s] -- Symlinking: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/ament_index/resource_index/package_run_dependencies/sample_subpub
+[6.091s] -- Symlinking: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/ament_index/resource_index/parent_prefix_path/sample_subpub
+[6.098s] -- Symlinking: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/environment/ament_prefix_path.sh
+[6.105s] -- Symlinking: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/environment/ament_prefix_path.dsv
+[6.112s] -- Symlinking: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/environment/path.sh
+[6.119s] -- Symlinking: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/environment/path.dsv
+[6.126s] -- Symlinking: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/local_setup.bash
+[6.135s] -- Symlinking: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/local_setup.sh
+[6.143s] -- Symlinking: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/local_setup.zsh
+[6.150s] -- Symlinking: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/local_setup.dsv
+[6.157s] -- Symlinking: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/package.dsv
+[6.164s] -- Symlinking: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/ament_index/resource_index/packages/sample_subpub
+[6.171s] -- Symlinking: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/cmake/sample_subpubConfig.cmake
+[6.178s] -- Symlinking: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/cmake/sample_subpubConfig-version.cmake
+[6.185s] -- Symlinking: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/package.xml
+[6.193s] Invoked command in '/home/tomoni11/Documents/ROS2/sample_ws/build/sample_subpub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tomoni11/Documents/ROS2/sample_ws/build/sample_subpub

@@ -1,0 +1,14 @@
+[01m[K/home/tomoni11/Documents/ROS2/asobi_ws/src/lider_to_fp/src/serial_talker.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kinterface_pkg/msg/ransac.hpp: そのようなファイルやディレクトリはありません
+    4 | #include [01;31m[K"interface_pkg/msg/ransac.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/tomoni11/Documents/ROS2/asobi_ws/src/lider_to_fp/src/ransac_main.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Kinterface_pkg/msg/ransac.hpp: そのようなファイルやディレクトリはありません
+    9 | #include [01;31m[K"interface_pkg/msg/ransac.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/serial_talker.dir/build.make:76: CMakeFiles/serial_talker.dir/src/serial_talker.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/serial_talker.dir/all] エラー 2
+gmake[1]: *** 未完了のジョブを待っています....
+gmake[2]: *** [CMakeFiles/ransac_unit.dir/build.make:76: CMakeFiles/ransac_unit.dir/src/ransac_main.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ransac_unit.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

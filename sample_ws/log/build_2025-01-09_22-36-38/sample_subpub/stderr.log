@@ -1,0 +1,17 @@
+[33mCMake Warning at CMakeLists.txt:15 (find_package):
+  By not providing "Findsample_subpub.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "sample_subpub", but CMake did not find one.
+
+  Could not find a package configuration file provided by "sample_subpub"
+  with any of the following names:
+
+    sample_subpubConfig.cmake
+    sample_subpub-config.cmake
+
+  Add the installation prefix of "sample_subpub" to CMAKE_PREFIX_PATH or set
+  "sample_subpub_DIR" to a directory containing one of the above files.  If
+  "sample_subpub" provides a separate development package or SDK, be sure it
+  has been installed.
+
+[0m

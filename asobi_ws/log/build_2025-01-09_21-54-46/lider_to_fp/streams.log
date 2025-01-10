@@ -1,0 +1,31 @@
+[0.008s] Invoking command in '/home/tomoni11/Documents/ROS2/asobi_ws/build/lider_to_fp': CMAKE_PREFIX_PATH=/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg:/home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/asobi_ws/build/lider_to_fp -- -j24 -l24
+[0.035s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.220s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.239s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.245s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.253s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.262s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.311s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.312s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.365s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.419s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.430s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.463s] -- Found interface_pkg: 0.0.0 (/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg/share/interface_pkg/cmake)
+[0.478s] [31mCMake Error at CMakeLists.txt:41 (install):
+[0.478s]   install does not recognize sub-command DIRECOTRY
+[0.478s] 
+[0.478s] [0m
+[0.478s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.565s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.565s] -- Configured cppcheck include dirs: /home/tomoni11/Documents/ROS2/asobi_ws/src/lider_to_fp/include
+[0.565s] -- Configured cppcheck exclude dirs and/or files: 
+[0.565s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.565s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.565s] -- Added test 'lint_cmake' to check CMake code style
+[0.566s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.566s] -- Added test 'uncrustify' to check C / C++ code style
+[0.566s] -- Configured uncrustify additional arguments: 
+[0.566s] -- Added test 'xmllint' to check XML markup files
+[0.567s] -- Configuring incomplete, errors occurred!
+[0.574s] gmake: *** [Makefile:308: cmake_check_build_system] エラー 1
+[0.576s] Invoked command in '/home/tomoni11/Documents/ROS2/asobi_ws/build/lider_to_fp' returned '2': CMAKE_PREFIX_PATH=/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg:/home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/asobi_ws/build/lider_to_fp -- -j24 -l24

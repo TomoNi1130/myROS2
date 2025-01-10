@@ -1,0 +1,9 @@
+float64 low_x
+float64 high_x
+float64 low_y
+float64 high_y
+float64 a
+float64 b
+float64 c
+float64 distance
+float64 theta

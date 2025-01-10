@@ -1,0 +1,21 @@
+[0.005s] Invoking command in '/home/tomoni11/Documents/ROS2/asobi_ws/build/lider_to_fp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tomoni11/Documents/ROS2/asobi_ws/src/lider_to_fp -DCMAKE_INSTALL_PREFIX=/home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp
+[0.016s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.194s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.214s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.220s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.227s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.236s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.285s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.286s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.337s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.390s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.404s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.437s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.437s]   ament_target_dependencies() the passed package name 'interface_pkg' was not
+[0.437s]   found before
+[0.437s] Call Stack (most recent call first):
+[0.437s]   CMakeLists.txt:20 (ament_target_dependencies)
+[0.437s] 
+[0.437s] [0m
+[0.438s] -- Configuring incomplete, errors occurred!
+[0.443s] Invoked command in '/home/tomoni11/Documents/ROS2/asobi_ws/build/lider_to_fp' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tomoni11/Documents/ROS2/asobi_ws/src/lider_to_fp -DCMAKE_INSTALL_PREFIX=/home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp

@@ -1,0 +1,8 @@
+[01m[K/home/tomoni11/Documents/ROS2/asobi_ws/src/lider_to_fp/src/ransac_main.cpp:11:10:[m[K [01;31m[Kfatal error: [m[Kransac.cpp: そのようなファイルやディレクトリはありません
+   11 | #include [01;31m[K"ransac.cpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/ransac_unit.dir/build.make:76: CMakeFiles/ransac_unit.dir/src/ransac_main.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ransac_unit.dir/all] エラー 2
+gmake[1]: *** 未完了のジョブを待っています....
+gmake: *** [Makefile:146: all] エラー 2

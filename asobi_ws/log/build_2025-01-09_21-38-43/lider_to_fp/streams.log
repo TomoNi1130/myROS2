@@ -1,0 +1,21 @@
+[0.005s] Invoking command in '/home/tomoni11/Documents/ROS2/asobi_ws/build/lider_to_fp': AMENT_PREFIX_PATH=/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg CMAKE_PREFIX_PATH=/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg/lib PYTHONPATH=/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg/lib/python3.12/site-packages /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/asobi_ws/build/lider_to_fp -- -j24 -l24
+[0.035s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.488s] Traceback (most recent call last):
+[1.488s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[1.489s]     from ament_package.templates import get_environment_hook_template_path
+[1.489s] ModuleNotFoundError: No module named 'ament_package'
+[1.519s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[1.519s]   execute_process(/usr/bin/python3
+[1.519s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[1.520s]   /home/tomoni11/Documents/ROS2/asobi_ws/build/lider_to_fp/ament_cmake_package_templates/templates.cmake)
+[1.520s]   returned error code 1
+[1.520s] Call Stack (most recent call first):
+[1.520s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[1.520s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[1.520s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[1.520s]   CMakeLists.txt:9 (find_package)
+[1.520s] 
+[1.520s] [0m
+[1.520s] -- Configuring incomplete, errors occurred!
+[1.522s] gmake: *** [Makefile:308: cmake_check_build_system] エラー 1
+[1.524s] Invoked command in '/home/tomoni11/Documents/ROS2/asobi_ws/build/lider_to_fp' returned '2': AMENT_PREFIX_PATH=/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg CMAKE_PREFIX_PATH=/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg/lib PYTHONPATH=/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg/lib/python3.12/site-packages /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/asobi_ws/build/lider_to_fp -- -j24 -l24

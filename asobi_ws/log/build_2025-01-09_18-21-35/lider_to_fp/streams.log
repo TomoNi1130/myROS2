@@ -1,0 +1,35 @@
+[0.005s] Invoking command in '/home/tomoni11/Documents/ROS2/asobi_ws/build/lider_to_fp': AMENT_PREFIX_PATH=/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tomoni11/Documents/ROS2/asobi_ws/src/lider_to_fp -DCMAKE_INSTALL_PREFIX=/home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp
+[0.048s] -- The C compiler identification is GNU 13.3.0
+[0.092s] -- The CXX compiler identification is GNU 13.3.0
+[0.106s] -- Detecting C compiler ABI info
+[0.175s] -- Detecting C compiler ABI info - done
+[0.182s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.182s] -- Detecting C compile features
+[0.182s] -- Detecting C compile features - done
+[0.190s] -- Detecting CXX compiler ABI info
+[0.268s] -- Detecting CXX compiler ABI info - done
+[0.275s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.275s] -- Detecting CXX compile features
+[0.275s] -- Detecting CXX compile features - done
+[0.278s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.401s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.492s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.528s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.539s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.552s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.566s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.631s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.634s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.694s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.713s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.733s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.800s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.810s] CMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.810s]   ament_target_dependencies() the passed package name 'sensor_msgs' was not
+[0.811s]   found before
+[0.811s] Call Stack (most recent call first):
+[0.811s]   CMakeLists.txt:19 (ament_target_dependencies)
+[0.811s] 
+[0.811s] 
+[0.811s] -- Configuring incomplete, errors occurred!
+[0.819s] Invoked command in '/home/tomoni11/Documents/ROS2/asobi_ws/build/lider_to_fp' returned '1': AMENT_PREFIX_PATH=/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tomoni11/Documents/ROS2/asobi_ws/src/lider_to_fp -DCMAKE_INSTALL_PREFIX=/home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp

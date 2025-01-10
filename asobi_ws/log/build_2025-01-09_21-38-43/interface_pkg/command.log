@@ -1,0 +1,4 @@
+Invoking command in '/home/tomoni11/Documents/ROS2/asobi_ws/build/interface_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/asobi_ws/build/interface_pkg -- -j24 -l24
+Invoked command in '/home/tomoni11/Documents/ROS2/asobi_ws/build/interface_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/asobi_ws/build/interface_pkg -- -j24 -l24
+Invoking command in '/home/tomoni11/Documents/ROS2/asobi_ws/build/interface_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tomoni11/Documents/ROS2/asobi_ws/build/interface_pkg
+Invoked command in '/home/tomoni11/Documents/ROS2/asobi_ws/build/interface_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tomoni11/Documents/ROS2/asobi_ws/build/interface_pkg

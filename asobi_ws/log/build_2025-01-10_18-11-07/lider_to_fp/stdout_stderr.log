@@ -1,0 +1,22 @@
+[100%] Built target ransac_unit
+[100%] Built target serial_talker
+-- Install configuration: ""
+-- Up-to-date: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/lib/lider_to_fp/ransac_unit
+-- Up-to-date: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/lib/lider_to_fp/serial_talker
+-- Up-to-date: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/lider_to_fp/launch
+-- Up-to-date: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/lider_to_fp/launch/lider_to_fp.launch.py
+-- Up-to-date: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/ament_index/resource_index/package_run_dependencies/lider_to_fp
+-- Up-to-date: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/ament_index/resource_index/parent_prefix_path/lider_to_fp
+-- Up-to-date: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/lider_to_fp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/lider_to_fp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/lider_to_fp/environment/path.sh
+-- Up-to-date: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/lider_to_fp/environment/path.dsv
+-- Up-to-date: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/lider_to_fp/local_setup.bash
+-- Up-to-date: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/lider_to_fp/local_setup.sh
+-- Up-to-date: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/lider_to_fp/local_setup.zsh
+-- Up-to-date: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/lider_to_fp/local_setup.dsv
+-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/lider_to_fp/package.dsv
+-- Up-to-date: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/ament_index/resource_index/packages/lider_to_fp
+-- Up-to-date: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/lider_to_fp/cmake/lider_to_fpConfig.cmake
+-- Up-to-date: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/lider_to_fp/cmake/lider_to_fpConfig-version.cmake
+-- Up-to-date: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/lider_to_fp/package.xml

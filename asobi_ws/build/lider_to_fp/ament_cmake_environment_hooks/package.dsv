@@ -1,0 +1,4 @@
+source;share/lider_to_fp/local_setup.bash
+source;share/lider_to_fp/local_setup.dsv
+source;share/lider_to_fp/local_setup.sh
+source;share/lider_to_fp/local_setup.zsh

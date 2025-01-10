@@ -1,0 +1,24 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/ransac_unit.dir/src/ransac_main.cpp.o[0m
+[ 75%] Built target serial_talker
+[100%] [32m[1mLinking CXX executable ransac_unit[0m
+[100%] Built target ransac_unit
+-- Install configuration: ""
+-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/lib/lider_to_fp/ransac_unit
+-- Set non-toolchain portion of runtime path of "/home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/lib/lider_to_fp/ransac_unit" to ""
+-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/lib/lider_to_fp/serial_talker
+-- Set non-toolchain portion of runtime path of "/home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/lib/lider_to_fp/serial_talker" to ""
+-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/ament_index/resource_index/package_run_dependencies/lider_to_fp
+-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/ament_index/resource_index/parent_prefix_path/lider_to_fp
+-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/lider_to_fp/environment/ament_prefix_path.sh
+-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/lider_to_fp/environment/ament_prefix_path.dsv
+-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/lider_to_fp/environment/path.sh
+-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/lider_to_fp/environment/path.dsv
+-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/lider_to_fp/local_setup.bash
+-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/lider_to_fp/local_setup.sh
+-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/lider_to_fp/local_setup.zsh
+-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/lider_to_fp/local_setup.dsv
+-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/lider_to_fp/package.dsv
+-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/ament_index/resource_index/packages/lider_to_fp
+-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/lider_to_fp/cmake/lider_to_fpConfig.cmake
+-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/lider_to_fp/cmake/lider_to_fpConfig-version.cmake
+-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/lider_to_fp/package.xml

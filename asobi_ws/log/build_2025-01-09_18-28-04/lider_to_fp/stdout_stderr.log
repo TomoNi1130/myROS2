@@ -1,0 +1,36 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/ransac_unit.dir/src/ransac_main.cpp.o[0m
+[ 75%] Built target serial_talker
+In file included from [01m[K/home/tomoni11/Documents/ROS2/asobi_ws/src/lider_to_fp/src/ransac_main.cpp:11[m[K:
+[01m[K/home/tomoni11/Documents/ROS2/asobi_ws/src/lider_to_fp/include/ransac.cpp:[m[K In member function ‘[01m[Kstd::vector<line_segment> cloud_prosess::[01;32m[Kransac[m[K(int, int, double, int)[m[K’:
+[01m[K/home/tomoni11/Documents/ROS2/asobi_ws/src/lider_to_fp/include/ransac.cpp:68:43:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   68 |                         for (int j = 0; [01;35m[Kj < _x.size()[m[K; j++)
+      |                                         [01;35m[K~~^~~~~~~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/asobi_ws/src/lider_to_fp/include/ransac.cpp:82:49:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   82 |                               for (int k = 1; [01;35m[Kk < inlier_x.size() - 1[m[K; k++)
+      |                                               [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/asobi_ws/src/lider_to_fp/include/ransac.cpp:36:120:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KMinimum_guarantee[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   36 |  int max_iterations, const double threshold, [01;35m[Kint const Minimum_guarantee[m[K)
+      |                                              [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+
+[100%] [32m[1mLinking CXX executable ransac_unit[0m
+[100%] Built target ransac_unit
+-- Install configuration: ""
+-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/lib/lider_to_fp/ransac_unit
+-- Set non-toolchain portion of runtime path of "/home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/lib/lider_to_fp/ransac_unit" to ""
+-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/lib/lider_to_fp/serial_talker
+-- Set non-toolchain portion of runtime path of "/home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/lib/lider_to_fp/serial_talker" to ""
+-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/ament_index/resource_index/package_run_dependencies/lider_to_fp
+-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/ament_index/resource_index/parent_prefix_path/lider_to_fp
+-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/lider_to_fp/environment/ament_prefix_path.sh
+-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/lider_to_fp/environment/ament_prefix_path.dsv
+-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/lider_to_fp/environment/path.sh
+-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/lider_to_fp/environment/path.dsv
+-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/lider_to_fp/local_setup.bash
+-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/lider_to_fp/local_setup.sh
+-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/lider_to_fp/local_setup.zsh
+-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/lider_to_fp/local_setup.dsv
+-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/lider_to_fp/package.dsv
+-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/ament_index/resource_index/packages/lider_to_fp
+-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/lider_to_fp/cmake/lider_to_fpConfig.cmake
+-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/lider_to_fp/cmake/lider_to_fpConfig-version.cmake
+-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/lider_to_fp/share/lider_to_fp/package.xml

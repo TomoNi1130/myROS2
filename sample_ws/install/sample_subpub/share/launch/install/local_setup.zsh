@@ -1,0 +1,1 @@
+/home/tomoni11/Documents/ROS2/sample_ws/src/sample_subpub/launch/install/local_setup.zsh

@@ -1,0 +1,44 @@
+[0.007s] Invoking command in '/home/tomoni11/Documents/ROS2/asobi_ws/build/lider_to_fp': AMENT_PREFIX_PATH=/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/asobi_ws/build/lider_to_fp -- -j24 -l24
+[0.030s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.222s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.248s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.257s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.268s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.279s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.335s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.337s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.394s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.456s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.468s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.502s] -- Found interface_pkg: 0.0.0 (/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg/share/interface_pkg/cmake)
+[0.517s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.577s] Error parsing '/home/tomoni11/Documents/ROS2/asobi_ws/src/lider_to_fp/package.xml':
+[1.614s] Traceback (most recent call last):
+[1.614s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[1.614s]     main()
+[1.614s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[1.614s]     raise e
+[1.614s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[1.614s]     package = parse_package_string(
+[1.614s]               ^^^^^^^^^^^^^^^^^^^^^
+[1.615s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[1.615s]     pkg.validate(warnings=warnings)
+[1.615s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[1.615s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[1.615s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/tomoni11/Documents/ROS2/asobi_ws/src/lider_to_fp/package.xml':
+[1.615s] The package "lider_to_fp" must not "exec_depend" on a package with the same name as this package
+[1.643s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.644s]   execute_process(/usr/bin/python3
+[1.644s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.644s]   /home/tomoni11/Documents/ROS2/asobi_ws/src/lider_to_fp/package.xml
+[1.644s]   /home/tomoni11/Documents/ROS2/asobi_ws/build/lider_to_fp/ament_cmake_core/package.cmake)
+[1.644s]   returned error code 1
+[1.644s] Call Stack (most recent call first):
+[1.644s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.644s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.644s]   CMakeLists.txt:51 (ament_lint_auto_find_test_dependencies)
+[1.644s] 
+[1.644s] [0m
+[1.645s] -- Configuring incomplete, errors occurred!
+[1.650s] gmake: *** [Makefile:308: cmake_check_build_system] エラー 1
+[1.652s] Invoked command in '/home/tomoni11/Documents/ROS2/asobi_ws/build/lider_to_fp' returned '2': AMENT_PREFIX_PATH=/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/asobi_ws/build/lider_to_fp -- -j24 -l24

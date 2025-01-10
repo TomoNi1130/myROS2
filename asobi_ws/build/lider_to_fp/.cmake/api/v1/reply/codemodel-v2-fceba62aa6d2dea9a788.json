@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-1b402689582dee5022a3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lider_to_fp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "lider_to_fp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lider_to_fp_uninstall-d070a219ed19465085f3.json",
+					"name" : "lider_to_fp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ransac_unit::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ransac_unit-acd84660e0d903362d51.json",
+					"name" : "ransac_unit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_talker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_talker-c06e1f6a32e9b5af128c.json",
+					"name" : "serial_talker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-29eeb8a94045cd4e642d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tomoni11/Documents/ROS2/asobi_ws/build/lider_to_fp",
+		"source" : "/home/tomoni11/Documents/ROS2/asobi_ws/src/lider_to_fp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

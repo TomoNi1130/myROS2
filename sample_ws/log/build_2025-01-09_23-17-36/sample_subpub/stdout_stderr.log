@@ -1,0 +1,22 @@
+[100%] Built target talker
+[100%] Built target listener
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/lib/sample_subpub//talker
+-- Up-to-date symlink: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/lib/sample_subpub//listener
+-- Up-to-date symlink: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/launch//subpub.launch.py
+-- Up-to-date symlink: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/ament_index/resource_index/package_run_dependencies/sample_subpub
+-- Up-to-date symlink: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/ament_index/resource_index/parent_prefix_path/sample_subpub
+-- Up-to-date symlink: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/environment/path.sh
+-- Up-to-date symlink: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/environment/path.dsv
+-- Up-to-date symlink: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/local_setup.bash
+-- Up-to-date symlink: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/local_setup.sh
+-- Up-to-date symlink: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/local_setup.zsh
+-- Up-to-date symlink: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/local_setup.dsv
+-- Symlinking: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/package.dsv
+-- Up-to-date symlink: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/ament_index/resource_index/packages/sample_subpub
+-- Up-to-date symlink: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/cmake/sample_subpubConfig.cmake
+-- Up-to-date symlink: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/cmake/sample_subpubConfig-version.cmake
+-- Up-to-date symlink: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/package.xml
