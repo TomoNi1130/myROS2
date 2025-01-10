@@ -43,7 +43,7 @@ public:
             {
                   line_segment best_line; // 求める線分
                   std::vector<bool> guess_guess_inlier(all_points_num);
-                  int best_inlier_count = 0;
+                  int best_Score = 0;
 
                   for (int i = 0; i < max_iterations; i++)
                   {
@@ -79,32 +79,22 @@ public:
                         sort(inlier_x.begin(), inlier_x.end()); // inlierを順番に並べ替え
 
                         if (!inlier_x.size() == 0)
-                              for (int k = 1; k < inlier_x.size() - 1; k++)
-                              {
-                                    double pre_x = abs(inlier_x[k - 1]);
-                                    double now_x = abs(inlier_x[k]);
-                                    double pre_y = abs(inlier_x[k - 1]);
-                                    double now_y = abs(inlier_x[k]);
-                                    if (now_x > (pre_x * 3.0) && now_y > (pre_y * 3.0))
-                                    {
-                                          break_flag = true;
-                                          break;
-                                    }
-                              }
-
-                        if (best_inlier_count < guess_inlier_count && !break_flag)
                         {
-                              best_inlier_count = guess_inlier_count;
-                              guess_guess_inlier = guess_inlier;
-                              best_line.a = guess_line.a;
-                              best_line.b = guess_line.b;
-                              best_line.c = guess_line.c;
-                              best_line.low_x = *std::min_element(begin(inlier_x), end(inlier_x));
-                              best_line.high_x = *std::max_element(begin(inlier_x), end(inlier_x));
-                              best_line.high_y = *std::max_element(begin(inlier_y), end(inlier_y));
-                              best_line.low_y = *std::min_element(begin(inlier_y), end(inlier_y));
-                              best_line.distance = get_distance_line(best_line.low_x, best_line.low_y, best_line.high_x, best_line.high_y);
-                              best_line.theta = get_theta(guess_line.a, guess_line.b, guess_line.c);
+                              double Score = guess_inlier_count / sqrt(((*std::min_element(begin(inlier_x), end(inlier_x)) - *std::max_element(begin(inlier_x), end(inlier_x))), 2.0) + pow((*std::min_element(begin(inlier_y), end(inlier_y)) - *std::max_element(begin(inlier_y), end(inlier_y))), 2.0));
+                              if (best_Score < Score && !break_flag)
+                              {
+                                    best_Score = guess_inlier_count;
+                                    guess_guess_inlier = guess_inlier;
+                                    best_line.a = guess_line.a;
+                                    best_line.b = guess_line.b;
+                                    best_line.c = guess_line.c;
+                                    best_line.low_x = *std::min_element(begin(inlier_x), end(inlier_x));
+                                    best_line.high_x = *std::max_element(begin(inlier_x), end(inlier_x));
+                                    best_line.high_y = *std::max_element(begin(inlier_y), end(inlier_y));
+                                    best_line.low_y = *std::min_element(begin(inlier_y), end(inlier_y));
+                                    best_line.distance = get_distance_line(best_line.low_x, best_line.low_y, best_line.high_x, best_line.high_y);
+                                    best_line.theta = get_theta(guess_line.a, guess_line.b, guess_line.c);
+                              }
                         }
                   }
                   inlier = guess_guess_inlier;
