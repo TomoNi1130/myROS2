@@ -1,0 +1,4 @@
+source;share/simple_ransac_pkg/local_setup.bash
+source;share/simple_ransac_pkg/local_setup.dsv
+source;share/simple_ransac_pkg/local_setup.sh
+source;share/simple_ransac_pkg/local_setup.zsh

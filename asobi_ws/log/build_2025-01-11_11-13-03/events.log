@@ -1,0 +1,184 @@
+[0.000000] (-) TimerEvent: {}
+[0.000198] (-) JobUnselected: {'identifier': 'interface_pkg'}
+[0.000332] (-) JobUnselected: {'identifier': 'lider_to_fp'}
+[0.000393] (simple_ransac_pkg) JobQueued: {'identifier': 'simple_ransac_pkg', 'dependencies': OrderedDict({'interface_pkg': '/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg'})}
+[0.000583] (simple_ransac_pkg) JobStarted: {'identifier': 'simple_ransac_pkg'}
+[0.010620] (simple_ransac_pkg) JobProgress: {'identifier': 'simple_ransac_pkg', 'progress': 'cmake'}
+[0.011135] (simple_ransac_pkg) JobProgress: {'identifier': 'simple_ransac_pkg', 'progress': 'build'}
+[0.011852] (simple_ransac_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tomoni11/Documents/ROS2/asobi_ws/build/simple_ransac_pkg', '--', '-j24', '-l24'], 'cwd': '/home/tomoni11/Documents/ROS2/asobi_ws/build/simple_ransac_pkg', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tomoni11', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/tomoni11', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/tomoni11/Documents/ROS2/asobi_ws/src', 'TERM_PROGRAM_VERSION': '1.96.2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2171', 'SYSTEMD_EXEC_PID': '2436', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '30373', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tomoni11', 'JOURNAL_STREAM': '8:29762', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tomoni11', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/tomoni11/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/tomoni11/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/TomoPaso:@/tmp/.ICE-unix/2377,unix/TomoPaso:/tmp/.ICE-unix/2377', 'INVOCATION_ID': '1dd82920c584457ca2523417b3cf370d', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.012B02', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-85cae14501.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tomoni11/Documents/ROS2/asobi_ws/build/simple_ransac_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.042292] (simple_ransac_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.071444] (simple_ransac_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.099766] (-) TimerEvent: {}
+[0.159889] (simple_ransac_pkg) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.186517] (simple_ransac_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.194608] (simple_ransac_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.199840] (-) TimerEvent: {}
+[0.205001] (simple_ransac_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.217701] (simple_ransac_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.283644] (simple_ransac_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.284845] (simple_ransac_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299934] (-) TimerEvent: {}
+[0.357893] (simple_ransac_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400064] (-) TimerEvent: {}
+[0.425304] (simple_ransac_pkg) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[0.480958] (simple_ransac_pkg) StdoutLine: {'line': b'-- Found interface_pkg: 0.0.0 (/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg/share/interface_pkg/cmake)\n'}
+[0.500160] (-) TimerEvent: {}
+[0.600454] (-) TimerEvent: {}
+[0.692058] (simple_ransac_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/include/python3.12 (found version "3.12.3") found components: Development NumPy Interpreter Development.Module Development.Embed \n'}
+[0.700578] (-) TimerEvent: {}
+[0.800941] (-) TimerEvent: {}
+[0.901227] (-) TimerEvent: {}
+[0.920767] (simple_ransac_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.001365] (-) TimerEvent: {}
+[1.004000] (simple_ransac_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.004648] (simple_ransac_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/tomoni11/Documents/ROS2/asobi_ws/src/simple_ransac_pkg/include/simple_ransac_pkg\n'}
+[1.004747] (simple_ransac_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.004822] (simple_ransac_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.005074] (simple_ransac_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.005207] (simple_ransac_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.005307] (simple_ransac_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.005783] (simple_ransac_pkg) StdoutLine: {'line': b'-- Configuring done (1.0s)\n'}
+[1.018428] (simple_ransac_pkg) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.022091] (simple_ransac_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/tomoni11/Documents/ROS2/asobi_ws/build/simple_ransac_pkg\n'}
+[1.056914] (simple_ransac_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/ransac_think.cpp.o\x1b[0m\n'}
+[1.057214] (simple_ransac_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/drawer.dir/src/ransac_drower.cpp.o\x1b[0m\n'}
+[1.101500] (-) TimerEvent: {}
+[1.201893] (-) TimerEvent: {}
+[1.302295] (-) TimerEvent: {}
+[1.402637] (-) TimerEvent: {}
+[1.502963] (-) TimerEvent: {}
+[1.601713] (simple_ransac_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/tomoni11/Documents/ROS2/asobi_ws/src/simple_ransac_pkg/src/ransac_drower.cpp:2\x1b[m\x1b[K:\n'}
+[1.601984] (simple_ransac_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tomoni11/Documents/ROS2/asobi_ws/src/simple_ransac_pkg/include/simple_ransac_pkg/matplotlibcpp.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kmatplotlibcpp::detail::_interpreter::\x1b[01;32m\x1b[K_interpreter\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.602066] (simple_ransac_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tomoni11/Documents/ROS2/asobi_ws/src/simple_ransac_pkg/include/simple_ransac_pkg/matplotlibcpp.h:182:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid\x1b[01;32m\x1b[K Py_SetProgramName\x1b[m\x1b[K(const wchar_t*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.602133] (simple_ransac_pkg) StderrLine: {'line': b'  182 |                         \x1b[01;35m\x1b[KPy_SetProgramName(name)\x1b[m\x1b[K;\n'}
+[1.602186] (simple_ransac_pkg) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[1.602238] (simple_ransac_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/python3.12/Python.h:94\x1b[m\x1b[K,\n'}
+[1.602308] (simple_ransac_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tomoni11/Documents/ROS2/asobi_ws/src/simple_ransac_pkg/include/simple_ransac_pkg/matplotlibcpp.h:5\x1b[m\x1b[K:\n'}
+[1.602362] (simple_ransac_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/python3.12/pylifecycle.h:37:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.602415] (simple_ransac_pkg) StderrLine: {'line': b'   37 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) \x1b[01;36m\x1b[KPy_SetProgramName\x1b[m\x1b[K(const wchar_t *);\n'}
+[1.602467] (simple_ransac_pkg) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.602516] (simple_ransac_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tomoni11/Documents/ROS2/asobi_ws/src/simple_ransac_pkg/include/simple_ransac_pkg/matplotlibcpp.h:190:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid\x1b[01;32m\x1b[K PySys_SetArgv\x1b[m\x1b[K(int, wchar_t**)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.602566] (simple_ransac_pkg) StderrLine: {'line': b'  190 |                         \x1b[01;35m\x1b[KPySys_SetArgv(argc, const_cast<wchar_t **>(argv))\x1b[m\x1b[K;\n'}
+[1.602616] (simple_ransac_pkg) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.602665] (simple_ransac_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/python3.12/Python.h:96\x1b[m\x1b[K:\n'}
+[1.602715] (simple_ransac_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/python3.12/sysmodule.h:13:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.602769] (simple_ransac_pkg) StderrLine: {'line': b'   13 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) \x1b[01;36m\x1b[KPySys_SetArgv\x1b[m\x1b[K(int, wchar_t **);\n'}
+[1.602818] (simple_ransac_pkg) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.603014] (-) TimerEvent: {}
+[1.703259] (-) TimerEvent: {}
+[1.803607] (-) TimerEvent: {}
+[1.903975] (-) TimerEvent: {}
+[2.004356] (-) TimerEvent: {}
+[2.104739] (-) TimerEvent: {}
+[2.205113] (-) TimerEvent: {}
+[2.305487] (-) TimerEvent: {}
+[2.405855] (-) TimerEvent: {}
+[2.506244] (-) TimerEvent: {}
+[2.606641] (-) TimerEvent: {}
+[2.707018] (-) TimerEvent: {}
+[2.807348] (-) TimerEvent: {}
+[2.907713] (-) TimerEvent: {}
+[3.008094] (-) TimerEvent: {}
+[3.108470] (-) TimerEvent: {}
+[3.208860] (-) TimerEvent: {}
+[3.309244] (-) TimerEvent: {}
+[3.409850] (-) TimerEvent: {}
+[3.510318] (-) TimerEvent: {}
+[3.610667] (-) TimerEvent: {}
+[3.710946] (-) TimerEvent: {}
+[3.770452] (simple_ransac_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/tomoni11/Documents/ROS2/asobi_ws/src/simple_ransac_pkg/src/ransac_think.cpp:11\x1b[m\x1b[K:\n'}
+[3.770744] (simple_ransac_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tomoni11/Documents/ROS2/asobi_ws/src/simple_ransac_pkg/include/simple_ransac_pkg/ransac.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<line_segment> cloud_prosess::\x1b[01;32m\x1b[Kransac\x1b[m\x1b[K(int, int, double, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.770828] (simple_ransac_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tomoni11/Documents/ROS2/asobi_ws/src/simple_ransac_pkg/include/simple_ransac_pkg/ransac.cpp:68:43:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.770896] (simple_ransac_pkg) StderrLine: {'line': b'   68 |                         for (int j = 0; \x1b[01;35m\x1b[Kj < _x.size()\x1b[m\x1b[K; j++)\n'}
+[3.770951] (simple_ransac_pkg) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.771008] (simple_ransac_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tomoni11/Documents/ROS2/asobi_ws/src/simple_ransac_pkg/include/simple_ransac_pkg/ransac.cpp:83:124:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvalue computed is not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.771066] (simple_ransac_pkg) StderrLine: {'line': b'   83 | rt((\x1b[01;35m\x1b[K(*std::min_element(begin(inlier_x), end(inlier_x)) - *std::max_element(begin(inlier_x), end(inlier_x)))\x1b[m\x1b[K, 2.0) + pow((*std::min_element(begin(inlier_y), end(inlier_y)) - *std::max_element(begin(inlier_y), end(inlier_y))), 2.0));\n'}
+[3.771125] (simple_ransac_pkg) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.771182] (simple_ransac_pkg) StderrLine: {'line': b'\n'}
+[3.771480] (simple_ransac_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tomoni11/Documents/ROS2/asobi_ws/src/simple_ransac_pkg/include/simple_ransac_pkg/ransac.cpp:36:120:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KMinimum_guarantee\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.771568] (simple_ransac_pkg) StderrLine: {'line': b'   36 |  int max_iterations, const double threshold, \x1b[01;35m\x1b[Kint const Minimum_guarantee\x1b[m\x1b[K)\n'}
+[3.771628] (simple_ransac_pkg) StderrLine: {'line': b'      |                                              \x1b[01;35m\x1b[K~~~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.771688] (simple_ransac_pkg) StderrLine: {'line': b'\n'}
+[3.811032] (-) TimerEvent: {}
+[3.911371] (-) TimerEvent: {}
+[4.011750] (-) TimerEvent: {}
+[4.112080] (-) TimerEvent: {}
+[4.212465] (-) TimerEvent: {}
+[4.312764] (-) TimerEvent: {}
+[4.413115] (-) TimerEvent: {}
+[4.513469] (-) TimerEvent: {}
+[4.613805] (-) TimerEvent: {}
+[4.714179] (-) TimerEvent: {}
+[4.814543] (-) TimerEvent: {}
+[4.916745] (-) TimerEvent: {}
+[5.017110] (-) TimerEvent: {}
+[5.117469] (-) TimerEvent: {}
+[5.217866] (-) TimerEvent: {}
+[5.318216] (-) TimerEvent: {}
+[5.418595] (-) TimerEvent: {}
+[5.518866] (-) TimerEvent: {}
+[5.619177] (-) TimerEvent: {}
+[5.719528] (-) TimerEvent: {}
+[5.819835] (-) TimerEvent: {}
+[5.920156] (-) TimerEvent: {}
+[6.020495] (-) TimerEvent: {}
+[6.040642] (simple_ransac_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable drawer\x1b[0m\n'}
+[6.120644] (-) TimerEvent: {}
+[6.221040] (-) TimerEvent: {}
+[6.321459] (-) TimerEvent: {}
+[6.385352] (simple_ransac_pkg) StdoutLine: {'line': b'[ 75%] Built target drawer\n'}
+[6.421598] (-) TimerEvent: {}
+[6.521993] (-) TimerEvent: {}
+[6.622417] (-) TimerEvent: {}
+[6.722825] (-) TimerEvent: {}
+[6.823226] (-) TimerEvent: {}
+[6.923646] (-) TimerEvent: {}
+[7.024054] (-) TimerEvent: {}
+[7.124517] (-) TimerEvent: {}
+[7.224857] (-) TimerEvent: {}
+[7.325191] (-) TimerEvent: {}
+[7.425561] (-) TimerEvent: {}
+[7.525928] (-) TimerEvent: {}
+[7.626298] (-) TimerEvent: {}
+[7.726626] (-) TimerEvent: {}
+[7.826943] (-) TimerEvent: {}
+[7.927275] (-) TimerEvent: {}
+[8.027601] (-) TimerEvent: {}
+[8.127885] (-) TimerEvent: {}
+[8.228203] (-) TimerEvent: {}
+[8.328510] (-) TimerEvent: {}
+[8.428789] (-) TimerEvent: {}
+[8.529082] (-) TimerEvent: {}
+[8.629372] (-) TimerEvent: {}
+[8.729716] (-) TimerEvent: {}
+[8.757066] (simple_ransac_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[8.829791] (-) TimerEvent: {}
+[8.930103] (-) TimerEvent: {}
+[9.019681] (simple_ransac_pkg) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[9.030020] (simple_ransac_pkg) CommandEnded: {'returncode': 0}
+[9.030571] (-) TimerEvent: {}
+[9.030999] (simple_ransac_pkg) JobProgress: {'identifier': 'simple_ransac_pkg', 'progress': 'install'}
+[9.039209] (simple_ransac_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tomoni11/Documents/ROS2/asobi_ws/build/simple_ransac_pkg'], 'cwd': '/home/tomoni11/Documents/ROS2/asobi_ws/build/simple_ransac_pkg', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tomoni11', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/tomoni11', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/tomoni11/Documents/ROS2/asobi_ws/src', 'TERM_PROGRAM_VERSION': '1.96.2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2171', 'SYSTEMD_EXEC_PID': '2436', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '30373', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tomoni11', 'JOURNAL_STREAM': '8:29762', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tomoni11', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/tomoni11/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/tomoni11/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/TomoPaso:@/tmp/.ICE-unix/2377,unix/TomoPaso:/tmp/.ICE-unix/2377', 'INVOCATION_ID': '1dd82920c584457ca2523417b3cf370d', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.012B02', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-85cae14501.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tomoni11/Documents/ROS2/asobi_ws/build/simple_ransac_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[9.048026] (simple_ransac_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.048298] (simple_ransac_pkg) StdoutLine: {'line': b'-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/simple_ransac_pkg/lib/simple_ransac_pkg/listener\n'}
+[9.051854] (simple_ransac_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/tomoni11/Documents/ROS2/asobi_ws/install/simple_ransac_pkg/lib/simple_ransac_pkg/listener" to ""\n'}
+[9.051971] (simple_ransac_pkg) StdoutLine: {'line': b'-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/simple_ransac_pkg/lib/simple_ransac_pkg/drawer\n'}
+[9.055104] (simple_ransac_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/tomoni11/Documents/ROS2/asobi_ws/install/simple_ransac_pkg/lib/simple_ransac_pkg/drawer" to ""\n'}
+[9.055255] (simple_ransac_pkg) StdoutLine: {'line': b'-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/simple_ransac_pkg/share/ament_index/resource_index/package_run_dependencies/simple_ransac_pkg\n'}
+[9.055361] (simple_ransac_pkg) StdoutLine: {'line': b'-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/simple_ransac_pkg/share/ament_index/resource_index/parent_prefix_path/simple_ransac_pkg\n'}
+[9.055440] (simple_ransac_pkg) StdoutLine: {'line': b'-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/simple_ransac_pkg/share/simple_ransac_pkg/environment/ament_prefix_path.sh\n'}
+[9.055515] (simple_ransac_pkg) StdoutLine: {'line': b'-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/simple_ransac_pkg/share/simple_ransac_pkg/environment/ament_prefix_path.dsv\n'}
+[9.055597] (simple_ransac_pkg) StdoutLine: {'line': b'-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/simple_ransac_pkg/share/simple_ransac_pkg/environment/path.sh\n'}
+[9.055678] (simple_ransac_pkg) StdoutLine: {'line': b'-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/simple_ransac_pkg/share/simple_ransac_pkg/environment/path.dsv\n'}
+[9.055751] (simple_ransac_pkg) StdoutLine: {'line': b'-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/simple_ransac_pkg/share/simple_ransac_pkg/local_setup.bash\n'}
+[9.055835] (simple_ransac_pkg) StdoutLine: {'line': b'-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/simple_ransac_pkg/share/simple_ransac_pkg/local_setup.sh\n'}
+[9.055898] (simple_ransac_pkg) StdoutLine: {'line': b'-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/simple_ransac_pkg/share/simple_ransac_pkg/local_setup.zsh\n'}
+[9.055967] (simple_ransac_pkg) StdoutLine: {'line': b'-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/simple_ransac_pkg/share/simple_ransac_pkg/local_setup.dsv\n'}
+[9.056031] (simple_ransac_pkg) StdoutLine: {'line': b'-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/simple_ransac_pkg/share/simple_ransac_pkg/package.dsv\n'}
+[9.056102] (simple_ransac_pkg) StdoutLine: {'line': b'-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/simple_ransac_pkg/share/ament_index/resource_index/packages/simple_ransac_pkg\n'}
+[9.056165] (simple_ransac_pkg) StdoutLine: {'line': b'-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/simple_ransac_pkg/share/simple_ransac_pkg/cmake/simple_ransac_pkgConfig.cmake\n'}
+[9.056229] (simple_ransac_pkg) StdoutLine: {'line': b'-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/simple_ransac_pkg/share/simple_ransac_pkg/cmake/simple_ransac_pkgConfig-version.cmake\n'}
+[9.056311] (simple_ransac_pkg) StdoutLine: {'line': b'-- Installing: /home/tomoni11/Documents/ROS2/asobi_ws/install/simple_ransac_pkg/share/simple_ransac_pkg/package.xml\n'}
+[9.057640] (simple_ransac_pkg) CommandEnded: {'returncode': 0}
+[9.068153] (simple_ransac_pkg) JobEnded: {'identifier': 'simple_ransac_pkg', 'rc': 0}
+[9.068938] (-) EventReactorShutdown: {}

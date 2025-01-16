@@ -1,0 +1,15 @@
+/home/tomoni11/Documents/ROS2/gz_ws/install/my_gz_pkg/share/ament_index/resource_index/package_run_dependencies/my_gz_pkg
+/home/tomoni11/Documents/ROS2/gz_ws/install/my_gz_pkg/share/ament_index/resource_index/parent_prefix_path/my_gz_pkg
+/home/tomoni11/Documents/ROS2/gz_ws/install/my_gz_pkg/share/my_gz_pkg/environment/ament_prefix_path.sh
+/home/tomoni11/Documents/ROS2/gz_ws/install/my_gz_pkg/share/my_gz_pkg/environment/ament_prefix_path.dsv
+/home/tomoni11/Documents/ROS2/gz_ws/install/my_gz_pkg/share/my_gz_pkg/environment/path.sh
+/home/tomoni11/Documents/ROS2/gz_ws/install/my_gz_pkg/share/my_gz_pkg/environment/path.dsv
+/home/tomoni11/Documents/ROS2/gz_ws/install/my_gz_pkg/share/my_gz_pkg/local_setup.bash
+/home/tomoni11/Documents/ROS2/gz_ws/install/my_gz_pkg/share/my_gz_pkg/local_setup.sh
+/home/tomoni11/Documents/ROS2/gz_ws/install/my_gz_pkg/share/my_gz_pkg/local_setup.zsh
+/home/tomoni11/Documents/ROS2/gz_ws/install/my_gz_pkg/share/my_gz_pkg/local_setup.dsv
+/home/tomoni11/Documents/ROS2/gz_ws/install/my_gz_pkg/share/my_gz_pkg/package.dsv
+/home/tomoni11/Documents/ROS2/gz_ws/install/my_gz_pkg/share/ament_index/resource_index/packages/my_gz_pkg
+/home/tomoni11/Documents/ROS2/gz_ws/install/my_gz_pkg/share/my_gz_pkg/cmake/my_gz_pkgConfig.cmake
+/home/tomoni11/Documents/ROS2/gz_ws/install/my_gz_pkg/share/my_gz_pkg/cmake/my_gz_pkgConfig-version.cmake
+/home/tomoni11/Documents/ROS2/gz_ws/install/my_gz_pkg/share/my_gz_pkg/package.xml

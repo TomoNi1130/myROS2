@@ -1,0 +1,40 @@
+[0.013s] Invoking command in '/home/tomoni11/Documents/ROS2/asobi_ws/build/simple_ransac_pkg': AMENT_PREFIX_PATH=/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/asobi_ws/build/simple_ransac_pkg -- -j24 -l24
+[0.043s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.072s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.169s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.195s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.203s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.214s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.226s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.292s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.293s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.371s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.452s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.527s] -- Found interface_pkg: 0.0.0 (/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg/share/interface_pkg/cmake)
+[0.782s] -- Found Python3: /usr/include/python3.12 (found version "3.12.3") found components: Development NumPy Interpreter Development.Module Development.Embed 
+[1.065s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.172s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.172s] -- Configured cppcheck include dirs: /home/tomoni11/Documents/ROS2/asobi_ws/src/simple_ransac_pkg/include/simple_ransac_pkg
+[1.172s] -- Configured cppcheck exclude dirs and/or files: 
+[1.172s] -- Added test 'lint_cmake' to check CMake code style
+[1.172s] -- Added test 'uncrustify' to check C / C++ code style
+[1.172s] -- Configured uncrustify additional arguments: 
+[1.172s] -- Added test 'xmllint' to check XML markup files
+[1.173s] -- Configuring done (1.1s)
+[1.187s] [31mCMake Error at CMakeLists.txt:27 (add_executable):
+[1.187s]   Cannot find source file:
+[1.187s] 
+[1.187s]     src/ransac_drawer.cpp
+[1.187s] 
+[1.188s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[1.188s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[1.188s]   .f95 .f03 .hip .ispc
+[1.188s] 
+[1.188s] [0m
+[1.188s] [31mCMake Error at CMakeLists.txt:27 (add_executable):
+[1.188s]   No SOURCES given to target: drawer
+[1.188s] 
+[1.188s] [0m
+[1.188s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.188s] gmake: *** [Makefile:308: cmake_check_build_system] エラー 1
+[1.190s] Invoked command in '/home/tomoni11/Documents/ROS2/asobi_ws/build/simple_ransac_pkg' returned '2': AMENT_PREFIX_PATH=/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/asobi_ws/build/simple_ransac_pkg -- -j24 -l24

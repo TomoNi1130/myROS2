@@ -1,0 +1,42 @@
+[0.008s] Invoking command in '/home/tomoni11/Documents/ROS2/gz_ws/build/my_gz_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tomoni11/Documents/ROS2/gz_ws/src/my_gz_pkg -DCMAKE_INSTALL_PREFIX=/home/tomoni11/Documents/ROS2/gz_ws/install/my_gz_pkg
+[0.090s] -- The C compiler identification is GNU 13.3.0
+[0.170s] -- The CXX compiler identification is GNU 13.3.0
+[0.185s] -- Detecting C compiler ABI info
+[0.258s] -- Detecting C compiler ABI info - done
+[0.265s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.266s] -- Detecting C compile features
+[0.266s] -- Detecting C compile features - done
+[0.274s] -- Detecting CXX compiler ABI info
+[0.353s] -- Detecting CXX compiler ABI info - done
+[0.360s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.360s] -- Detecting CXX compile features
+[0.360s] -- Detecting CXX compile features - done
+[0.366s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.495s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.607s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.706s] -- Added test 'lint_cmake' to check CMake code style
+[0.707s] -- Added test 'xmllint' to check XML markup files
+[0.709s] -- Configuring done (0.7s)
+[0.711s] -- Generating done (0.0s)
+[0.712s] -- Build files have been written to: /home/tomoni11/Documents/ROS2/gz_ws/build/my_gz_pkg
+[0.716s] Invoked command in '/home/tomoni11/Documents/ROS2/gz_ws/build/my_gz_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tomoni11/Documents/ROS2/gz_ws/src/my_gz_pkg -DCMAKE_INSTALL_PREFIX=/home/tomoni11/Documents/ROS2/gz_ws/install/my_gz_pkg
+[0.717s] Invoking command in '/home/tomoni11/Documents/ROS2/gz_ws/build/my_gz_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/gz_ws/build/my_gz_pkg -- -j24 -l24
+[0.750s] Invoked command in '/home/tomoni11/Documents/ROS2/gz_ws/build/my_gz_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/gz_ws/build/my_gz_pkg -- -j24 -l24
+[0.751s] Invoking command in '/home/tomoni11/Documents/ROS2/gz_ws/build/my_gz_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tomoni11/Documents/ROS2/gz_ws/build/my_gz_pkg
+[0.757s] -- Install configuration: ""
+[0.757s] -- Installing: /home/tomoni11/Documents/ROS2/gz_ws/install/my_gz_pkg/share/ament_index/resource_index/package_run_dependencies/my_gz_pkg
+[0.758s] -- Installing: /home/tomoni11/Documents/ROS2/gz_ws/install/my_gz_pkg/share/ament_index/resource_index/parent_prefix_path/my_gz_pkg
+[0.758s] -- Installing: /home/tomoni11/Documents/ROS2/gz_ws/install/my_gz_pkg/share/my_gz_pkg/environment/ament_prefix_path.sh
+[0.758s] -- Installing: /home/tomoni11/Documents/ROS2/gz_ws/install/my_gz_pkg/share/my_gz_pkg/environment/ament_prefix_path.dsv
+[0.758s] -- Installing: /home/tomoni11/Documents/ROS2/gz_ws/install/my_gz_pkg/share/my_gz_pkg/environment/path.sh
+[0.758s] -- Installing: /home/tomoni11/Documents/ROS2/gz_ws/install/my_gz_pkg/share/my_gz_pkg/environment/path.dsv
+[0.758s] -- Installing: /home/tomoni11/Documents/ROS2/gz_ws/install/my_gz_pkg/share/my_gz_pkg/local_setup.bash
+[0.758s] -- Installing: /home/tomoni11/Documents/ROS2/gz_ws/install/my_gz_pkg/share/my_gz_pkg/local_setup.sh
+[0.758s] -- Installing: /home/tomoni11/Documents/ROS2/gz_ws/install/my_gz_pkg/share/my_gz_pkg/local_setup.zsh
+[0.758s] -- Installing: /home/tomoni11/Documents/ROS2/gz_ws/install/my_gz_pkg/share/my_gz_pkg/local_setup.dsv
+[0.758s] -- Installing: /home/tomoni11/Documents/ROS2/gz_ws/install/my_gz_pkg/share/my_gz_pkg/package.dsv
+[0.758s] -- Installing: /home/tomoni11/Documents/ROS2/gz_ws/install/my_gz_pkg/share/ament_index/resource_index/packages/my_gz_pkg
+[0.758s] -- Installing: /home/tomoni11/Documents/ROS2/gz_ws/install/my_gz_pkg/share/my_gz_pkg/cmake/my_gz_pkgConfig.cmake
+[0.758s] -- Installing: /home/tomoni11/Documents/ROS2/gz_ws/install/my_gz_pkg/share/my_gz_pkg/cmake/my_gz_pkgConfig-version.cmake
+[0.758s] -- Installing: /home/tomoni11/Documents/ROS2/gz_ws/install/my_gz_pkg/share/my_gz_pkg/package.xml
+[0.759s] Invoked command in '/home/tomoni11/Documents/ROS2/gz_ws/build/my_gz_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tomoni11/Documents/ROS2/gz_ws/build/my_gz_pkg

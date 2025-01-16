@@ -1,0 +1,14 @@
+[01m[K/home/tomoni11/Documents/ROS2/asobi_ws/src/simple_ransac_pkg/src/ransac_drower.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmatplotlibcpp.h: そのようなファイルやディレクトリはありません
+    2 | #include [01;31m[K"matplotlibcpp.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/drawer.dir/build.make:76: CMakeFiles/drawer.dir/src/ransac_drower.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/drawer.dir/all] エラー 2
+gmake[1]: *** 未完了のジョブを待っています....
+[01m[K/home/tomoni11/Documents/ROS2/asobi_ws/src/simple_ransac_pkg/src/ransac_think.cpp:11:10:[m[K [01;31m[Kfatal error: [m[Kransac.cpp: そのようなファイルやディレクトリはありません
+   11 | #include [01;31m[K"ransac.cpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/ransac_think.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/listener.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

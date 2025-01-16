@@ -1,0 +1,9 @@
+/home/tomoni11/Documents/ROS2/gz_ws/build/my_gz_pkg/CMakeFiles/uninstall.dir
+/home/tomoni11/Documents/ROS2/gz_ws/build/my_gz_pkg/CMakeFiles/my_gz_pkg_uninstall.dir
+/home/tomoni11/Documents/ROS2/gz_ws/build/my_gz_pkg/CMakeFiles/test.dir
+/home/tomoni11/Documents/ROS2/gz_ws/build/my_gz_pkg/CMakeFiles/edit_cache.dir
+/home/tomoni11/Documents/ROS2/gz_ws/build/my_gz_pkg/CMakeFiles/rebuild_cache.dir
+/home/tomoni11/Documents/ROS2/gz_ws/build/my_gz_pkg/CMakeFiles/list_install_components.dir
+/home/tomoni11/Documents/ROS2/gz_ws/build/my_gz_pkg/CMakeFiles/install.dir
+/home/tomoni11/Documents/ROS2/gz_ws/build/my_gz_pkg/CMakeFiles/install/local.dir
+/home/tomoni11/Documents/ROS2/gz_ws/build/my_gz_pkg/CMakeFiles/install/strip.dir
