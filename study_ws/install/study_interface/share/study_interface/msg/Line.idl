@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from study_interface/msg/Line.msg
+// generated code does not contain a copyright notice
+
+
+module study_interface {
+  module msg {
+    struct Line {
+      sequence<double> low_x;
+
+      sequence<double> high_x;
+
+      sequence<double> low_y;
+
+      sequence<double> high_y;
+
+      sequence<double> a;
+
+      sequence<double> b;
+
+      sequence<double> c;
+
+      sequence<double> distance;
+
+      sequence<double> theta;
+    };
+  };
+};

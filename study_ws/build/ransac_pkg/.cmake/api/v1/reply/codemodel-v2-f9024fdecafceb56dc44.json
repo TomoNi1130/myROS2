@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a5bce9b5f854492fc69d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ransac_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "circle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-circle-6ef295b1819a2efc1c58.json",
+					"name" : "circle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "circle_drower::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-circle_drower-19a6720539cca42f975e.json",
+					"name" : "circle_drower",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "line_drower::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-line_drower-a3726932d8e6bf848750.json",
+					"name" : "line_drower",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ransac_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ransac_pkg_uninstall-7d51766d32e677ccb007.json",
+					"name" : "ransac_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d31cc7bb72ff44f676e2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tomoni11/Documents/ROS2/study_ws/build/ransac_pkg",
+		"source" : "/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,41 @@
+[0.009s] Invoking command in '/home/tomoni11/Documents/ROS2/study_ws/build/make_cloud_pkg': CMAKE_PREFIX_PATH=/home/tomoni11/Documents/ROS2/study_ws/install/study_interface:/home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg:/home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg:/home/tomoni11/Documents/ROS2/study_ws/install/interface_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/study_ws/build/make_cloud_pkg -- -j24 -l24
+[0.077s] [ 25%] [32mBuilding CXX object CMakeFiles/drower.dir/src/drower.cpp.o[0m
+[0.077s] [ 50%] [32mBuilding CXX object CMakeFiles/circle.dir/src/circle.cpp.o[0m
+[1.949s] In file included from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/drower.cpp:5[m[K:
+[1.949s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/include/make_cloud_pkg/matplotlibcpp.h:[m[K In constructor ‘[01m[Kmatplotlibcpp::detail::_interpreter::[01;32m[K_interpreter[m[K()[m[K’:
+[1.949s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/include/make_cloud_pkg/matplotlibcpp.h:182:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid[01;32m[K Py_SetProgramName[m[K(const wchar_t*)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[1.949s]   182 |                         [01;35m[KPy_SetProgramName(name)[m[K;
+[1.949s]       |                         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[1.949s] In file included from [01m[K/usr/include/python3.12/Python.h:94[m[K,
+[1.950s]                  from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/include/make_cloud_pkg/matplotlibcpp.h:5[m[K:
+[1.950s] [01m[K/usr/include/python3.12/pylifecycle.h:37:38:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.950s]    37 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) [01;36m[KPy_SetProgramName[m[K(const wchar_t *);
+[1.950s]       |                                      [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[1.950s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/include/make_cloud_pkg/matplotlibcpp.h:190:38:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid[01;32m[K PySys_SetArgv[m[K(int, wchar_t**)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[1.950s]   190 |                         [01;35m[KPySys_SetArgv(argc, const_cast<wchar_t **>(argv))[m[K;
+[1.950s]       |                         [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.950s] In file included from [01m[K/usr/include/python3.12/Python.h:96[m[K:
+[1.950s] [01m[K/usr/include/python3.12/sysmodule.h:13:38:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.950s]    13 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) [01;36m[KPySys_SetArgv[m[K(int, wchar_t **);
+[1.950s]       |                                      [01;36m[K^~~~~~~~~~~~~[m[K
+[2.082s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/circle.cpp:[m[K In member function ‘[01m[Kvoid cloud_maker::[01;32m[Ktimer_callback[m[K()[m[K’:
+[2.082s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/circle.cpp:39:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kcirclepoints[m[K’ was not declared in this scope; did you mean ‘[01m[Kcirclepoints_num[m[K’?
+[2.082s]    39 |             for (size_t i = 0; i < [01;31m[Kcirclepoints[m[K; i++)
+[2.082s]       |                                    [01;31m[K^~~~~~~~~~~~[m[K
+[2.082s]       |                                    [32m[Kcirclepoints_num[m[K
+[2.082s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/circle.cpp:42:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kstudy_interface::msg::Cloud[m[K’ {aka ‘[01m[Kstudy_interface::msg::Cloud_<std::allocator<void> >[m[K’}
+[2.082s]    42 |                   msg_cloud[01;31m[K->[m[Kcloudx.push_back(length * cos(theta_unit * i) - 2.0);
+[2.082s]       |                            [01;31m[K^~[m[K
+[2.082s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/circle.cpp:43:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kstudy_interface::msg::Cloud[m[K’ {aka ‘[01m[Kstudy_interface::msg::Cloud_<std::allocator<void> >[m[K’}
+[2.083s]    43 |                   msg_cloud[01;31m[K->[m[Kcloudy.push_back(length * sin(theta_unit * i) + 2.0);
+[2.083s]       |                            [01;31m[K^~[m[K
+[2.083s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/circle.cpp:34:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpoints_num[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.083s]    34 |             int [01;35m[Kpoints_num[m[K = 750;       // 点群全体の点の数
+[2.083s]       |                 [01;35m[K^~~~~~~~~~[m[K
+[2.940s] gmake[2]: *** [CMakeFiles/circle.dir/build.make:76: CMakeFiles/circle.dir/src/circle.cpp.o] エラー 1
+[2.940s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/circle.dir/all] エラー 2
+[2.940s] gmake[1]: *** 未完了のジョブを待っています....
+[5.406s] [ 75%] [32m[1mLinking CXX executable drower[0m
+[5.658s] [ 75%] Built target drower
+[5.659s] gmake: *** [Makefile:146: all] エラー 2
+[5.662s] Invoked command in '/home/tomoni11/Documents/ROS2/study_ws/build/make_cloud_pkg' returned '2': CMAKE_PREFIX_PATH=/home/tomoni11/Documents/ROS2/study_ws/install/study_interface:/home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg:/home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg:/home/tomoni11/Documents/ROS2/study_ws/install/interface_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/study_ws/build/make_cloud_pkg -- -j24 -l24

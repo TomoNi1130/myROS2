@@ -28,9 +28,19 @@ rclcpp
 study_interface
 )
 
+add_executable(line_drower
+src/line_drower.cpp
+)
+
+ament_target_dependencies(line_drower
+rclcpp
+study_interface
+)
+
 install(TARGETS
 circle
 circle_drower
+line_drower
 DESTINATION lib/${PROJECT_NAME}/
 )
 
@@ -44,6 +54,9 @@ include_directories(include/ransac_pkg)
 find_package(Python3 COMPONENTS Development NumPy)
 target_include_directories(circle_drower PRIVATE ${Python3_INCLUDE_DIRS} ${Python3_NumPy_INCLUDE_DIRS})
 target_link_libraries(circle_drower Python3::Python Python3::NumPy)
+find_package(Python3 COMPONENTS Development NumPy)
+target_include_directories(line_drower PRIVATE ${Python3_INCLUDE_DIRS} ${Python3_NumPy_INCLUDE_DIRS})
+target_link_libraries(line_drower Python3::Python Python3::NumPy)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

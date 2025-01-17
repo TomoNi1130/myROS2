@@ -11,6 +11,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/cloud__functions.c.o.d"
   "CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/cloud__type_support.c.o"
   "CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/cloud__type_support.c.o.d"
+  "CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__description.c.o"
+  "CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__description.c.o.d"
+  "CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__functions.c.o"
+  "CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__functions.c.o.d"
+  "CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__type_support.c.o"
+  "CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__type_support.c.o.d"
   "libstudy_interface__rosidl_generator_c.pdb"
   "libstudy_interface__rosidl_generator_c.so"
   "rosidl_generator_c/study_interface/msg/circle.h"
@@ -27,6 +33,13 @@ file(REMOVE_RECURSE
   "rosidl_generator_c/study_interface/msg/detail/cloud__struct.h"
   "rosidl_generator_c/study_interface/msg/detail/cloud__type_support.c"
   "rosidl_generator_c/study_interface/msg/detail/cloud__type_support.h"
+  "rosidl_generator_c/study_interface/msg/detail/line__description.c"
+  "rosidl_generator_c/study_interface/msg/detail/line__functions.c"
+  "rosidl_generator_c/study_interface/msg/detail/line__functions.h"
+  "rosidl_generator_c/study_interface/msg/detail/line__struct.h"
+  "rosidl_generator_c/study_interface/msg/detail/line__type_support.c"
+  "rosidl_generator_c/study_interface/msg/detail/line__type_support.h"
+  "rosidl_generator_c/study_interface/msg/line.h"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,0 +1,9 @@
+[31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+  rosidl_generate_interfaces() the passed file 'msg/Line.msg' doesn't exist
+  relative to the CMAKE_CURRENT_SOURCE_DIR
+  '/home/tomoni11/Documents/ROS2/study_ws/src/study_interface'
+Call Stack (most recent call first):
+  CMakeLists.txt:16 (rosidl_generate_interfaces)
+
+[0m
+gmake: *** [Makefile:1085: cmake_check_build_system] エラー 1

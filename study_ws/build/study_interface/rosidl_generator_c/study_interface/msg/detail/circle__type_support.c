@@ -5,8 +5,8 @@
 #include <string.h>
 
 #include "study_interface/msg/detail/circle__struct.h"
-#include "study_interface/msg/detail/circle__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "study_interface/msg/detail/circle__functions.h"
 #include "study_interface/msg/detail/circle__type_support.h"
 
 #ifdef __cplusplus

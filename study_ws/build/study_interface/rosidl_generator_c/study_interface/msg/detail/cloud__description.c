@@ -11,10 +11,10 @@ study_interface__msg__Cloud__get_type_hash(
 {
   (void)type_support;
   static rosidl_type_hash_t hash = {1, {
-      0x13, 0x30, 0x00, 0x14, 0xce, 0x02, 0xe7, 0xa7,
-      0x37, 0x1b, 0x52, 0x18, 0xec, 0x7a, 0xfe, 0x07,
-      0x67, 0x83, 0x70, 0xb2, 0x1e, 0x71, 0x78, 0x23,
-      0xb5, 0xf6, 0xf7, 0x48, 0x5e, 0x8d, 0x20, 0x55,
+      0x25, 0xc3, 0x8d, 0xe5, 0x0b, 0x86, 0xdc, 0x98,
+      0xfe, 0x4c, 0x6d, 0x00, 0xcc, 0x79, 0xd4, 0x94,
+      0x17, 0xa5, 0x94, 0x4b, 0xb3, 0x59, 0xcd, 0x2b,
+      0x53, 0xa5, 0x87, 0xfe, 0x61, 0x82, 0x9b, 0x31,
     }};
   return &hash;
 }
@@ -38,8 +38,8 @@ static rosidl_runtime_c__type_description__Field study_interface__msg__Cloud__FI
   {
     {study_interface__msg__Cloud__FIELD_NAME__cloudx, 6, 6},
     {
-      rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_DOUBLE_ARRAY,
-      150,
+      rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_DOUBLE_UNBOUNDED_SEQUENCE,
+      0,
       0,
       {NULL, 0, 0},
     },
@@ -48,8 +48,8 @@ static rosidl_runtime_c__type_description__Field study_interface__msg__Cloud__FI
   {
     {study_interface__msg__Cloud__FIELD_NAME__cloudy, 6, 6},
     {
-      rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_DOUBLE_ARRAY,
-      150,
+      rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_DOUBLE_UNBOUNDED_SEQUENCE,
+      0,
       0,
       {NULL, 0, 0},
     },
@@ -77,8 +77,8 @@ study_interface__msg__Cloud__get_type_description(
 }
 
 static char toplevel_type_raw_source[] =
-  "float64[150] cloudx\n"
-  "float64[150] cloudy";
+  "float64[] cloudx\n"
+  "float64[] cloudy";
 
 static char msg_encoding[] = "msg";
 
@@ -92,7 +92,7 @@ study_interface__msg__Cloud__get_individual_type_description_source(
   static const rosidl_runtime_c__type_description__TypeSource source = {
     {study_interface__msg__Cloud__TYPE_NAME, 25, 25},
     {msg_encoding, 3, 3},
-    {toplevel_type_raw_source, 40, 40},
+    {toplevel_type_raw_source, 34, 34},
   };
   return &source;
 }

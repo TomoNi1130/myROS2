@@ -7,3 +7,4 @@ study_interface.egg-info/top_level.txt
 study_interface/msg/__init__.py
 study_interface/msg/_circle.py
 study_interface/msg/_cloud.py
+study_interface/msg/_line.py

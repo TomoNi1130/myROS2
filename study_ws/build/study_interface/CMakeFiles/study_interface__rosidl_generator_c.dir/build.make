@@ -90,6 +90,7 @@ rosidl_generator_c/study_interface/msg/cloud.h: /opt/ros/jazzy/share/rosidl_gene
 rosidl_generator_c/study_interface/msg/cloud.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/study_interface/msg/cloud.h: rosidl_adapter/study_interface/msg/Cloud.idl
 rosidl_generator_c/study_interface/msg/cloud.h: rosidl_adapter/study_interface/msg/Circle.idl
+rosidl_generator_c/study_interface/msg/cloud.h: rosidl_adapter/study_interface/msg/Line.idl
 rosidl_generator_c/study_interface/msg/cloud.h: /opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl
 rosidl_generator_c/study_interface/msg/cloud.h: /opt/ros/jazzy/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_generator_c/study_interface/msg/cloud.h: /opt/ros/jazzy/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -176,6 +177,18 @@ rosidl_generator_c/study_interface/msg/detail/circle__struct.h: rosidl_generator
 rosidl_generator_c/study_interface/msg/detail/circle__type_support.h: rosidl_generator_c/study_interface/msg/cloud.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/study_interface/msg/detail/circle__type_support.h
 
+rosidl_generator_c/study_interface/msg/line.h: rosidl_generator_c/study_interface/msg/cloud.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/study_interface/msg/line.h
+
+rosidl_generator_c/study_interface/msg/detail/line__functions.h: rosidl_generator_c/study_interface/msg/cloud.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/study_interface/msg/detail/line__functions.h
+
+rosidl_generator_c/study_interface/msg/detail/line__struct.h: rosidl_generator_c/study_interface/msg/cloud.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/study_interface/msg/detail/line__struct.h
+
+rosidl_generator_c/study_interface/msg/detail/line__type_support.h: rosidl_generator_c/study_interface/msg/cloud.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/study_interface/msg/detail/line__type_support.h
+
 rosidl_generator_c/study_interface/msg/detail/cloud__description.c: rosidl_generator_c/study_interface/msg/cloud.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/study_interface/msg/detail/cloud__description.c
 
@@ -193,6 +206,15 @@ rosidl_generator_c/study_interface/msg/detail/circle__functions.c: rosidl_genera
 
 rosidl_generator_c/study_interface/msg/detail/circle__type_support.c: rosidl_generator_c/study_interface/msg/cloud.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/study_interface/msg/detail/circle__type_support.c
+
+rosidl_generator_c/study_interface/msg/detail/line__description.c: rosidl_generator_c/study_interface/msg/cloud.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/study_interface/msg/detail/line__description.c
+
+rosidl_generator_c/study_interface/msg/detail/line__functions.c: rosidl_generator_c/study_interface/msg/cloud.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/study_interface/msg/detail/line__functions.c
+
+rosidl_generator_c/study_interface/msg/detail/line__type_support.c: rosidl_generator_c/study_interface/msg/cloud.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/study_interface/msg/detail/line__type_support.c
 
 CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/cloud__description.c.o: CMakeFiles/study_interface__rosidl_generator_c.dir/flags.make
 CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/cloud__description.c.o: rosidl_generator_c/study_interface/msg/detail/cloud__description.c
@@ -278,6 +300,48 @@ CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_inte
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/circle__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tomoni11/Documents/ROS2/study_ws/build/study_interface/rosidl_generator_c/study_interface/msg/detail/circle__type_support.c -o CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/circle__type_support.c.s
 
+CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__description.c.o: CMakeFiles/study_interface__rosidl_generator_c.dir/flags.make
+CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__description.c.o: rosidl_generator_c/study_interface/msg/detail/line__description.c
+CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__description.c.o: CMakeFiles/study_interface__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tomoni11/Documents/ROS2/study_ws/build/study_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__description.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__description.c.o -MF CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__description.c.o.d -o CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__description.c.o -c /home/tomoni11/Documents/ROS2/study_ws/build/study_interface/rosidl_generator_c/study_interface/msg/detail/line__description.c
+
+CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__description.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__description.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tomoni11/Documents/ROS2/study_ws/build/study_interface/rosidl_generator_c/study_interface/msg/detail/line__description.c > CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__description.c.i
+
+CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__description.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__description.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tomoni11/Documents/ROS2/study_ws/build/study_interface/rosidl_generator_c/study_interface/msg/detail/line__description.c -o CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__description.c.s
+
+CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__functions.c.o: CMakeFiles/study_interface__rosidl_generator_c.dir/flags.make
+CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__functions.c.o: rosidl_generator_c/study_interface/msg/detail/line__functions.c
+CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__functions.c.o: CMakeFiles/study_interface__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tomoni11/Documents/ROS2/study_ws/build/study_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__functions.c.o -MF CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__functions.c.o.d -o CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__functions.c.o -c /home/tomoni11/Documents/ROS2/study_ws/build/study_interface/rosidl_generator_c/study_interface/msg/detail/line__functions.c
+
+CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tomoni11/Documents/ROS2/study_ws/build/study_interface/rosidl_generator_c/study_interface/msg/detail/line__functions.c > CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__functions.c.i
+
+CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tomoni11/Documents/ROS2/study_ws/build/study_interface/rosidl_generator_c/study_interface/msg/detail/line__functions.c -o CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__functions.c.s
+
+CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__type_support.c.o: CMakeFiles/study_interface__rosidl_generator_c.dir/flags.make
+CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__type_support.c.o: rosidl_generator_c/study_interface/msg/detail/line__type_support.c
+CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__type_support.c.o: CMakeFiles/study_interface__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tomoni11/Documents/ROS2/study_ws/build/study_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__type_support.c.o -MF CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__type_support.c.o.d -o CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__type_support.c.o -c /home/tomoni11/Documents/ROS2/study_ws/build/study_interface/rosidl_generator_c/study_interface/msg/detail/line__type_support.c
+
+CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tomoni11/Documents/ROS2/study_ws/build/study_interface/rosidl_generator_c/study_interface/msg/detail/line__type_support.c > CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__type_support.c.i
+
+CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tomoni11/Documents/ROS2/study_ws/build/study_interface/rosidl_generator_c/study_interface/msg/detail/line__type_support.c -o CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__type_support.c.s
+
 # Object files for target study_interface__rosidl_generator_c
 study_interface__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/cloud__description.c.o" \
@@ -285,7 +349,10 @@ study_interface__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/cloud__type_support.c.o" \
 "CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/circle__description.c.o" \
 "CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/circle__functions.c.o" \
-"CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/circle__type_support.c.o"
+"CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/circle__type_support.c.o" \
+"CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__description.c.o" \
+"CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__functions.c.o" \
+"CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__type_support.c.o"
 
 # External object files for target study_interface__rosidl_generator_c
 study_interface__rosidl_generator_c_EXTERNAL_OBJECTS =
@@ -296,6 +363,9 @@ libstudy_interface__rosidl_generator_c.so: CMakeFiles/study_interface__rosidl_ge
 libstudy_interface__rosidl_generator_c.so: CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/circle__description.c.o
 libstudy_interface__rosidl_generator_c.so: CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/circle__functions.c.o
 libstudy_interface__rosidl_generator_c.so: CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/circle__type_support.c.o
+libstudy_interface__rosidl_generator_c.so: CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__description.c.o
+libstudy_interface__rosidl_generator_c.so: CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__functions.c.o
+libstudy_interface__rosidl_generator_c.so: CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__type_support.c.o
 libstudy_interface__rosidl_generator_c.so: CMakeFiles/study_interface__rosidl_generator_c.dir/build.make
 libstudy_interface__rosidl_generator_c.so: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_generator_c.so
 libstudy_interface__rosidl_generator_c.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so
@@ -303,7 +373,7 @@ libstudy_interface__rosidl_generator_c.so: /opt/ros/jazzy/lib/libbuiltin_interfa
 libstudy_interface__rosidl_generator_c.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libstudy_interface__rosidl_generator_c.so: /opt/ros/jazzy/lib/librcutils.so
 libstudy_interface__rosidl_generator_c.so: CMakeFiles/study_interface__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/tomoni11/Documents/ROS2/study_ws/build/study_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C shared library libstudy_interface__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/tomoni11/Documents/ROS2/study_ws/build/study_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C shared library libstudy_interface__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/study_interface__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -328,6 +398,13 @@ CMakeFiles/study_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/st
 CMakeFiles/study_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/study_interface/msg/detail/cloud__struct.h
 CMakeFiles/study_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/study_interface/msg/detail/cloud__type_support.c
 CMakeFiles/study_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/study_interface/msg/detail/cloud__type_support.h
+CMakeFiles/study_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/study_interface/msg/detail/line__description.c
+CMakeFiles/study_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/study_interface/msg/detail/line__functions.c
+CMakeFiles/study_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/study_interface/msg/detail/line__functions.h
+CMakeFiles/study_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/study_interface/msg/detail/line__struct.h
+CMakeFiles/study_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/study_interface/msg/detail/line__type_support.c
+CMakeFiles/study_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/study_interface/msg/detail/line__type_support.h
+CMakeFiles/study_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/study_interface/msg/line.h
 	cd /home/tomoni11/Documents/ROS2/study_ws/build/study_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tomoni11/Documents/ROS2/study_ws/src/study_interface /home/tomoni11/Documents/ROS2/study_ws/src/study_interface /home/tomoni11/Documents/ROS2/study_ws/build/study_interface /home/tomoni11/Documents/ROS2/study_ws/build/study_interface /home/tomoni11/Documents/ROS2/study_ws/build/study_interface/CMakeFiles/study_interface__rosidl_generator_c.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/study_interface__rosidl_generator_c.dir/depend
 

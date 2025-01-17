@@ -2,3 +2,5 @@ msg/Circle.idl
 msg/Circle.msg
 msg/Cloud.idl
 msg/Cloud.msg
+msg/Line.idl
+msg/Line.msg

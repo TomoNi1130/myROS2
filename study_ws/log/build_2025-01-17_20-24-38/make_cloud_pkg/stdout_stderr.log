@@ -1,0 +1,29 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/circle.dir/src/circle.cpp.o[0m
+[ 75%] Built target drower
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/circle.cpp:[m[K In member function ‘[01m[Kvoid cloud_maker::[01;32m[Ktimer_callback[m[K()[m[K’:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/circle.cpp:39:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   39 |             for (size_t i = 0; [01;35m[Ki < circlepoints_num[m[K; i++)
+      |                                [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable circle[0m
+[100%] Built target circle
+-- Install configuration: ""
+-- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/lib/make_cloud_pkg/circle
+-- Set non-toolchain portion of runtime path of "/home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/lib/make_cloud_pkg/circle" to ""
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/lib/make_cloud_pkg/drower
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/make_cloud_pkg/launch
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/make_cloud_pkg/launch/circle.launch.py
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/ament_index/resource_index/package_run_dependencies/make_cloud_pkg
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/ament_index/resource_index/parent_prefix_path/make_cloud_pkg
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/make_cloud_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/make_cloud_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/make_cloud_pkg/environment/path.sh
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/make_cloud_pkg/environment/path.dsv
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/make_cloud_pkg/local_setup.bash
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/make_cloud_pkg/local_setup.sh
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/make_cloud_pkg/local_setup.zsh
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/make_cloud_pkg/local_setup.dsv
+-- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/make_cloud_pkg/package.dsv
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/ament_index/resource_index/packages/make_cloud_pkg
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/make_cloud_pkg/cmake/make_cloud_pkgConfig.cmake
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/make_cloud_pkg/cmake/make_cloud_pkgConfig-version.cmake
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/make_cloud_pkg/package.xml

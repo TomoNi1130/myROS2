@@ -1,0 +1,7 @@
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/line_drower.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kstudy_interface/msg/msg->hpp: そのようなファイルやディレクトリはありません
+    4 | #include [01;31m[K"study_interface/msg/msg->hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/line_drower.dir/build.make:76: CMakeFiles/line_drower.dir/src/line_drower.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/line_drower.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

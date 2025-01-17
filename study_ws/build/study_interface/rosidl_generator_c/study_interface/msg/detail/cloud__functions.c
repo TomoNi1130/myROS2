@@ -11,6 +11,11 @@
 #include "rcutils/allocator.h"
 
 
+// Include directives for member types
+// Member `cloudx`
+// Member `cloudy`
+#include "rosidl_runtime_c/primitives_sequence_functions.h"
+
 bool
 study_interface__msg__Cloud__init(study_interface__msg__Cloud * msg)
 {
@@ -18,7 +23,15 @@ study_interface__msg__Cloud__init(study_interface__msg__Cloud * msg)
     return false;
   }
   // cloudx
+  if (!rosidl_runtime_c__double__Sequence__init(&msg->cloudx, 0)) {
+    study_interface__msg__Cloud__fini(msg);
+    return false;
+  }
   // cloudy
+  if (!rosidl_runtime_c__double__Sequence__init(&msg->cloudy, 0)) {
+    study_interface__msg__Cloud__fini(msg);
+    return false;
+  }
   return true;
 }
 
@@ -29,7 +42,9 @@ study_interface__msg__Cloud__fini(study_interface__msg__Cloud * msg)
     return;
   }
   // cloudx
+  rosidl_runtime_c__double__Sequence__fini(&msg->cloudx);
   // cloudy
+  rosidl_runtime_c__double__Sequence__fini(&msg->cloudy);
 }
 
 bool
@@ -39,16 +54,16 @@ study_interface__msg__Cloud__are_equal(const study_interface__msg__Cloud * lhs, 
     return false;
   }
   // cloudx
-  for (size_t i = 0; i < 150; ++i) {
-    if (lhs->cloudx[i] != rhs->cloudx[i]) {
-      return false;
-    }
+  if (!rosidl_runtime_c__double__Sequence__are_equal(
+      &(lhs->cloudx), &(rhs->cloudx)))
+  {
+    return false;
   }
   // cloudy
-  for (size_t i = 0; i < 150; ++i) {
-    if (lhs->cloudy[i] != rhs->cloudy[i]) {
-      return false;
-    }
+  if (!rosidl_runtime_c__double__Sequence__are_equal(
+      &(lhs->cloudy), &(rhs->cloudy)))
+  {
+    return false;
   }
   return true;
 }
@@ -62,12 +77,16 @@ study_interface__msg__Cloud__copy(
     return false;
   }
   // cloudx
-  for (size_t i = 0; i < 150; ++i) {
-    output->cloudx[i] = input->cloudx[i];
+  if (!rosidl_runtime_c__double__Sequence__copy(
+      &(input->cloudx), &(output->cloudx)))
+  {
+    return false;
   }
   // cloudy
-  for (size_t i = 0; i < 150; ++i) {
-    output->cloudy[i] = input->cloudy[i];
+  if (!rosidl_runtime_c__double__Sequence__copy(
+      &(input->cloudy), &(output->cloudy)))
+  {
+    return false;
   }
   return true;
 }

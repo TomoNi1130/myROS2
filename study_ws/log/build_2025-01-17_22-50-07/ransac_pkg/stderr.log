@@ -1,0 +1,94 @@
+In file included from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/line_drower.cpp:2[m[K:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/matplotlibcpp.h:[m[K In constructor ‘[01m[Kmatplotlibcpp::detail::_interpreter::[01;32m[K_interpreter[m[K()[m[K’:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/matplotlibcpp.h:182:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid[01;32m[K Py_SetProgramName[m[K(const wchar_t*)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  182 |                         [01;35m[KPy_SetProgramName(name)[m[K;
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/usr/include/python3.12/Python.h:94[m[K,
+                 from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/matplotlibcpp.h:5[m[K:
+[01m[K/usr/include/python3.12/pylifecycle.h:37:38:[m[K [01;36m[Knote: [m[Kdeclared here
+   37 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) [01;36m[KPy_SetProgramName[m[K(const wchar_t *);
+      |                                      [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/matplotlibcpp.h:190:38:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid[01;32m[K PySys_SetArgv[m[K(int, wchar_t**)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  190 |                         [01;35m[KPySys_SetArgv(argc, const_cast<wchar_t **>(argv))[m[K;
+      |                         [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/python3.12/Python.h:96[m[K:
+[01m[K/usr/include/python3.12/sysmodule.h:13:38:[m[K [01;36m[Knote: [m[Kdeclared here
+   13 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) [01;36m[KPySys_SetArgv[m[K(int, wchar_t **);
+      |                                      [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/line_drower.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K drow_axes[m[K(int)[m[K’:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/line_drower.cpp:19:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_x_msg[m[K’ was not declared in this scope
+   19 |             [01;31m[Kx_x_msg[m[K->push_back(i * x);
+      |             [01;31m[K^~~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/line_drower.cpp:20:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ky_x_msg[m[K’ was not declared in this scope
+   20 |             [01;31m[Ky_x_msg[m[K->push_back(0);
+      |             [01;31m[K^~~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/line_drower.cpp:21:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ky_y_msg[m[K’ was not declared in this scope
+   21 |             [01;31m[Ky_y_msg[m[K->push_back(i * x);
+      |             [01;31m[K^~~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/line_drower.cpp:22:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_y_msg[m[K’ was not declared in this scope
+   22 |             [01;31m[Kx_y_msg[m[K->push_back(0);
+      |             [01;31m[K^~~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/line_drower.cpp:[m[K At global scope:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/line_drower.cpp:39:57:[m[K [01;31m[Kerror: [m[K‘[01m[KCircle[m[K’ in namespace ‘[01m[Kstudy_interface::msg[m[K’ does not name a type
+   39 |       void chatter_callback(const study_interface::msg::[01;31m[KCircle[m[K::SharedPtr msg) const
+      |                                                         [01;31m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/line_drower.cpp:39:75:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+   39 |       void chatter_callback(const study_interface::msg::Circle::SharedPtr [01;31m[Kmsg[m[K) const
+      |                                                                           [01;31m[K^~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/line_drower.cpp:39:74:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+   39 |       void chatter_callback[34m[K([m[Kconst study_interface::msg::Circle::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K) const
+      |                            [34m[K~[m[K                                             [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                                          [32m[K)[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/line_drower.cpp:39:65:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   39 |       void chatter_callback(const study_interface::msg::Circle::[01;31m[KSharedPtr[m[K msg) const
+      |                                                                 [01;31m[K^~~~~~~~~[m[K
+      |                                                                          [32m[K;[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/line_drower.cpp:39:75:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+   39 |       void chatter_callback(const study_interface::msg::Circle::SharedPtr [01;31m[Kmsg[m[K) const
+      |                                                                           [01;31m[K^~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/line_drower.cpp:71:50:[m[K [01;31m[Kerror: [m[K‘[01m[KCircle[m[K’ is not a member of ‘[01m[Kstudy_interface::msg[m[K’
+   71 |       rclcpp::Subscription<study_interface::msg::[01;31m[KCircle[m[K>::SharedPtr subscription_;
+      |                                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/line_drower.cpp:71:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   71 |       rclcpp::Subscription<study_interface::msg::Circle[01;31m[K>[m[K::SharedPtr subscription_;
+      |                                                        [01;31m[K^[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/line_drower.cpp:71:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/line_drower.cpp:71:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/line_drower.cpp:71:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/line_drower.cpp:71:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   71 |       rclcpp::Subscription<study_interface::msg::Circle>::[01;31m[KSharedPtr[m[K subscription_;
+      |                                                           [01;31m[K^~~~~~~~~[m[K
+      |                                                                    [32m[K;[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/line_drower.cpp:71:69:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   71 |       rclcpp::Subscription<study_interface::msg::Circle>::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                                                                     [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                                     [32m[Krmw_subscription_t[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/line_drower.cpp:[m[K In constructor ‘[01m[KSircle_drower::[01;32m[KSircle_drower[m[K()[m[K’:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/line_drower.cpp:34:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   34 |             [01;31m[Ksubscription_[m[K = this->create_subscription<study_interface::msg::Circle>(
+      |             [01;31m[K^~~~~~~~~~~~~[m[K
+      |             [32m[Krmw_subscription_t[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/line_drower.cpp:34:77:[m[K [01;31m[Kerror: [m[K‘[01m[KCircle[m[K’ is not a member of ‘[01m[Kstudy_interface::msg[m[K’
+   34 |             subscription_ = this->create_subscription<study_interface::msg::[01;31m[KCircle[m[K>(
+      |                                                                             [01;31m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/line_drower.cpp:34:84:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KSircle_drower::create_subscription<<expression error> >(const char [12], int, std::_Bind_helper<false, void (Sircle_drower::*)(...), Sircle_drower*, const std::_Placeholder<1>&>::type)[m[K’
+   34 |             subscription_ = [01;31m[Kthis->create_subscription<study_interface::msg::Circle>([m[K
+      |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   35 | [01;31m[K                "circle_data", 10, std::bind(&Sircle_drower::chatter_callback, this, _1))[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/line_drower.cpp:3[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:221:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::[01;32m[Kcreate_subscription[m[K(const std::string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  221 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:221:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/line_drower.cpp:34:84:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   34 |             subscription_ = [01;31m[Kthis->create_subscription<study_interface::msg::Circle>([m[K
+      |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   35 | [01;31m[K                "circle_data", 10, std::bind(&Sircle_drower::chatter_callback, this, _1))[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/line_drower.dir/build.make:76: CMakeFiles/line_drower.dir/src/line_drower.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/line_drower.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

@@ -1,0 +1,57 @@
+[ 50%] Built target circle_drower
+[ 75%] [32mBuilding CXX object CMakeFiles/circle.dir/src/circle_main.cpp.o[0m
+In file included from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:7[m[K:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:[m[K In member function ‘[01m[Kstd::vector<line_segment> RANSAC::[01;32m[Kline_ransac[m[K(int)[m[K’:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:110:37:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  110 |                   for (int j = 0; [01;35m[Kj < _x.size()[m[K; j++)
+      |                                   [01;35m[K~~^~~~~~~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:112:39:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRANSAC::find_error(line&, const __gnu_cxx::__alloc_traits<std::allocator<double>, double>::value_type&, const __gnu_cxx::__alloc_traits<std::allocator<double>, double>::value_type&)[m[K’
+  112 |                         if ([01;31m[Kfind_error(guess_line, _x[j], _y[j])[m[K < threshold && !inlier[j])
+      |                             [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:6[m[K:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/ransac.hpp:49:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdouble RANSAC::[01;32m[Kfind_error[m[K(circle, double, double) const[m[K’
+   49 |       double [01;36m[Kfind_error[m[K(circle circle, double _x, double _y) const;
+      |              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/ransac.hpp:49:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kline[m[K’ to ‘[01m[Kcircle[m[K’
+   49 |       double find_error([01;36m[Kcircle circle[m[K, double _x, double _y) const;
+      |                         [01;36m[K~~~~~~~^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/ransac.hpp:50:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdouble RANSAC::[01;32m[Kfind_error[m[K(line_segment, double, double) const[m[K’
+   50 |       double [01;36m[Kfind_error[m[K(line_segment line_segment, double _x, double _y) const;
+      |              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/ransac.hpp:50:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kline[m[K’ to ‘[01m[Kline_segment[m[K’
+   50 |       double find_error([01;36m[Kline_segment line_segment[m[K, double _x, double _y) const;
+      |                         [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:136:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_distance_line[m[K’ was not declared in this scope
+  136 |                               best_line.distance = [01;31m[Kget_distance_line[m[K(best_line.low_x, best_line.low_y, best_line.high_x, best_line.high_y);
+      |                                                    [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:137:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_theta[m[K’ was not declared in this scope
+  137 |                               best_line.theta = [01;31m[Kget_theta[m[K(guess_line.a, guess_line.b, guess_line.c);
+      |                                                 [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:[m[K At global scope:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:149:8:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kdouble RANSAC::[01;32m[Kfind_error[m[K(circle&, double&, double&) const[m[K’
+  149 | double [01;31m[KRANSAC[m[K::find_error(circle &circle, double &_x, double &_y) const
+      |        [01;31m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/ransac.hpp:50:14:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Kdouble RANSAC::[01;32m[Kfind_error[m[K(line_segment, double, double) const[m[K’
+   50 |       double [01;36m[Kfind_error[m[K(line_segment line_segment, double _x, double _y) const;
+      |              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/ransac.hpp:49:14:[m[K [01;36m[Knote: [m[K                ‘[01m[Kdouble RANSAC::[01;32m[Kfind_error[m[K(circle, double, double) const[m[K’
+   49 |       double [01;36m[Kfind_error[m[K(circle circle, double _x, double _y) const;
+      |              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/ransac.hpp:38:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass RANSAC[m[K’ defined here
+   38 | class [01;36m[KRANSAC[m[K
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:154:8:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kdouble RANSAC::[01;32m[Kfind_error[m[K(line&, double&, double&) const[m[K’
+  154 | double [01;31m[KRANSAC[m[K::find_error(line &line, double &_x, double &_y) const
+      |        [01;31m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/ransac.hpp:50:14:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Kdouble RANSAC::[01;32m[Kfind_error[m[K(line_segment, double, double) const[m[K’
+   50 |       double [01;36m[Kfind_error[m[K(line_segment line_segment, double _x, double _y) const;
+      |              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/ransac.hpp:49:14:[m[K [01;36m[Knote: [m[K                ‘[01m[Kdouble RANSAC::[01;32m[Kfind_error[m[K(circle, double, double) const[m[K’
+   49 |       double [01;36m[Kfind_error[m[K(circle circle, double _x, double _y) const;
+      |              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/ransac.hpp:38:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass RANSAC[m[K’ defined here
+   38 | class [01;36m[KRANSAC[m[K
+      |       [01;36m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/circle.dir/build.make:76: CMakeFiles/circle.dir/src/circle_main.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/circle.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

@@ -5,11 +5,10 @@
 
 module study_interface {
   module msg {
-    typedef double double__150[150];
     struct Cloud {
-      double__150 cloudx;
+      sequence<double> cloudx;
 
-      double__150 cloudy;
+      sequence<double> cloudy;
     };
   };
 };

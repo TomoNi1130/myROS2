@@ -24,6 +24,7 @@ CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_inte
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+ /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
  /home/tomoni11/Documents/ROS2/study_ws/build/study_interface/rosidl_generator_c/study_interface/msg/detail/circle__functions.h \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
@@ -67,7 +68,6 @@ CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_inte
  /opt/ros/jazzy/include/rcutils/rcutils/visibility_control_macros.h \
  /opt/ros/jazzy/include/rcutils/rcutils/sha256.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
- /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
  /home/tomoni11/Documents/ROS2/study_ws/build/study_interface/rosidl_generator_c/study_interface/msg/rosidl_generator_c__visibility_control.h \
  /home/tomoni11/Documents/ROS2/study_ws/build/study_interface/rosidl_generator_c/study_interface/msg/detail/circle__type_support.h

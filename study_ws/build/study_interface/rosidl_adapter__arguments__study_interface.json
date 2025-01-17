@@ -2,6 +2,7 @@
   "package_name": "study_interface",
   "non_idl_tuples": [
     "/home/tomoni11/Documents/ROS2/study_ws/src/study_interface:msg/Cloud.msg",
-    "/home/tomoni11/Documents/ROS2/study_ws/src/study_interface:msg/Circle.msg"
+    "/home/tomoni11/Documents/ROS2/study_ws/src/study_interface:msg/Circle.msg",
+    "/home/tomoni11/Documents/ROS2/study_ws/src/study_interface:msg/Line.msg"
   ]
 }

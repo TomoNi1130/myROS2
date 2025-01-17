@@ -156,11 +156,11 @@ inline const char * name<study_interface::msg::Cloud>()
 
 template<>
 struct has_fixed_size<study_interface::msg::Cloud>
-  : std::integral_constant<bool, true> {};
+  : std::integral_constant<bool, false> {};
 
 template<>
 struct has_bounded_size<study_interface::msg::Cloud>
-  : std::integral_constant<bool, true> {};
+  : std::integral_constant<bool, false> {};
 
 template<>
 struct is_message<study_interface::msg::Cloud>

@@ -1,0 +1,6 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/circle.dir/src/circle_main.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/circle_drower.dir/src/circle_drower.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable circle_drower[0m
+[ 75%] Built target circle_drower
+[100%] [32m[1mLinking CXX executable circle[0m
+[100%] Built target circle

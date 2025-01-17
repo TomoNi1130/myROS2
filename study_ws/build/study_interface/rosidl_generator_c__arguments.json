@@ -4,11 +4,13 @@
   "template_dir": "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
     "/home/tomoni11/Documents/ROS2/study_ws/build/study_interface/rosidl_adapter/study_interface:msg/Cloud.idl",
-    "/home/tomoni11/Documents/ROS2/study_ws/build/study_interface/rosidl_adapter/study_interface:msg/Circle.idl"
+    "/home/tomoni11/Documents/ROS2/study_ws/build/study_interface/rosidl_adapter/study_interface:msg/Circle.idl",
+    "/home/tomoni11/Documents/ROS2/study_ws/build/study_interface/rosidl_adapter/study_interface:msg/Line.idl"
   ],
   "ros_interface_files": [
     "/home/tomoni11/Documents/ROS2/study_ws/src/study_interface/msg/Cloud.msg",
-    "/home/tomoni11/Documents/ROS2/study_ws/src/study_interface/msg/Circle.msg"
+    "/home/tomoni11/Documents/ROS2/study_ws/src/study_interface/msg/Circle.msg",
+    "/home/tomoni11/Documents/ROS2/study_ws/src/study_interface/msg/Line.msg"
   ],
   "ros_interface_dependencies": [
     "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl",
@@ -96,6 +98,7 @@
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
     "/home/tomoni11/Documents/ROS2/study_ws/build/study_interface/rosidl_adapter/study_interface/msg/Cloud.idl",
     "/home/tomoni11/Documents/ROS2/study_ws/build/study_interface/rosidl_adapter/study_interface/msg/Circle.idl",
+    "/home/tomoni11/Documents/ROS2/study_ws/build/study_interface/rosidl_adapter/study_interface/msg/Line.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/AccelStamped.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/AccelWithCovariance.idl",
@@ -161,6 +164,7 @@
   ],
   "type_description_tuples": [
     "msg/Cloud.idl:/home/tomoni11/Documents/ROS2/study_ws/build/study_interface/rosidl_generator_type_description/study_interface/msg/Cloud.json",
-    "msg/Circle.idl:/home/tomoni11/Documents/ROS2/study_ws/build/study_interface/rosidl_generator_type_description/study_interface/msg/Circle.json"
+    "msg/Circle.idl:/home/tomoni11/Documents/ROS2/study_ws/build/study_interface/rosidl_generator_type_description/study_interface/msg/Circle.json",
+    "msg/Line.idl:/home/tomoni11/Documents/ROS2/study_ws/build/study_interface/rosidl_generator_type_description/study_interface/msg/Line.json"
   ]
 }

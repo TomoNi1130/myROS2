@@ -65,6 +65,7 @@ CMAKE_BINARY_DIR = /home/tomoni11/Documents/ROS2/study_ws/build/ransac_pkg
 # The main recursive "all" target.
 all: CMakeFiles/circle.dir/all
 all: CMakeFiles/circle_drower.dir/all
+all: CMakeFiles/line_drower.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,6 +77,7 @@ clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/ransac_pkg_uninstall.dir/clean
 clean: CMakeFiles/circle.dir/clean
 clean: CMakeFiles/circle_drower.dir/clean
+clean: CMakeFiles/line_drower.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -181,6 +183,32 @@ circle_drower: CMakeFiles/circle_drower.dir/rule
 CMakeFiles/circle_drower.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/circle_drower.dir/build.make CMakeFiles/circle_drower.dir/clean
 .PHONY : CMakeFiles/circle_drower.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/line_drower.dir
+
+# All Build rule for target.
+CMakeFiles/line_drower.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_drower.dir/build.make CMakeFiles/line_drower.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_drower.dir/build.make CMakeFiles/line_drower.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/tomoni11/Documents/ROS2/study_ws/build/ransac_pkg/CMakeFiles --progress-num=5,6 "Built target line_drower"
+.PHONY : CMakeFiles/line_drower.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/line_drower.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tomoni11/Documents/ROS2/study_ws/build/ransac_pkg/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/line_drower.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tomoni11/Documents/ROS2/study_ws/build/ransac_pkg/CMakeFiles 0
+.PHONY : CMakeFiles/line_drower.dir/rule
+
+# Convenience name for target.
+line_drower: CMakeFiles/line_drower.dir/rule
+.PHONY : line_drower
+
+# clean rule for target.
+CMakeFiles/line_drower.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_drower.dir/build.make CMakeFiles/line_drower.dir/clean
+.PHONY : CMakeFiles/line_drower.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

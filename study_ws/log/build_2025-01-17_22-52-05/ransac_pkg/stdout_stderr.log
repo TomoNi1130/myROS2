@@ -1,0 +1,44 @@
+[ 66%] Built target circle_drower
+[ 66%] Built target circle
+[ 83%] [32mBuilding CXX object CMakeFiles/line_drower.dir/src/line_drower.cpp.o[0m
+In file included from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/line_drower.cpp:2[m[K:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/matplotlibcpp.h:[m[K In constructor ‘[01m[Kmatplotlibcpp::detail::_interpreter::[01;32m[K_interpreter[m[K()[m[K’:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/matplotlibcpp.h:182:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid[01;32m[K Py_SetProgramName[m[K(const wchar_t*)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  182 |                         [01;35m[KPy_SetProgramName(name)[m[K;
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/usr/include/python3.12/Python.h:94[m[K,
+                 from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/matplotlibcpp.h:5[m[K:
+[01m[K/usr/include/python3.12/pylifecycle.h:37:38:[m[K [01;36m[Knote: [m[Kdeclared here
+   37 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) [01;36m[KPy_SetProgramName[m[K(const wchar_t *);
+      |                                      [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/matplotlibcpp.h:190:38:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid[01;32m[K PySys_SetArgv[m[K(int, wchar_t**)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  190 |                         [01;35m[KPySys_SetArgv(argc, const_cast<wchar_t **>(argv))[m[K;
+      |                         [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/python3.12/Python.h:96[m[K:
+[01m[K/usr/include/python3.12/sysmodule.h:13:38:[m[K [01;36m[Knote: [m[Kdeclared here
+   13 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) [01;36m[KPySys_SetArgv[m[K(int, wchar_t **);
+      |                                      [01;36m[K^~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable line_drower[0m
+[100%] Built target line_drower
+-- Install configuration: ""
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/lib/ransac_pkg/circle
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/lib/ransac_pkg/circle_drower
+-- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/lib/ransac_pkg/line_drower
+-- Set non-toolchain portion of runtime path of "/home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/lib/ransac_pkg/line_drower" to ""
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/launch
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/launch/circle.launch.py
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ament_index/resource_index/package_run_dependencies/ransac_pkg
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ament_index/resource_index/parent_prefix_path/ransac_pkg
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/environment/path.sh
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/environment/path.dsv
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/local_setup.bash
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/local_setup.sh
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/local_setup.zsh
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/local_setup.dsv
+-- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/package.dsv
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ament_index/resource_index/packages/ransac_pkg
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/cmake/ransac_pkgConfig.cmake
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/cmake/ransac_pkgConfig-version.cmake
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/package.xml

@@ -38,43 +38,32 @@ struct Cloud_
 
   explicit Cloud_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
   {
-    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
-      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
-    {
-      std::fill<typename std::array<double, 150>::iterator, double>(this->cloudx.begin(), this->cloudx.end(), 0.0);
-      std::fill<typename std::array<double, 150>::iterator, double>(this->cloudy.begin(), this->cloudy.end(), 0.0);
-    }
+    (void)_init;
   }
 
   explicit Cloud_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
-  : cloudx(_alloc),
-    cloudy(_alloc)
   {
-    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
-      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
-    {
-      std::fill<typename std::array<double, 150>::iterator, double>(this->cloudx.begin(), this->cloudx.end(), 0.0);
-      std::fill<typename std::array<double, 150>::iterator, double>(this->cloudy.begin(), this->cloudy.end(), 0.0);
-    }
+    (void)_init;
+    (void)_alloc;
   }
 
   // field types and members
   using _cloudx_type =
-    std::array<double, 150>;
+    std::vector<double, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<double>>;
   _cloudx_type cloudx;
   using _cloudy_type =
-    std::array<double, 150>;
+    std::vector<double, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<double>>;
   _cloudy_type cloudy;
 
   // setters for named parameter idiom
   Type & set__cloudx(
-    const std::array<double, 150> & _arg)
+    const std::vector<double, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<double>> & _arg)
   {
     this->cloudx = _arg;
     return *this;
   }
   Type & set__cloudy(
-    const std::array<double, 150> & _arg)
+    const std::vector<double, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<double>> & _arg)
   {
     this->cloudy = _arg;
     return *this;

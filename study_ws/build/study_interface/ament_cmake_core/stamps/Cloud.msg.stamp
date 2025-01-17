@@ -1,2 +1,2 @@
-float64[150] cloudx
-float64[150] cloudy
+float64[] cloudx
+float64[] cloudy

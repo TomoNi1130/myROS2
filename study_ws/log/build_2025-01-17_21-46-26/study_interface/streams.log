@@ -1,0 +1,282 @@
+[0.008s] Invoking command in '/home/tomoni11/Documents/ROS2/study_ws/build/study_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/study_ws/build/study_interface -- -j24 -l24
+[0.032s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.118s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.138s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.144s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.152s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.161s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.190s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.195s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.434s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.645s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.727s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.728s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[0.936s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[0.960s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.965s] -- Added test 'lint_cmake' to check CMake code style
+[0.966s] -- Added test 'xmllint' to check XML markup files
+[0.967s] -- Configuring done (0.9s)
+[0.995s] -- Generating done (0.0s)
+[1.003s] -- Build files have been written to: /home/tomoni11/Documents/ROS2/study_ws/build/study_interface
+[1.036s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[1.045s] [  1%] Built target ament_cmake_python_copy_study_interface
+[1.197s] running egg_info
+[1.208s] writing study_interface.egg-info/PKG-INFO
+[1.208s] writing dependency_links to study_interface.egg-info/dependency_links.txt
+[1.209s] writing top-level names to study_interface.egg-info/top_level.txt
+[1.214s] [  1%] Built target study_interface__rosidl_generator_type_description
+[1.224s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.234s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.243s] reading manifest file 'study_interface.egg-info/SOURCES.txt'
+[1.244s] writing manifest file 'study_interface.egg-info/SOURCES.txt'
+[1.278s] [  5%] Built target ament_cmake_python_build_study_interface_egg
+[1.476s] [  5%] Built target study_interface__cpp
+[1.519s] [ 18%] [32mBuilding C object CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/circle__functions.c.o[0m
+[1.519s] [ 18%] [32mBuilding C object CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/circle__type_support.c.o[0m
+[1.519s] [ 18%] [32mBuilding C object CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/cloud__type_support.c.o[0m
+[1.519s] [ 18%] [32mBuilding C object CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__functions.c.o[0m
+[1.519s] [ 18%] [32mBuilding C object CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/cloud__functions.c.o[0m
+[1.519s] [ 18%] [32mBuilding C object CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__description.c.o[0m
+[1.519s] [ 18%] [32mBuilding C object CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/line__type_support.c.o[0m
+[1.519s] [ 20%] [32mBuilding C object CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/circle__description.c.o[0m
+[1.519s] [ 22%] [32mBuilding C object CMakeFiles/study_interface__rosidl_generator_c.dir/rosidl_generator_c/study_interface/msg/detail/cloud__description.c.o[0m
+[1.562s] [ 24%] [32m[1mLinking C shared library libstudy_interface__rosidl_generator_c.so[0m
+[1.593s] [ 24%] Built target study_interface__rosidl_generator_c
+[1.603s] [ 35%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.603s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.603s] [ 35%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.603s] [ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.603s] [ 35%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.603s] [ 35%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.822s] [ 40%] [32mBuilding CXX object CMakeFiles/study_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/study_interface/msg/cloud__type_support.cpp.o[0m
+[1.822s] [ 40%] [32mBuilding CXX object CMakeFiles/study_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/study_interface/msg/line__type_support.cpp.o[0m
+[1.822s] [ 40%] [32mBuilding CXX object CMakeFiles/study_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/study_interface/msg/circle__type_support.cpp.o[0m
+[1.823s] [ 42%] [32mBuilding CXX object CMakeFiles/study_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/study_interface/msg/circle__type_support.cpp.o[0m
+[1.823s] [ 44%] [32mBuilding CXX object CMakeFiles/study_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/study_interface/msg/line__type_support.cpp.o[0m
+[1.823s] [ 46%] [32mBuilding CXX object CMakeFiles/study_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/study_interface/msg/cloud__type_support.cpp.o[0m
+[1.859s] [ 51%] [32mBuilding C object CMakeFiles/study_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/study_interface/msg/detail/line__type_support.c.o[0m
+[1.859s] [ 51%] [32mBuilding C object CMakeFiles/study_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/study_interface/msg/detail/circle__type_support.c.o[0m
+[1.859s] [ 51%] [32mBuilding C object CMakeFiles/study_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/study_interface/msg/detail/cloud__type_support.c.o[0m
+[1.866s] [ 55%] [32mBuilding CXX object CMakeFiles/study_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/study_interface/msg/detail/cloud__type_support.cpp.o[0m
+[1.866s] [ 55%] [32mBuilding CXX object CMakeFiles/study_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/study_interface/msg/detail/circle__type_support.cpp.o[0m
+[1.869s] [ 57%] [32mBuilding CXX object CMakeFiles/study_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/study_interface/msg/detail/line__type_support.cpp.o[0m
+[1.873s] [ 59%] [32m[1mLinking CXX shared library libstudy_interface__rosidl_typesupport_c.so[0m
+[1.902s] [ 64%] [32mBuilding CXX object CMakeFiles/study_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/study_interface/msg/detail/dds_fastrtps/line__type_support.cpp.o[0m
+[1.902s] [ 64%] [32mBuilding CXX object CMakeFiles/study_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/study_interface/msg/detail/dds_fastrtps/circle__type_support.cpp.o[0m
+[1.902s] [ 64%] [32mBuilding CXX object CMakeFiles/study_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/study_interface/msg/detail/dds_fastrtps/cloud__type_support.cpp.o[0m
+[1.909s] [ 70%] [32mBuilding CXX object CMakeFiles/study_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/study_interface/msg/detail/line__type_support_c.cpp.o[0m
+[1.909s] [ 70%] [32mBuilding CXX object CMakeFiles/study_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/study_interface/msg/detail/cloud__type_support_c.cpp.o[0m
+[1.909s] [ 70%] [32mBuilding CXX object CMakeFiles/study_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/study_interface/msg/detail/circle__type_support_c.cpp.o[0m
+[1.916s] [ 72%] [32m[1mLinking C shared library libstudy_interface__rosidl_typesupport_introspection_c.so[0m
+[1.924s] [ 72%] Built target study_interface__rosidl_typesupport_c
+[1.947s] [ 72%] Built target study_interface__rosidl_typesupport_introspection_c
+[2.105s] [ 74%] [32m[1mLinking CXX shared library libstudy_interface__rosidl_typesupport_cpp.so[0m
+[2.144s] [ 74%] Built target study_interface__rosidl_typesupport_cpp
+[2.204s] [ 75%] [32m[1mLinking CXX shared library libstudy_interface__rosidl_typesupport_introspection_cpp.so[0m
+[2.277s] [ 75%] Built target study_interface__rosidl_typesupport_introspection_cpp
+[2.301s] [ 77%] [32m[1mLinking CXX shared library libstudy_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.324s] [ 79%] [32m[1mLinking CXX shared library libstudy_interface__rosidl_typesupport_fastrtps_c.so[0m
+[2.364s] [ 79%] Built target study_interface__rosidl_typesupport_fastrtps_cpp
+[2.366s] [ 79%] Built target study_interface__rosidl_typesupport_fastrtps_c
+[2.382s] [ 79%] Built target study_interface
+[2.399s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.709s] [ 81%] Built target study_interface__py
+[2.731s] [ 87%] [32mBuilding C object CMakeFiles/study_interface__rosidl_generator_py.dir/rosidl_generator_py/study_interface/msg/_cloud_s.c.o[0m
+[2.731s] [ 87%] [32mBuilding C object CMakeFiles/study_interface__rosidl_generator_py.dir/rosidl_generator_py/study_interface/msg/_line_s.c.o[0m
+[2.731s] [ 87%] [32mBuilding C object CMakeFiles/study_interface__rosidl_generator_py.dir/rosidl_generator_py/study_interface/msg/_circle_s.c.o[0m
+[2.875s] [ 88%] [32m[1mLinking C shared library libstudy_interface__rosidl_generator_py.so[0m
+[2.911s] [ 88%] Built target study_interface__rosidl_generator_py
+[2.933s] [ 94%] [32mBuilding C object CMakeFiles/study_interface_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/study_interface/_study_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.933s] [ 94%] [32mBuilding C object CMakeFiles/study_interface_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/study_interface/_study_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.933s] [ 94%] [32mBuilding C object CMakeFiles/study_interface_s__rosidl_typesupport_c.dir/rosidl_generator_py/study_interface/_study_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[3.012s] [100%] [32m[1mLinking C shared module rosidl_generator_py/study_interface/study_interface_s__rosidl_typesupport_c.so[0m
+[3.012s] [100%] [32m[1mLinking C shared module rosidl_generator_py/study_interface/study_interface_s__rosidl_typesupport_introspection_c.so[0m
+[3.012s] [100%] [32m[1mLinking C shared module rosidl_generator_py/study_interface/study_interface_s__rosidl_typesupport_fastrtps_c.so[0m
+[3.039s] [100%] Built target study_interface_s__rosidl_typesupport_c
+[3.039s] [100%] Built target study_interface_s__rosidl_typesupport_fastrtps_c
+[3.039s] [100%] Built target study_interface_s__rosidl_typesupport_introspection_c
+[3.051s] Invoked command in '/home/tomoni11/Documents/ROS2/study_ws/build/study_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/study_ws/build/study_interface -- -j24 -l24
+[3.060s] Invoking command in '/home/tomoni11/Documents/ROS2/study_ws/build/study_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tomoni11/Documents/ROS2/study_ws/build/study_interface
+[3.067s] -- Install configuration: ""
+[3.067s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/ament_index/resource_index/rosidl_interfaces/study_interface
+[3.068s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/msg/Cloud.json
+[3.068s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/msg/Circle.json
+[3.068s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/msg/Line.json
+[3.068s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface
+[3.068s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg
+[3.068s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/cloud.h
+[3.068s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/rosidl_generator_c__visibility_control.h
+[3.068s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/line.h
+[3.068s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/circle.h
+[3.068s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail
+[3.068s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/cloud__type_support.h
+[3.068s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/line__type_support.c
+[3.068s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/circle__functions.c
+[3.068s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/line__description.c
+[3.068s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/cloud__functions.h
+[3.068s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/cloud__type_support.c
+[3.068s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/cloud__struct.h
+[3.069s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/line__struct.h
+[3.069s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/cloud__functions.c
+[3.069s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/circle__functions.h
+[3.069s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/circle__type_support.c
+[3.069s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/circle__struct.h
+[3.069s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/cloud__description.c
+[3.069s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/line__functions.c
+[3.069s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/line__type_support.h
+[3.069s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/line__functions.h
+[3.069s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/circle__description.c
+[3.069s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/circle__type_support.h
+[3.069s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/environment/library_path.sh
+[3.069s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/environment/library_path.dsv
+[3.070s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/libstudy_interface__rosidl_generator_c.so
+[3.070s] -- Set non-toolchain portion of runtime path of "/home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/libstudy_interface__rosidl_generator_c.so" to ""
+[3.070s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface
+[3.070s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg
+[3.070s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.070s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail
+[3.070s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/cloud__rosidl_typesupport_fastrtps_c.h
+[3.070s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/circle__rosidl_typesupport_fastrtps_c.h
+[3.070s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/line__rosidl_typesupport_fastrtps_c.h
+[3.070s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/libstudy_interface__rosidl_typesupport_fastrtps_c.so
+[3.070s] -- Set non-toolchain portion of runtime path of "/home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/libstudy_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[3.070s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface
+[3.070s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg
+[3.071s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/cloud.hpp
+[3.071s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/circle.hpp
+[3.071s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail
+[3.071s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/circle__type_support.hpp
+[3.071s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/cloud__builder.hpp
+[3.071s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/cloud__struct.hpp
+[3.071s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/circle__builder.hpp
+[3.071s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/cloud__type_support.hpp
+[3.071s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/cloud__traits.hpp
+[3.071s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/line__builder.hpp
+[3.071s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/circle__traits.hpp
+[3.071s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/line__type_support.hpp
+[3.071s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/line__struct.hpp
+[3.071s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/circle__struct.hpp
+[3.071s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/line__traits.hpp
+[3.071s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.071s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/line.hpp
+[3.072s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface
+[3.072s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg
+[3.072s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.072s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail
+[3.072s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/dds_fastrtps
+[3.072s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/line__rosidl_typesupport_fastrtps_cpp.hpp
+[3.072s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/circle__rosidl_typesupport_fastrtps_cpp.hpp
+[3.072s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/cloud__rosidl_typesupport_fastrtps_cpp.hpp
+[3.072s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/libstudy_interface__rosidl_typesupport_fastrtps_cpp.so
+[3.072s] -- Set non-toolchain portion of runtime path of "/home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/libstudy_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.072s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface
+[3.072s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg
+[3.072s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.072s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail
+[3.072s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/line__type_support.c
+[3.072s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/cloud__type_support.c
+[3.072s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/cloud__rosidl_typesupport_introspection_c.h
+[3.072s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/circle__rosidl_typesupport_introspection_c.h
+[3.073s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/circle__type_support.c
+[3.073s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/line__rosidl_typesupport_introspection_c.h
+[3.073s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/libstudy_interface__rosidl_typesupport_introspection_c.so
+[3.073s] -- Set non-toolchain portion of runtime path of "/home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/libstudy_interface__rosidl_typesupport_introspection_c.so" to ""
+[3.073s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/libstudy_interface__rosidl_typesupport_c.so
+[3.073s] -- Set non-toolchain portion of runtime path of "/home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/libstudy_interface__rosidl_typesupport_c.so" to ""
+[3.073s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface
+[3.073s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg
+[3.073s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail
+[3.073s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/circle__type_support.cpp
+[3.073s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/line__rosidl_typesupport_introspection_cpp.hpp
+[3.073s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/cloud__type_support.cpp
+[3.073s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/circle__rosidl_typesupport_introspection_cpp.hpp
+[3.073s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/cloud__rosidl_typesupport_introspection_cpp.hpp
+[3.073s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/line__type_support.cpp
+[3.074s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/libstudy_interface__rosidl_typesupport_introspection_cpp.so
+[3.074s] -- Set non-toolchain portion of runtime path of "/home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/libstudy_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[3.074s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/libstudy_interface__rosidl_typesupport_cpp.so
+[3.074s] -- Set non-toolchain portion of runtime path of "/home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/libstudy_interface__rosidl_typesupport_cpp.so" to ""
+[3.074s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/environment/pythonpath.sh
+[3.074s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/environment/pythonpath.dsv
+[3.074s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/python3.12/site-packages/study_interface-0.0.0-py3.12.egg-info
+[3.074s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/python3.12/site-packages/study_interface-0.0.0-py3.12.egg-info/top_level.txt
+[3.074s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/python3.12/site-packages/study_interface-0.0.0-py3.12.egg-info/dependency_links.txt
+[3.074s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/python3.12/site-packages/study_interface-0.0.0-py3.12.egg-info/SOURCES.txt
+[3.074s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/python3.12/site-packages/study_interface-0.0.0-py3.12.egg-info/PKG-INFO
+[3.074s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/python3.12/site-packages/study_interface
+[3.075s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/python3.12/site-packages/study_interface/_study_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.075s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/python3.12/site-packages/study_interface/study_interface_s__rosidl_typesupport_c.so
+[3.075s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/python3.12/site-packages/study_interface/msg
+[3.075s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/python3.12/site-packages/study_interface/msg/_cloud.py
+[3.075s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/python3.12/site-packages/study_interface/msg/_line_s.c
+[3.075s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/python3.12/site-packages/study_interface/msg/_cloud_s.c
+[3.075s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/python3.12/site-packages/study_interface/msg/_line.py
+[3.075s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/python3.12/site-packages/study_interface/msg/_circle.py
+[3.075s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/python3.12/site-packages/study_interface/msg/_circle_s.c
+[3.075s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/python3.12/site-packages/study_interface/msg/__init__.py
+[3.075s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/python3.12/site-packages/study_interface/study_interface_s__rosidl_typesupport_introspection_c.so
+[3.075s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/python3.12/site-packages/study_interface/__init__.py
+[3.075s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/python3.12/site-packages/study_interface/_study_interface_s.ep.rosidl_typesupport_introspection_c.c
+[3.075s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/python3.12/site-packages/study_interface/_study_interface_s.ep.rosidl_typesupport_c.c
+[3.076s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/python3.12/site-packages/study_interface/study_interface_s__rosidl_typesupport_fastrtps_c.so
+[3.111s] Listing '/home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/python3.12/site-packages/study_interface'...
+[3.111s] Compiling '/home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/python3.12/site-packages/study_interface/__init__.py'...
+[3.111s] Listing '/home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/python3.12/site-packages/study_interface/msg'...
+[3.111s] Compiling '/home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/python3.12/site-packages/study_interface/msg/__init__.py'...
+[3.111s] Compiling '/home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/python3.12/site-packages/study_interface/msg/_circle.py'...
+[3.111s] Compiling '/home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/python3.12/site-packages/study_interface/msg/_cloud.py'...
+[3.111s] Compiling '/home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/python3.12/site-packages/study_interface/msg/_line.py'...
+[3.118s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/python3.12/site-packages/study_interface/study_interface_s__rosidl_typesupport_fastrtps_c.so
+[3.118s] -- Set non-toolchain portion of runtime path of "/home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/python3.12/site-packages/study_interface/study_interface_s__rosidl_typesupport_fastrtps_c.so" to ""
+[3.118s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/python3.12/site-packages/study_interface/study_interface_s__rosidl_typesupport_introspection_c.so
+[3.119s] -- Set non-toolchain portion of runtime path of "/home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/python3.12/site-packages/study_interface/study_interface_s__rosidl_typesupport_introspection_c.so" to ""
+[3.119s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/python3.12/site-packages/study_interface/study_interface_s__rosidl_typesupport_c.so
+[3.119s] -- Set non-toolchain portion of runtime path of "/home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/python3.12/site-packages/study_interface/study_interface_s__rosidl_typesupport_c.so" to ""
+[3.119s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/libstudy_interface__rosidl_generator_py.so
+[3.119s] -- Set non-toolchain portion of runtime path of "/home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/libstudy_interface__rosidl_generator_py.so" to ""
+[3.119s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/msg/Cloud.idl
+[3.119s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/msg/Circle.idl
+[3.119s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/msg/Line.idl
+[3.119s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/msg/Cloud.msg
+[3.119s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/msg/Circle.msg
+[3.119s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/msg/Line.msg
+[3.119s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/ament_index/resource_index/package_run_dependencies/study_interface
+[3.120s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/ament_index/resource_index/parent_prefix_path/study_interface
+[3.120s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/environment/ament_prefix_path.sh
+[3.120s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/environment/ament_prefix_path.dsv
+[3.120s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/environment/path.sh
+[3.120s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/environment/path.dsv
+[3.120s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/local_setup.bash
+[3.120s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/local_setup.sh
+[3.120s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/local_setup.zsh
+[3.120s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/local_setup.dsv
+[3.120s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/package.dsv
+[3.120s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/ament_index/resource_index/packages/study_interface
+[3.120s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/cmake/export_study_interface__rosidl_generator_cExport.cmake
+[3.120s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/cmake/export_study_interface__rosidl_generator_cExport-noconfig.cmake
+[3.120s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/cmake/export_study_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[3.120s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/cmake/export_study_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.120s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/cmake/export_study_interface__rosidl_generator_cppExport.cmake
+[3.120s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/cmake/export_study_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.120s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/cmake/export_study_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.120s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/cmake/study_interface__rosidl_typesupport_introspection_cExport.cmake
+[3.120s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/cmake/study_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.120s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/cmake/study_interface__rosidl_typesupport_cExport.cmake
+[3.121s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/cmake/study_interface__rosidl_typesupport_cExport-noconfig.cmake
+[3.121s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/cmake/study_interface__rosidl_typesupport_introspection_cppExport.cmake
+[3.121s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/cmake/study_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.121s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/cmake/study_interface__rosidl_typesupport_cppExport.cmake
+[3.121s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/cmake/study_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[3.121s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/cmake/export_study_interface__rosidl_generator_pyExport.cmake
+[3.121s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/cmake/export_study_interface__rosidl_generator_pyExport-noconfig.cmake
+[3.121s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/cmake/rosidl_cmake-extras.cmake
+[3.121s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.121s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.121s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[3.121s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/cmake/ament_cmake_export_targets-extras.cmake
+[3.121s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.121s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.121s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/cmake/study_interfaceConfig.cmake
+[3.121s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/cmake/study_interfaceConfig-version.cmake
+[3.121s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/package.xml
+[3.123s] Invoked command in '/home/tomoni11/Documents/ROS2/study_ws/build/study_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tomoni11/Documents/ROS2/study_ws/build/study_interface

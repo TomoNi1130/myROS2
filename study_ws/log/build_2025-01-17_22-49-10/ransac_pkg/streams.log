@@ -1,0 +1,38 @@
+[0.008s] Invoking command in '/home/tomoni11/Documents/ROS2/study_ws/build/ransac_pkg': CMAKE_PREFIX_PATH=/home/tomoni11/Documents/ROS2/study_ws/install/study_interface:/home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg:/home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg:/home/tomoni11/Documents/ROS2/study_ws/install/interface_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/study_ws/build/ransac_pkg -- -j24 -l24
+[0.031s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.052s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.135s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.150s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.156s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.163s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.170s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.204s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.205s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.257s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.308s] -- Found study_interface: 0.0.0 (/home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/cmake)
+[0.578s] -- Found Python3: /usr/include/python3.12 (found version "3.12.3") found components: Development NumPy Interpreter Development.Module Development.Embed 
+[0.778s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.861s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.861s] -- Configured cppcheck include dirs: /home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg
+[0.861s] -- Configured cppcheck exclude dirs and/or files: 
+[0.861s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.861s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.861s] -- Added test 'lint_cmake' to check CMake code style
+[0.862s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.862s] -- Added test 'uncrustify' to check C / C++ code style
+[0.862s] -- Configured uncrustify additional arguments: 
+[0.862s] -- Added test 'xmllint' to check XML markup files
+[0.863s] -- Configuring done (0.8s)
+[0.877s] -- Generating done (0.0s)
+[0.881s] -- Build files have been written to: /home/tomoni11/Documents/ROS2/study_ws/build/ransac_pkg
+[0.914s] [ 16%] [32mBuilding CXX object CMakeFiles/line_drower.dir/src/line_drower.cpp.o[0m
+[0.921s] [ 83%] Built target circle_drower
+[0.921s] [ 83%] Built target circle
+[1.112s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/line_drower.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kstudy_interface/msg/msg->hpp: そのようなファイルやディレクトリはありません
+[1.112s]     4 | #include [01;31m[K"study_interface/msg/msg->hpp"[m[K
+[1.112s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.112s] compilation terminated.
+[1.117s] gmake[2]: *** [CMakeFiles/line_drower.dir/build.make:76: CMakeFiles/line_drower.dir/src/line_drower.cpp.o] エラー 1
+[1.117s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/line_drower.dir/all] エラー 2
+[1.118s] gmake: *** [Makefile:146: all] エラー 2
+[1.120s] Invoked command in '/home/tomoni11/Documents/ROS2/study_ws/build/ransac_pkg' returned '2': CMAKE_PREFIX_PATH=/home/tomoni11/Documents/ROS2/study_ws/install/study_interface:/home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg:/home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg:/home/tomoni11/Documents/ROS2/study_ws/install/interface_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/study_ws/build/ransac_pkg -- -j24 -l24

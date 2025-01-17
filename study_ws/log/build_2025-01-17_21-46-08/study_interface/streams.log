@@ -1,0 +1,21 @@
+[0.008s] Invoking command in '/home/tomoni11/Documents/ROS2/study_ws/build/study_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/study_ws/build/study_interface -- -j24 -l24
+[0.033s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.055s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.120s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.139s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.145s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.152s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.162s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.192s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.197s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.198s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[0.199s]   rosidl_generate_interfaces() the passed file 'msg/Line.msg' doesn't exist
+[0.199s]   relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.199s]   '/home/tomoni11/Documents/ROS2/study_ws/src/study_interface'
+[0.199s] Call Stack (most recent call first):
+[0.199s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[0.199s] 
+[0.199s] [0m
+[0.199s] -- Configuring incomplete, errors occurred!
+[0.203s] gmake: *** [Makefile:1085: cmake_check_build_system] エラー 1
+[0.205s] Invoked command in '/home/tomoni11/Documents/ROS2/study_ws/build/study_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/study_ws/build/study_interface -- -j24 -l24

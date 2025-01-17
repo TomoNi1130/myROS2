@@ -36,6 +36,8 @@ extern "C"
 {
 #endif
 
+#include "rosidl_runtime_c/primitives_sequence.h"  // cloudx, cloudy
+#include "rosidl_runtime_c/primitives_sequence_functions.h"  // cloudx, cloudy
 
 // forward declare type support functions
 
@@ -50,15 +52,17 @@ bool cdr_serialize_study_interface__msg__Cloud(
 {
   // Field name: cloudx
   {
-    size_t size = 150;
-    auto array_ptr = ros_message->cloudx;
+    size_t size = ros_message->cloudx.size;
+    auto array_ptr = ros_message->cloudx.data;
+    cdr << static_cast<uint32_t>(size);
     cdr.serialize_array(array_ptr, size);
   }
 
   // Field name: cloudy
   {
-    size_t size = 150;
-    auto array_ptr = ros_message->cloudy;
+    size_t size = ros_message->cloudy.size;
+    auto array_ptr = ros_message->cloudy.data;
+    cdr << static_cast<uint32_t>(size);
     cdr.serialize_array(array_ptr, size);
   }
 
@@ -72,15 +76,33 @@ bool cdr_deserialize_study_interface__msg__Cloud(
 {
   // Field name: cloudx
   {
-    size_t size = 150;
-    auto array_ptr = ros_message->cloudx;
+    uint32_t cdrSize;
+    cdr >> cdrSize;
+    size_t size = static_cast<size_t>(cdrSize);
+    if (ros_message->cloudx.data) {
+      rosidl_runtime_c__double__Sequence__fini(&ros_message->cloudx);
+    }
+    if (!rosidl_runtime_c__double__Sequence__init(&ros_message->cloudx, size)) {
+      fprintf(stderr, "failed to create array for field 'cloudx'");
+      return false;
+    }
+    auto array_ptr = ros_message->cloudx.data;
     cdr.deserialize_array(array_ptr, size);
   }
 
   // Field name: cloudy
   {
-    size_t size = 150;
-    auto array_ptr = ros_message->cloudy;
+    uint32_t cdrSize;
+    cdr >> cdrSize;
+    size_t size = static_cast<size_t>(cdrSize);
+    if (ros_message->cloudy.data) {
+      rosidl_runtime_c__double__Sequence__fini(&ros_message->cloudy);
+    }
+    if (!rosidl_runtime_c__double__Sequence__init(&ros_message->cloudy, size)) {
+      fprintf(stderr, "failed to create array for field 'cloudy'");
+      return false;
+    }
+    auto array_ptr = ros_message->cloudy.data;
     cdr.deserialize_array(array_ptr, size);
   }
 
@@ -104,8 +126,10 @@ size_t get_serialized_size_study_interface__msg__Cloud(
 
   // Field name: cloudx
   {
-    size_t array_size = 150;
-    auto array_ptr = ros_message->cloudx;
+    size_t array_size = ros_message->cloudx.size;
+    auto array_ptr = ros_message->cloudx.data;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
     (void)array_ptr;
     size_t item_size = sizeof(array_ptr[0]);
     current_alignment += array_size * item_size +
@@ -114,8 +138,10 @@ size_t get_serialized_size_study_interface__msg__Cloud(
 
   // Field name: cloudy
   {
-    size_t array_size = 150;
-    auto array_ptr = ros_message->cloudy;
+    size_t array_size = ros_message->cloudy.size;
+    auto array_ptr = ros_message->cloudy.data;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
     (void)array_ptr;
     size_t item_size = sizeof(array_ptr[0]);
     current_alignment += array_size * item_size +
@@ -146,7 +172,11 @@ size_t max_serialized_size_study_interface__msg__Cloud(
 
   // Field name: cloudx
   {
-    size_t array_size = 150;
+    size_t array_size = 0;
+    full_bounded = false;
+    is_plain = false;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
     last_member_size = array_size * sizeof(uint64_t);
     current_alignment += array_size * sizeof(uint64_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
@@ -154,7 +184,11 @@ size_t max_serialized_size_study_interface__msg__Cloud(
 
   // Field name: cloudy
   {
-    size_t array_size = 150;
+    size_t array_size = 0;
+    full_bounded = false;
+    is_plain = false;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
     last_member_size = array_size * sizeof(uint64_t);
     current_alignment += array_size * sizeof(uint64_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
@@ -183,15 +217,17 @@ bool cdr_serialize_key_study_interface__msg__Cloud(
 {
   // Field name: cloudx
   {
-    size_t size = 150;
-    auto array_ptr = ros_message->cloudx;
+    size_t size = ros_message->cloudx.size;
+    auto array_ptr = ros_message->cloudx.data;
+    cdr << static_cast<uint32_t>(size);
     cdr.serialize_array(array_ptr, size);
   }
 
   // Field name: cloudy
   {
-    size_t size = 150;
-    auto array_ptr = ros_message->cloudy;
+    size_t size = ros_message->cloudy.size;
+    auto array_ptr = ros_message->cloudy.data;
+    cdr << static_cast<uint32_t>(size);
     cdr.serialize_array(array_ptr, size);
   }
 
@@ -215,8 +251,10 @@ size_t get_serialized_size_key_study_interface__msg__Cloud(
 
   // Field name: cloudx
   {
-    size_t array_size = 150;
-    auto array_ptr = ros_message->cloudx;
+    size_t array_size = ros_message->cloudx.size;
+    auto array_ptr = ros_message->cloudx.data;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
     (void)array_ptr;
     size_t item_size = sizeof(array_ptr[0]);
     current_alignment += array_size * item_size +
@@ -225,8 +263,10 @@ size_t get_serialized_size_key_study_interface__msg__Cloud(
 
   // Field name: cloudy
   {
-    size_t array_size = 150;
-    auto array_ptr = ros_message->cloudy;
+    size_t array_size = ros_message->cloudy.size;
+    auto array_ptr = ros_message->cloudy.data;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
     (void)array_ptr;
     size_t item_size = sizeof(array_ptr[0]);
     current_alignment += array_size * item_size +
@@ -255,7 +295,11 @@ size_t max_serialized_size_key_study_interface__msg__Cloud(
   is_plain = true;
   // Field name: cloudx
   {
-    size_t array_size = 150;
+    size_t array_size = 0;
+    full_bounded = false;
+    is_plain = false;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
     last_member_size = array_size * sizeof(uint64_t);
     current_alignment += array_size * sizeof(uint64_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
@@ -263,7 +307,11 @@ size_t max_serialized_size_key_study_interface__msg__Cloud(
 
   // Field name: cloudy
   {
-    size_t array_size = 150;
+    size_t array_size = 0;
+    full_bounded = false;
+    is_plain = false;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
     last_member_size = array_size * sizeof(uint64_t);
     current_alignment += array_size * sizeof(uint64_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));

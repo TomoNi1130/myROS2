@@ -697,6 +697,11 @@ CMakeFiles/circle.dir/src/circle_main.cpp.o: \
  /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/circle__builder.hpp \
  /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/circle__traits.hpp \
  /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/circle__type_support.hpp \
+ /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/line.hpp \
+ /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/line__struct.hpp \
+ /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/line__builder.hpp \
+ /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/line__traits.hpp \
+ /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/line__type_support.hpp \
  /home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/ransac.hpp \
  /home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp \
  /home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/ransac.hpp \

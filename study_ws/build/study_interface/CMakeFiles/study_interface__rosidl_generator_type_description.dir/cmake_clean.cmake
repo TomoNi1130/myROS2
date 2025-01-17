@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/study_interface__rosidl_generator_type_description"
   "rosidl_generator_type_description/study_interface/msg/Circle.json"
   "rosidl_generator_type_description/study_interface/msg/Cloud.json"
+  "rosidl_generator_type_description/study_interface/msg/Line.json"
 )
 
 # Per-language clean rules from dependency scanning.

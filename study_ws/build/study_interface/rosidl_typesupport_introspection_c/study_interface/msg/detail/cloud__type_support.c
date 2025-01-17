@@ -12,6 +12,11 @@
 #include "study_interface/msg/detail/cloud__struct.h"
 
 
+// Include directives for member types
+// Member `cloudx`
+// Member `cloudy`
+#include "rosidl_runtime_c/primitives_sequence_functions.h"
+
 #ifdef __cplusplus
 extern "C"
 {
@@ -34,24 +39,25 @@ void study_interface__msg__Cloud__rosidl_typesupport_introspection_c__Cloud_fini
 size_t study_interface__msg__Cloud__rosidl_typesupport_introspection_c__size_function__Cloud__cloudx(
   const void * untyped_member)
 {
-  (void)untyped_member;
-  return 150;
+  const rosidl_runtime_c__double__Sequence * member =
+    (const rosidl_runtime_c__double__Sequence *)(untyped_member);
+  return member->size;
 }
 
 const void * study_interface__msg__Cloud__rosidl_typesupport_introspection_c__get_const_function__Cloud__cloudx(
   const void * untyped_member, size_t index)
 {
-  const double * member =
-    (const double *)(untyped_member);
-  return &member[index];
+  const rosidl_runtime_c__double__Sequence * member =
+    (const rosidl_runtime_c__double__Sequence *)(untyped_member);
+  return &member->data[index];
 }
 
 void * study_interface__msg__Cloud__rosidl_typesupport_introspection_c__get_function__Cloud__cloudx(
   void * untyped_member, size_t index)
 {
-  double * member =
-    (double *)(untyped_member);
-  return &member[index];
+  rosidl_runtime_c__double__Sequence * member =
+    (rosidl_runtime_c__double__Sequence *)(untyped_member);
+  return &member->data[index];
 }
 
 void study_interface__msg__Cloud__rosidl_typesupport_introspection_c__fetch_function__Cloud__cloudx(
@@ -76,27 +82,37 @@ void study_interface__msg__Cloud__rosidl_typesupport_introspection_c__assign_fun
   *item = *value;
 }
 
+bool study_interface__msg__Cloud__rosidl_typesupport_introspection_c__resize_function__Cloud__cloudx(
+  void * untyped_member, size_t size)
+{
+  rosidl_runtime_c__double__Sequence * member =
+    (rosidl_runtime_c__double__Sequence *)(untyped_member);
+  rosidl_runtime_c__double__Sequence__fini(member);
+  return rosidl_runtime_c__double__Sequence__init(member, size);
+}
+
 size_t study_interface__msg__Cloud__rosidl_typesupport_introspection_c__size_function__Cloud__cloudy(
   const void * untyped_member)
 {
-  (void)untyped_member;
-  return 150;
+  const rosidl_runtime_c__double__Sequence * member =
+    (const rosidl_runtime_c__double__Sequence *)(untyped_member);
+  return member->size;
 }
 
 const void * study_interface__msg__Cloud__rosidl_typesupport_introspection_c__get_const_function__Cloud__cloudy(
   const void * untyped_member, size_t index)
 {
-  const double * member =
-    (const double *)(untyped_member);
-  return &member[index];
+  const rosidl_runtime_c__double__Sequence * member =
+    (const rosidl_runtime_c__double__Sequence *)(untyped_member);
+  return &member->data[index];
 }
 
 void * study_interface__msg__Cloud__rosidl_typesupport_introspection_c__get_function__Cloud__cloudy(
   void * untyped_member, size_t index)
 {
-  double * member =
-    (double *)(untyped_member);
-  return &member[index];
+  rosidl_runtime_c__double__Sequence * member =
+    (rosidl_runtime_c__double__Sequence *)(untyped_member);
+  return &member->data[index];
 }
 
 void study_interface__msg__Cloud__rosidl_typesupport_introspection_c__fetch_function__Cloud__cloudy(
@@ -121,6 +137,15 @@ void study_interface__msg__Cloud__rosidl_typesupport_introspection_c__assign_fun
   *item = *value;
 }
 
+bool study_interface__msg__Cloud__rosidl_typesupport_introspection_c__resize_function__Cloud__cloudy(
+  void * untyped_member, size_t size)
+{
+  rosidl_runtime_c__double__Sequence * member =
+    (rosidl_runtime_c__double__Sequence *)(untyped_member);
+  rosidl_runtime_c__double__Sequence__fini(member);
+  return rosidl_runtime_c__double__Sequence__init(member, size);
+}
+
 static rosidl_typesupport_introspection_c__MessageMember study_interface__msg__Cloud__rosidl_typesupport_introspection_c__Cloud_message_member_array[2] = {
   {
     "cloudx",  // name
@@ -129,7 +154,7 @@ static rosidl_typesupport_introspection_c__MessageMember study_interface__msg__C
     NULL,  // members of sub message
     false,  // is key
     true,  // is array
-    150,  // array size
+    0,  // array size
     false,  // is upper bound
     offsetof(study_interface__msg__Cloud, cloudx),  // bytes offset in struct
     NULL,  // default value
@@ -138,7 +163,7 @@ static rosidl_typesupport_introspection_c__MessageMember study_interface__msg__C
     study_interface__msg__Cloud__rosidl_typesupport_introspection_c__get_function__Cloud__cloudx,  // get(index) function pointer
     study_interface__msg__Cloud__rosidl_typesupport_introspection_c__fetch_function__Cloud__cloudx,  // fetch(index, &value) function pointer
     study_interface__msg__Cloud__rosidl_typesupport_introspection_c__assign_function__Cloud__cloudx,  // assign(index, value) function pointer
-    NULL  // resize(index) function pointer
+    study_interface__msg__Cloud__rosidl_typesupport_introspection_c__resize_function__Cloud__cloudx  // resize(index) function pointer
   },
   {
     "cloudy",  // name
@@ -147,7 +172,7 @@ static rosidl_typesupport_introspection_c__MessageMember study_interface__msg__C
     NULL,  // members of sub message
     false,  // is key
     true,  // is array
-    150,  // array size
+    0,  // array size
     false,  // is upper bound
     offsetof(study_interface__msg__Cloud, cloudy),  // bytes offset in struct
     NULL,  // default value
@@ -156,7 +181,7 @@ static rosidl_typesupport_introspection_c__MessageMember study_interface__msg__C
     study_interface__msg__Cloud__rosidl_typesupport_introspection_c__get_function__Cloud__cloudy,  // get(index) function pointer
     study_interface__msg__Cloud__rosidl_typesupport_introspection_c__fetch_function__Cloud__cloudy,  // fetch(index, &value) function pointer
     study_interface__msg__Cloud__rosidl_typesupport_introspection_c__assign_function__Cloud__cloudy,  // assign(index, value) function pointer
-    NULL  // resize(index) function pointer
+    study_interface__msg__Cloud__rosidl_typesupport_introspection_c__resize_function__Cloud__cloudy  // resize(index) function pointer
   }
 };
 

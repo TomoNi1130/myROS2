@@ -19,11 +19,16 @@ extern "C"
 
 // Constants defined in the message
 
+// Include directives for member types
+// Member 'cloudx'
+// Member 'cloudy'
+#include "rosidl_runtime_c/primitives_sequence.h"
+
 /// Struct defined in msg/Cloud in the package study_interface.
 typedef struct study_interface__msg__Cloud
 {
-  double cloudx[150];
-  double cloudy[150];
+  rosidl_runtime_c__double__Sequence cloudx;
+  rosidl_runtime_c__double__Sequence cloudy;
 } study_interface__msg__Cloud;
 
 // Struct for a sequence of study_interface__msg__Cloud.

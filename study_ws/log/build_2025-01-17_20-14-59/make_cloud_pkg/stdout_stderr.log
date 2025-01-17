@@ -1,0 +1,39 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/drower.dir/src/drower.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/circle.dir/src/circle.cpp.o[0m
+In file included from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/drower.cpp:5[m[K:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/include/make_cloud_pkg/matplotlibcpp.h:[m[K In constructor ‘[01m[Kmatplotlibcpp::detail::_interpreter::[01;32m[K_interpreter[m[K()[m[K’:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/include/make_cloud_pkg/matplotlibcpp.h:182:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid[01;32m[K Py_SetProgramName[m[K(const wchar_t*)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  182 |                         [01;35m[KPy_SetProgramName(name)[m[K;
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/usr/include/python3.12/Python.h:94[m[K,
+                 from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/include/make_cloud_pkg/matplotlibcpp.h:5[m[K:
+[01m[K/usr/include/python3.12/pylifecycle.h:37:38:[m[K [01;36m[Knote: [m[Kdeclared here
+   37 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) [01;36m[KPy_SetProgramName[m[K(const wchar_t *);
+      |                                      [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/include/make_cloud_pkg/matplotlibcpp.h:190:38:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid[01;32m[K PySys_SetArgv[m[K(int, wchar_t**)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  190 |                         [01;35m[KPySys_SetArgv(argc, const_cast<wchar_t **>(argv))[m[K;
+      |                         [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/python3.12/Python.h:96[m[K:
+[01m[K/usr/include/python3.12/sysmodule.h:13:38:[m[K [01;36m[Knote: [m[Kdeclared here
+   13 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) [01;36m[KPySys_SetArgv[m[K(int, wchar_t **);
+      |                                      [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/circle.cpp:[m[K In member function ‘[01m[Kvoid cloud_maker::[01;32m[Ktimer_callback[m[K()[m[K’:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/circle.cpp:39:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kcirclepoints[m[K’ was not declared in this scope; did you mean ‘[01m[Kcirclepoints_num[m[K’?
+   39 |             for (size_t i = 0; i < [01;31m[Kcirclepoints[m[K; i++)
+      |                                    [01;31m[K^~~~~~~~~~~~[m[K
+      |                                    [32m[Kcirclepoints_num[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/circle.cpp:42:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kstudy_interface::msg::Cloud[m[K’ {aka ‘[01m[Kstudy_interface::msg::Cloud_<std::allocator<void> >[m[K’}
+   42 |                   msg_cloud[01;31m[K->[m[Kcloudx.push_back(length * cos(theta_unit * i) - 2.0);
+      |                            [01;31m[K^~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/circle.cpp:43:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kstudy_interface::msg::Cloud[m[K’ {aka ‘[01m[Kstudy_interface::msg::Cloud_<std::allocator<void> >[m[K’}
+   43 |                   msg_cloud[01;31m[K->[m[Kcloudy.push_back(length * sin(theta_unit * i) + 2.0);
+      |                            [01;31m[K^~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/circle.cpp:34:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpoints_num[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   34 |             int [01;35m[Kpoints_num[m[K = 750;       // 点群全体の点の数
+      |                 [01;35m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/circle.dir/build.make:76: CMakeFiles/circle.dir/src/circle.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/circle.dir/all] エラー 2
+gmake[1]: *** 未完了のジョブを待っています....
+[ 75%] [32m[1mLinking CXX executable drower[0m
+[ 75%] Built target drower
+gmake: *** [Makefile:146: all] エラー 2

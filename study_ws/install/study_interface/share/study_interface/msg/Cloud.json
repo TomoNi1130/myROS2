@@ -6,8 +6,8 @@
         {
           "name": "cloudx",
           "type": {
-            "type_id": 59,
-            "capacity": 150,
+            "type_id": 155,
+            "capacity": 0,
             "string_capacity": 0,
             "nested_type_name": ""
           },
@@ -16,8 +16,8 @@
         {
           "name": "cloudy",
           "type": {
-            "type_id": 59,
-            "capacity": 150,
+            "type_id": 155,
+            "capacity": 0,
             "string_capacity": 0,
             "nested_type_name": ""
           },
@@ -30,7 +30,7 @@
   "type_hashes": [
     {
       "type_name": "study_interface/msg/Cloud",
-      "hash_string": "RIHS01_13300014ce02e7a7371b5218ec7afe07678370b21e717823b5f6f7485e8d2055"
+      "hash_string": "RIHS01_25c38de50b86dc98fe4c6d00cc79d49417a5944bb359cd2b53a587fe61829b31"
     }
   ]
 }

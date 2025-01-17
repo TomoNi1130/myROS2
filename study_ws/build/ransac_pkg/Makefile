@@ -223,6 +223,19 @@ circle_drower/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/circle_drower.dir/build.make CMakeFiles/circle_drower.dir/build
 .PHONY : circle_drower/fast
 
+#=============================================================================
+# Target rules for targets named line_drower
+
+# Build rule for target.
+line_drower: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 line_drower
+.PHONY : line_drower
+
+# fast build rule for target.
+line_drower/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_drower.dir/build.make CMakeFiles/line_drower.dir/build
+.PHONY : line_drower/fast
+
 src/circle_drower.o: src/circle_drower.cpp.o
 .PHONY : src/circle_drower.o
 
@@ -271,6 +284,30 @@ src/circle_main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/circle.dir/build.make CMakeFiles/circle.dir/src/circle_main.cpp.s
 .PHONY : src/circle_main.cpp.s
 
+src/line_drower.o: src/line_drower.cpp.o
+.PHONY : src/line_drower.o
+
+# target to build an object file
+src/line_drower.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_drower.dir/build.make CMakeFiles/line_drower.dir/src/line_drower.cpp.o
+.PHONY : src/line_drower.cpp.o
+
+src/line_drower.i: src/line_drower.cpp.i
+.PHONY : src/line_drower.i
+
+# target to preprocess a source file
+src/line_drower.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_drower.dir/build.make CMakeFiles/line_drower.dir/src/line_drower.cpp.i
+.PHONY : src/line_drower.cpp.i
+
+src/line_drower.s: src/line_drower.cpp.s
+.PHONY : src/line_drower.s
+
+# target to generate assembly for a file
+src/line_drower.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_drower.dir/build.make CMakeFiles/line_drower.dir/src/line_drower.cpp.s
+.PHONY : src/line_drower.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -288,12 +325,16 @@ help:
 	@echo "... uninstall"
 	@echo "... circle"
 	@echo "... circle_drower"
+	@echo "... line_drower"
 	@echo "... src/circle_drower.o"
 	@echo "... src/circle_drower.i"
 	@echo "... src/circle_drower.s"
 	@echo "... src/circle_main.o"
 	@echo "... src/circle_main.i"
 	@echo "... src/circle_main.s"
+	@echo "... src/line_drower.o"
+	@echo "... src/line_drower.i"
+	@echo "... src/line_drower.s"
 .PHONY : help
 
 

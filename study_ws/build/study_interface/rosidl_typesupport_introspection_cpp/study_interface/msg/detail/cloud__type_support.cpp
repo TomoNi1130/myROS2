@@ -40,21 +40,21 @@ void Cloud_fini_function(void * message_memory)
 
 size_t size_function__Cloud__cloudx(const void * untyped_member)
 {
-  (void)untyped_member;
-  return 150;
+  const auto * member = reinterpret_cast<const std::vector<double> *>(untyped_member);
+  return member->size();
 }
 
 const void * get_const_function__Cloud__cloudx(const void * untyped_member, size_t index)
 {
   const auto & member =
-    *reinterpret_cast<const std::array<double, 150> *>(untyped_member);
+    *reinterpret_cast<const std::vector<double> *>(untyped_member);
   return &member[index];
 }
 
 void * get_function__Cloud__cloudx(void * untyped_member, size_t index)
 {
   auto & member =
-    *reinterpret_cast<std::array<double, 150> *>(untyped_member);
+    *reinterpret_cast<std::vector<double> *>(untyped_member);
   return &member[index];
 }
 
@@ -76,23 +76,30 @@ void assign_function__Cloud__cloudx(
   item = value;
 }
 
+void resize_function__Cloud__cloudx(void * untyped_member, size_t size)
+{
+  auto * member =
+    reinterpret_cast<std::vector<double> *>(untyped_member);
+  member->resize(size);
+}
+
 size_t size_function__Cloud__cloudy(const void * untyped_member)
 {
-  (void)untyped_member;
-  return 150;
+  const auto * member = reinterpret_cast<const std::vector<double> *>(untyped_member);
+  return member->size();
 }
 
 const void * get_const_function__Cloud__cloudy(const void * untyped_member, size_t index)
 {
   const auto & member =
-    *reinterpret_cast<const std::array<double, 150> *>(untyped_member);
+    *reinterpret_cast<const std::vector<double> *>(untyped_member);
   return &member[index];
 }
 
 void * get_function__Cloud__cloudy(void * untyped_member, size_t index)
 {
   auto & member =
-    *reinterpret_cast<std::array<double, 150> *>(untyped_member);
+    *reinterpret_cast<std::vector<double> *>(untyped_member);
   return &member[index];
 }
 
@@ -114,6 +121,13 @@ void assign_function__Cloud__cloudy(
   item = value;
 }
 
+void resize_function__Cloud__cloudy(void * untyped_member, size_t size)
+{
+  auto * member =
+    reinterpret_cast<std::vector<double> *>(untyped_member);
+  member->resize(size);
+}
+
 static const ::rosidl_typesupport_introspection_cpp::MessageMember Cloud_message_member_array[2] = {
   {
     "cloudx",  // name
@@ -122,7 +136,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Cloud_message
     nullptr,  // members of sub message
     false,  // is key
     true,  // is array
-    150,  // array size
+    0,  // array size
     false,  // is upper bound
     offsetof(study_interface::msg::Cloud, cloudx),  // bytes offset in struct
     nullptr,  // default value
@@ -131,7 +145,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Cloud_message
     get_function__Cloud__cloudx,  // get(index) function pointer
     fetch_function__Cloud__cloudx,  // fetch(index, &value) function pointer
     assign_function__Cloud__cloudx,  // assign(index, value) function pointer
-    nullptr  // resize(index) function pointer
+    resize_function__Cloud__cloudx  // resize(index) function pointer
   },
   {
     "cloudy",  // name
@@ -140,7 +154,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Cloud_message
     nullptr,  // members of sub message
     false,  // is key
     true,  // is array
-    150,  // array size
+    0,  // array size
     false,  // is upper bound
     offsetof(study_interface::msg::Cloud, cloudy),  // bytes offset in struct
     nullptr,  // default value
@@ -149,7 +163,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Cloud_message
     get_function__Cloud__cloudy,  // get(index) function pointer
     fetch_function__Cloud__cloudy,  // fetch(index, &value) function pointer
     assign_function__Cloud__cloudy,  // assign(index, value) function pointer
-    nullptr  // resize(index) function pointer
+    resize_function__Cloud__cloudy  // resize(index) function pointer
   }
 };
 

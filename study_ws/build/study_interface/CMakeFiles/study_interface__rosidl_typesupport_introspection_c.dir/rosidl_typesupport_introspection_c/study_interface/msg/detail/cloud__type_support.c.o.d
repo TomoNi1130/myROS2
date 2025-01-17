@@ -73,4 +73,5 @@ CMakeFiles/study_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesu
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
  /home/tomoni11/Documents/ROS2/study_ws/build/study_interface/rosidl_generator_c/study_interface/msg/rosidl_generator_c__visibility_control.h \
- /home/tomoni11/Documents/ROS2/study_ws/build/study_interface/rosidl_generator_c/study_interface/msg/detail/cloud__struct.h
+ /home/tomoni11/Documents/ROS2/study_ws/build/study_interface/rosidl_generator_c/study_interface/msg/detail/cloud__struct.h \
+ /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence_functions.h

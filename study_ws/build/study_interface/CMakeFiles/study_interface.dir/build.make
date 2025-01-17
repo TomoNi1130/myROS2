@@ -68,6 +68,7 @@ include CMakeFiles/study_interface.dir/progress.make
 
 CMakeFiles/study_interface: /home/tomoni11/Documents/ROS2/study_ws/src/study_interface/msg/Cloud.msg
 CMakeFiles/study_interface: /home/tomoni11/Documents/ROS2/study_ws/src/study_interface/msg/Circle.msg
+CMakeFiles/study_interface: /home/tomoni11/Documents/ROS2/study_ws/src/study_interface/msg/Line.msg
 CMakeFiles/study_interface: /opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl
 CMakeFiles/study_interface: /opt/ros/jazzy/share/geometry_msgs/msg/AccelStamped.idl
 CMakeFiles/study_interface: /opt/ros/jazzy/share/geometry_msgs/msg/AccelWithCovariance.idl

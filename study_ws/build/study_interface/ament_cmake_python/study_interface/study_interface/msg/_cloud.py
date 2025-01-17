@@ -12,13 +12,13 @@ ros_python_check_fields = getenv('ROS_PYTHON_CHECK_FIELDS', default='')
 
 # Import statements for member types
 
+# Member 'cloudx'
+# Member 'cloudy'
+import array  # noqa: E402, I100
+
 import builtins  # noqa: E402, I100
 
 import math  # noqa: E402, I100
-
-# Member 'cloudx'
-# Member 'cloudy'
-import numpy  # noqa: E402, I100
 
 import rosidl_parser.definition  # noqa: E402, I100
 
@@ -74,15 +74,15 @@ class Cloud(metaclass=Metaclass_Cloud):
     ]
 
     _fields_and_field_types = {
-        'cloudx': 'double[150]',
-        'cloudy': 'double[150]',
+        'cloudx': 'sequence<double>',
+        'cloudy': 'sequence<double>',
     }
 
     # This attribute is used to store an rosidl_parser.definition variable
     # related to the data type of each of the components the message.
     SLOT_TYPES = (
-        rosidl_parser.definition.Array(rosidl_parser.definition.BasicType('double'), 150),  # noqa: E501
-        rosidl_parser.definition.Array(rosidl_parser.definition.BasicType('double'), 150),  # noqa: E501
+        rosidl_parser.definition.UnboundedSequence(rosidl_parser.definition.BasicType('double')),  # noqa: E501
+        rosidl_parser.definition.UnboundedSequence(rosidl_parser.definition.BasicType('double')),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -94,16 +94,8 @@ class Cloud(metaclass=Metaclass_Cloud):
             assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
                 'Invalid arguments passed to constructor: %s' % \
                 ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        if 'cloudx' not in kwargs:
-            self.cloudx = numpy.zeros(150, dtype=numpy.float64)
-        else:
-            self.cloudx = numpy.array(kwargs.get('cloudx'), dtype=numpy.float64)
-            assert self.cloudx.shape == (150, )
-        if 'cloudy' not in kwargs:
-            self.cloudy = numpy.zeros(150, dtype=numpy.float64)
-        else:
-            self.cloudy = numpy.array(kwargs.get('cloudy'), dtype=numpy.float64)
-            assert self.cloudy.shape == (150, )
+        self.cloudx = array.array('d', kwargs.get('cloudx', []))
+        self.cloudy = array.array('d', kwargs.get('cloudy', []))
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -135,9 +127,9 @@ class Cloud(metaclass=Metaclass_Cloud):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if all(self.cloudx != other.cloudx):
+        if self.cloudx != other.cloudx:
             return False
-        if all(self.cloudy != other.cloudy):
+        if self.cloudy != other.cloudy:
             return False
         return True
 
@@ -154,11 +146,9 @@ class Cloud(metaclass=Metaclass_Cloud):
     @cloudx.setter
     def cloudx(self, value):
         if self._check_fields:
-            if isinstance(value, numpy.ndarray):
-                assert value.dtype == numpy.float64, \
-                    "The 'cloudx' numpy.ndarray() must have the dtype of 'numpy.float64'"
-                assert value.size == 150, \
-                    "The 'cloudx' numpy.ndarray() must have a size of 150"
+            if isinstance(value, array.array):
+                assert value.typecode == 'd', \
+                    "The 'cloudx' array.array() must have the type code of 'd'"
                 self._cloudx = value
                 return
             from collections.abc import Sequence
@@ -171,11 +161,10 @@ class Cloud(metaclass=Metaclass_Cloud):
                   isinstance(value, UserList)) and
                  not isinstance(value, str) and
                  not isinstance(value, UserString) and
-                 len(value) == 150 and
                  all(isinstance(v, float) for v in value) and
                  all(not (val < -1.7976931348623157e+308 or val > 1.7976931348623157e+308) or math.isinf(val) for val in value)), \
-                "The 'cloudx' field must be a set or sequence with length 150 and each value of type 'float' and each double in [-179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.000000, 179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.000000]"
-        self._cloudx = numpy.array(value, dtype=numpy.float64)
+                "The 'cloudx' field must be a set or sequence and each value of type 'float' and each double in [-179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.000000, 179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.000000]"
+        self._cloudx = array.array('d', value)
 
     @builtins.property
     def cloudy(self):
@@ -185,11 +174,9 @@ class Cloud(metaclass=Metaclass_Cloud):
     @cloudy.setter
     def cloudy(self, value):
         if self._check_fields:
-            if isinstance(value, numpy.ndarray):
-                assert value.dtype == numpy.float64, \
-                    "The 'cloudy' numpy.ndarray() must have the dtype of 'numpy.float64'"
-                assert value.size == 150, \
-                    "The 'cloudy' numpy.ndarray() must have a size of 150"
+            if isinstance(value, array.array):
+                assert value.typecode == 'd', \
+                    "The 'cloudy' array.array() must have the type code of 'd'"
                 self._cloudy = value
                 return
             from collections.abc import Sequence
@@ -202,8 +189,7 @@ class Cloud(metaclass=Metaclass_Cloud):
                   isinstance(value, UserList)) and
                  not isinstance(value, str) and
                  not isinstance(value, UserString) and
-                 len(value) == 150 and
                  all(isinstance(v, float) for v in value) and
                  all(not (val < -1.7976931348623157e+308 or val > 1.7976931348623157e+308) or math.isinf(val) for val in value)), \
-                "The 'cloudy' field must be a set or sequence with length 150 and each value of type 'float' and each double in [-179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.000000, 179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.000000]"
-        self._cloudy = numpy.array(value, dtype=numpy.float64)
+                "The 'cloudy' field must be a set or sequence and each value of type 'float' and each double in [-179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.000000, 179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.000000]"
+        self._cloudy = array.array('d', value)

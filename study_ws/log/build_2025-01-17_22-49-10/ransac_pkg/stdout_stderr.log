@@ -1,0 +1,36 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found study_interface: 0.0.0 (/home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/cmake)
+-- Found Python3: /usr/include/python3.12 (found version "3.12.3") found components: Development NumPy Interpreter Development.Module Development.Embed 
+-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/tomoni11/Documents/ROS2/study_ws/build/ransac_pkg
+[ 16%] [32mBuilding CXX object CMakeFiles/line_drower.dir/src/line_drower.cpp.o[0m
+[ 83%] Built target circle_drower
+[ 83%] Built target circle
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/line_drower.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kstudy_interface/msg/msg->hpp: そのようなファイルやディレクトリはありません
+    4 | #include [01;31m[K"study_interface/msg/msg->hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/line_drower.dir/build.make:76: CMakeFiles/line_drower.dir/src/line_drower.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/line_drower.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

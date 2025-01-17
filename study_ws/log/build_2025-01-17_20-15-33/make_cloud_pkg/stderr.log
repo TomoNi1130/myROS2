@@ -1,0 +1,11 @@
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/circle.cpp:[m[K In member function ‘[01m[Kvoid cloud_maker::[01;32m[Ktimer_callback[m[K()[m[K’:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/circle.cpp:39:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kcirclepoints[m[K’ was not declared in this scope; did you mean ‘[01m[Kcirclepoints_num[m[K’?
+   39 |             for (size_t i = 0; i < [01;31m[Kcirclepoints[m[K; i++)
+      |                                    [01;31m[K^~~~~~~~~~~~[m[K
+      |                                    [32m[Kcirclepoints_num[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/circle.cpp:34:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpoints_num[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   34 |             int [01;35m[Kpoints_num[m[K = 750;       // 点群全体の点の数
+      |                 [01;35m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/circle.dir/build.make:76: CMakeFiles/circle.dir/src/circle.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/circle.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

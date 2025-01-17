@@ -1,0 +1,8 @@
+In file included from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/line_drower.cpp:2[m[K:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/matplotlibcpp.h:5:10:[m[K [01;31m[Kfatal error: [m[KPython.h: そのようなファイルやディレクトリはありません
+    5 | #include [01;31m[K<Python.h>[m[K
+      |          [01;31m[K^~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/line_drower.dir/build.make:76: CMakeFiles/line_drower.dir/src/line_drower.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/line_drower.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2
