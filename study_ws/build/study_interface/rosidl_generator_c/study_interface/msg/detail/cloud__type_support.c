@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
-#include "study_interface/msg/detail/cloud__struct.h"
 #include "study_interface/msg/detail/cloud__functions.h"
+#include "study_interface/msg/detail/cloud__struct.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "study_interface/msg/detail/cloud__type_support.h"
 
 #ifdef __cplusplus

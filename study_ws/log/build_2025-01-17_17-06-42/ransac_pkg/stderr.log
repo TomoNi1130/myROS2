@@ -1,0 +1,19 @@
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:[m[K In constructor ‘[01m[KCircleRansac::[01;32m[KCircleRansac[m[K()[m[K’:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:10:33:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRANSAC::RANSAC()[m[K’
+   10 |           : Node("circle_ransac"[01;31m[K)[m[K
+      |                                 [01;31m[K^[m[K
+In file included from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:4[m[K:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:7:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KRANSAC::[01;32m[KRANSAC[m[K(int, double)[m[K’
+    7 | [01;36m[KRANSAC[m[K::RANSAC(const int max_iterations, const double threshold)
+      | [01;36m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:7:1:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+In file included from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:3[m[K:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/ransac.hpp:21:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr RANSAC::[01;32m[KRANSAC[m[K(const RANSAC&)[m[K’
+   21 | class [01;36m[KRANSAC[m[K
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/ransac.hpp:21:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/ransac.hpp:21:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr RANSAC::[01;32m[KRANSAC[m[K(RANSAC&&)[m[K’
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/ransac.hpp:21:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+gmake[2]: *** [CMakeFiles/circle.dir/build.make:76: CMakeFiles/circle.dir/src/circle_main.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/circle.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

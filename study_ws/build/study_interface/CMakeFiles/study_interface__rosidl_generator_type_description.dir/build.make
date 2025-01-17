@@ -67,14 +67,20 @@ include CMakeFiles/study_interface__rosidl_generator_type_description.dir/compil
 include CMakeFiles/study_interface__rosidl_generator_type_description.dir/progress.make
 
 CMakeFiles/study_interface__rosidl_generator_type_description: rosidl_generator_type_description/study_interface/msg/Cloud.json
+CMakeFiles/study_interface__rosidl_generator_type_description: rosidl_generator_type_description/study_interface/msg/Circle.json
 
 rosidl_generator_type_description/study_interface/msg/Cloud.json: /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description
 rosidl_generator_type_description/study_interface/msg/Cloud.json: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
 rosidl_generator_type_description/study_interface/msg/Cloud.json: rosidl_adapter/study_interface/msg/Cloud.idl
+rosidl_generator_type_description/study_interface/msg/Cloud.json: rosidl_adapter/study_interface/msg/Circle.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/tomoni11/Documents/ROS2/study_ws/build/study_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/tomoni11/Documents/ROS2/study_ws/build/study_interface/rosidl_generator_type_description__arguments.json
 
+rosidl_generator_type_description/study_interface/msg/Circle.json: rosidl_generator_type_description/study_interface/msg/Cloud.json
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/study_interface/msg/Circle.json
+
 study_interface__rosidl_generator_type_description: CMakeFiles/study_interface__rosidl_generator_type_description
+study_interface__rosidl_generator_type_description: rosidl_generator_type_description/study_interface/msg/Circle.json
 study_interface__rosidl_generator_type_description: rosidl_generator_type_description/study_interface/msg/Cloud.json
 study_interface__rosidl_generator_type_description: CMakeFiles/study_interface__rosidl_generator_type_description.dir/build.make
 .PHONY : study_interface__rosidl_generator_type_description

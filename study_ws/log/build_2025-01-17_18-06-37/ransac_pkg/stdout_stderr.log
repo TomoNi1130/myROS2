@@ -1,0 +1,34 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/circle.dir/src/circle_main.cpp.o[0m
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:[m[K In constructor ‘[01m[KCircleRansac::[01;32m[KCircleRansac[m[K()[m[K’:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:17:71:[m[K [01;31m[Kerror: [m[K‘[01m[KCircle[m[K’ is not a member of ‘[01m[Kstudy_interface::msg[m[K’
+   17 |             publisher_ = this->create_publisher<study_interface::msg::[01;31m[KCircle[m[K>("circle_data", 10);
+      |                                                                       [01;31m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:17:78:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KCircleRansac::create_publisher<<expression error> >(const char [12], int)[m[K’
+   17 |             publisher_ = [01;31m[Kthis->create_publisher<study_interface::msg::Circle>("circle_data", 10)[m[K;
+      |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:1[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::[01;32m[Kcreate_publisher[m[K(const std::string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  197 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:17:78:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   17 |             publisher_ = [01;31m[Kthis->create_publisher<study_interface::msg::Circle>("circle_data", 10)[m[K;
+      |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:[m[K In member function ‘[01m[Kvoid CircleRansac::[01;32m[KtopicCallback[m[K(study_interface::msg::Cloud_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:30:35:[m[K [01;31m[Kerror: [m[K‘[01m[KCircle[m[K’ is not a member of ‘[01m[Kstudy_interface::msg[m[K’
+   30 |             study_interface::msg::[01;31m[KCircle[m[K pub_circle;
+      |                                   [01;31m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:33:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_circle[m[K’ was not declared in this scope; did you mean ‘[01m[Kcircle[m[K’?
+   33 |                   [01;31m[Kpub_circle[m[K.center_x[i] = answers[i].center_x;
+      |                   [01;31m[K^~~~~~~~~~[m[K
+      |                   [32m[Kcircle[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:37:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_circle[m[K’ was not declared in this scope; did you mean ‘[01m[Kcircle[m[K’?
+   37 |             publisher_->publish([01;31m[Kpub_circle[m[K);
+      |                                 [01;31m[K^~~~~~~~~~[m[K
+      |                                 [32m[Kcircle[m[K
+gmake[2]: *** [CMakeFiles/circle.dir/build.make:76: CMakeFiles/circle.dir/src/circle_main.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/circle.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

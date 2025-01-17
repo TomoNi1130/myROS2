@@ -3,7 +3,8 @@
   "output_dir": "/home/tomoni11/Documents/ROS2/study_ws/build/study_interface/rosidl_typesupport_c/study_interface",
   "template_dir": "/opt/ros/jazzy/share/rosidl_typesupport_c/resource",
   "idl_tuples": [
-    "/home/tomoni11/Documents/ROS2/study_ws/build/study_interface/rosidl_adapter/study_interface:msg/Cloud.idl"
+    "/home/tomoni11/Documents/ROS2/study_ws/build/study_interface/rosidl_adapter/study_interface:msg/Cloud.idl",
+    "/home/tomoni11/Documents/ROS2/study_ws/build/study_interface/rosidl_adapter/study_interface:msg/Circle.idl"
   ],
   "ros_interface_dependencies": [
     "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl",
@@ -77,6 +78,7 @@
     "/opt/ros/jazzy/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
     "/opt/ros/jazzy/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
     "/home/tomoni11/Documents/ROS2/study_ws/build/study_interface/rosidl_adapter/study_interface/msg/Cloud.idl",
+    "/home/tomoni11/Documents/ROS2/study_ws/build/study_interface/rosidl_adapter/study_interface/msg/Circle.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/AccelStamped.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/AccelWithCovariance.idl",

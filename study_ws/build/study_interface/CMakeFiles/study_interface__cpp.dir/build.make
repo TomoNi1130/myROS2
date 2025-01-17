@@ -71,6 +71,11 @@ CMakeFiles/study_interface__cpp: rosidl_generator_cpp/study_interface/msg/detail
 CMakeFiles/study_interface__cpp: rosidl_generator_cpp/study_interface/msg/detail/cloud__struct.hpp
 CMakeFiles/study_interface__cpp: rosidl_generator_cpp/study_interface/msg/detail/cloud__traits.hpp
 CMakeFiles/study_interface__cpp: rosidl_generator_cpp/study_interface/msg/detail/cloud__type_support.hpp
+CMakeFiles/study_interface__cpp: rosidl_generator_cpp/study_interface/msg/circle.hpp
+CMakeFiles/study_interface__cpp: rosidl_generator_cpp/study_interface/msg/detail/circle__builder.hpp
+CMakeFiles/study_interface__cpp: rosidl_generator_cpp/study_interface/msg/detail/circle__struct.hpp
+CMakeFiles/study_interface__cpp: rosidl_generator_cpp/study_interface/msg/detail/circle__traits.hpp
+CMakeFiles/study_interface__cpp: rosidl_generator_cpp/study_interface/msg/detail/circle__type_support.hpp
 CMakeFiles/study_interface__cpp: rosidl_generator_cpp/study_interface/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/study_interface/msg/cloud.hpp: /opt/ros/jazzy/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -93,6 +98,7 @@ rosidl_generator_cpp/study_interface/msg/cloud.hpp: /opt/ros/jazzy/share/rosidl_
 rosidl_generator_cpp/study_interface/msg/cloud.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/study_interface/msg/cloud.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/srv__type_support.hpp.em
 rosidl_generator_cpp/study_interface/msg/cloud.hpp: rosidl_adapter/study_interface/msg/Cloud.idl
+rosidl_generator_cpp/study_interface/msg/cloud.hpp: rosidl_adapter/study_interface/msg/Circle.idl
 rosidl_generator_cpp/study_interface/msg/cloud.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl
 rosidl_generator_cpp/study_interface/msg/cloud.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_generator_cpp/study_interface/msg/cloud.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -170,11 +176,31 @@ rosidl_generator_cpp/study_interface/msg/detail/cloud__traits.hpp: rosidl_genera
 rosidl_generator_cpp/study_interface/msg/detail/cloud__type_support.hpp: rosidl_generator_cpp/study_interface/msg/cloud.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/study_interface/msg/detail/cloud__type_support.hpp
 
+rosidl_generator_cpp/study_interface/msg/circle.hpp: rosidl_generator_cpp/study_interface/msg/cloud.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/study_interface/msg/circle.hpp
+
+rosidl_generator_cpp/study_interface/msg/detail/circle__builder.hpp: rosidl_generator_cpp/study_interface/msg/cloud.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/study_interface/msg/detail/circle__builder.hpp
+
+rosidl_generator_cpp/study_interface/msg/detail/circle__struct.hpp: rosidl_generator_cpp/study_interface/msg/cloud.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/study_interface/msg/detail/circle__struct.hpp
+
+rosidl_generator_cpp/study_interface/msg/detail/circle__traits.hpp: rosidl_generator_cpp/study_interface/msg/cloud.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/study_interface/msg/detail/circle__traits.hpp
+
+rosidl_generator_cpp/study_interface/msg/detail/circle__type_support.hpp: rosidl_generator_cpp/study_interface/msg/cloud.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/study_interface/msg/detail/circle__type_support.hpp
+
 rosidl_generator_cpp/study_interface/msg/rosidl_generator_cpp__visibility_control.hpp: rosidl_generator_cpp/study_interface/msg/cloud.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/study_interface/msg/rosidl_generator_cpp__visibility_control.hpp
 
 study_interface__cpp: CMakeFiles/study_interface__cpp
+study_interface__cpp: rosidl_generator_cpp/study_interface/msg/circle.hpp
 study_interface__cpp: rosidl_generator_cpp/study_interface/msg/cloud.hpp
+study_interface__cpp: rosidl_generator_cpp/study_interface/msg/detail/circle__builder.hpp
+study_interface__cpp: rosidl_generator_cpp/study_interface/msg/detail/circle__struct.hpp
+study_interface__cpp: rosidl_generator_cpp/study_interface/msg/detail/circle__traits.hpp
+study_interface__cpp: rosidl_generator_cpp/study_interface/msg/detail/circle__type_support.hpp
 study_interface__cpp: rosidl_generator_cpp/study_interface/msg/detail/cloud__builder.hpp
 study_interface__cpp: rosidl_generator_cpp/study_interface/msg/detail/cloud__struct.hpp
 study_interface__cpp: rosidl_generator_cpp/study_interface/msg/detail/cloud__traits.hpp

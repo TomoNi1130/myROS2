@@ -1,0 +1,26 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/circle.dir/src/circle_main.cpp.o[0m
+In file included from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:6[m[K:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:[m[K In member function ‘[01m[Kcircle RANSAC::[01;32m[Kfit_circle[m[K(double, double, double, double, double, double) const[m[K’:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:82:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kx1[m[K’ was not declared in this scope; did you mean ‘[01m[Ky1[m[K’?
+   82 |       double denominator = 2.0 * (([01;31m[Kx1[m[K - x2) * (y1 - y3) - (x1 - x3) * (y1 - y2));
+      |                                    [01;31m[K^~[m[K
+      |                                    [32m[Ky1[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:82:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kx2[m[K’ was not declared in this scope; did you mean ‘[01m[K_x2[m[K’?
+   82 |       double denominator = 2.0 * ((x1 - [01;31m[Kx2[m[K) * (y1 - y3) - (x1 - x3) * (y1 - y2));
+      |                                         [01;31m[K^~[m[K
+      |                                         [32m[K_x2[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:82:53:[m[K [01;31m[Kerror: [m[K‘[01m[Ky3[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+   82 |       double denominator = 2.0 * ((x1 - x2) * (y1 - [01;31m[Ky3[m[K) - (x1 - x3) * (y1 - y2));
+      |                                                     [01;31m[K^~[m[K
+      |                                                     [32m[Kyn[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:82:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kx3[m[K’ was not declared in this scope; did you mean ‘[01m[K_x3[m[K’?
+   82 |       double denominator = 2.0 * ((x1 - x2) * (y1 - y3) - (x1 - [01;31m[Kx3[m[K) * (y1 - y2));
+      |                                                                 [01;31m[K^~[m[K
+      |                                                                 [32m[K_x3[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:82:77:[m[K [01;31m[Kerror: [m[K‘[01m[Ky2[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+   82 |       double denominator = 2.0 * ((x1 - x2) * (y1 - y3) - (x1 - x3) * (y1 - [01;31m[Ky2[m[K));
+      |                                                                             [01;31m[K^~[m[K
+      |                                                                             [32m[Kyn[m[K
+gmake[2]: *** [CMakeFiles/circle.dir/build.make:76: CMakeFiles/circle.dir/src/circle_main.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/circle.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

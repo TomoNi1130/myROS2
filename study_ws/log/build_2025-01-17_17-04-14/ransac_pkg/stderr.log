@@ -1,0 +1,23 @@
+In file included from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:4[m[K:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:10:21:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kstd::vector<circle> RANSAC::[01;32m[Kcircle_ransac[m[K(std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >, int)[m[K’
+   10 | std::vector<circle> [01;31m[KRANSAC[m[K::circle_ransac(std::vector<double> _x, std::vector<double> _y, const int circle_num)
+      |                     [01;31m[K^~~~~~[m[K
+In file included from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:3[m[K:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/ransac.hpp:27:27:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kstd::vector<circle> RANSAC::[01;32m[Kcircle_ransac[m[K(std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >)[m[K’
+   27 |       std::vector<circle> [01;36m[Kcircle_ransac[m[K(std::vector<double> _x, std::vector<double> _y);
+      |                           [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/ransac.hpp:21:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass RANSAC[m[K’ defined here
+   21 | class [01;36m[KRANSAC[m[K
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:74:8:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kdouble RANSAC::[01;32m[Kfind_error[m[K(circle, double, double) const[m[K’
+   74 | double [01;31m[KRANSAC[m[K::find_error(circle circle, double _x, double _y) const
+      |        [01;31m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/ransac.hpp:31:14:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kdouble RANSAC::[01;32m[Kfind_error[m[K(double, double, double, double, double) const[m[K’
+   31 |       double [01;36m[Kfind_error[m[K(double a, double b, double c, double _x, double _y) const;
+      |              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/ransac.hpp:21:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass RANSAC[m[K’ defined here
+   21 | class [01;36m[KRANSAC[m[K
+      |       [01;36m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/circle.dir/build.make:76: CMakeFiles/circle.dir/src/circle_main.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/circle.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

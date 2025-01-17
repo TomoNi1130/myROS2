@@ -36,8 +36,8 @@ private:
             for (size_t i = 0; i < msg_cloud.cloudx.size(); i++)
             {
                   double length = dist1(engine);
-                  msg_cloud.cloudx[i] = length * cos(theta_unit * i);
-                  msg_cloud.cloudy[i] = length * sin(theta_unit * i);
+                  msg_cloud.cloudx[i] = length * cos(theta_unit * i) - 2.0;
+                  msg_cloud.cloudy[i] = length * sin(theta_unit * i) + 2.0;
             }
             publisher_->publish(msg_cloud);
       }

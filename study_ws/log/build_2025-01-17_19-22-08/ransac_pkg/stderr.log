@@ -1,0 +1,26 @@
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:[m[K In member function ‘[01m[Kvoid CircleRansac::[01;32m[KtopicCallback[m[K(study_interface::msg::Cloud_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:31:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst study_interface::msg::Cloud_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<study_interface::msg::Cloud_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kcloudx[m[K’
+   31 |             for (size_t i = 0; i < msg.[01;31m[Kcloudx[m[K.size(); i++)
+      |                                        [01;31m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:33:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst study_interface::msg::Cloud_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<study_interface::msg::Cloud_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kcloudx[m[K’
+   33 |                   _x.push_back(msg.[01;31m[Kcloudx[m[K[i]);
+      |                                    [01;31m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:34:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst study_interface::msg::Cloud_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<study_interface::msg::Cloud_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kcloudy[m[K’
+   34 |                   _y.push_back(msg.[01;31m[Kcloudy[m[K[i]);
+      |                                    [01;31m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:[m[K In member function ‘[01m[Kvoid CircleRansac::[01;32m[KtopicCallback[m[K(study_interface::msg::Cloud_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:31:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst study_interface::msg::Cloud_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<study_interface::msg::Cloud_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kcloudx[m[K’
+   31 |             for (size_t i = 0; i < msg.[01;31m[Kcloudx[m[K.size(); i++)
+      |                                        [01;31m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:33:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst study_interface::msg::Cloud_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<study_interface::msg::Cloud_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kcloudx[m[K’
+   33 |                   _x.push_back(msg.[01;31m[Kcloudx[m[K[i]);
+      |                                    [01;31m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:34:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst study_interface::msg::Cloud_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<study_interface::msg::Cloud_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kcloudy[m[K’
+   34 |                   _y.push_back(msg.[01;31m[Kcloudy[m[K[i]);
+      |                                    [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/circle.dir/build.make:76: CMakeFiles/circle.dir/src/circle_main.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/circle.dir/all] エラー 2
+gmake[1]: *** 未完了のジョブを待っています....
+gmake[2]: *** [CMakeFiles/drower.dir/build.make:76: CMakeFiles/drower.dir/src/circle_main.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/drower.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

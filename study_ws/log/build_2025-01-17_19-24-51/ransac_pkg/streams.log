@@ -1,0 +1,78 @@
+[0.007s] Invoking command in '/home/tomoni11/Documents/ROS2/study_ws/build/ransac_pkg': CMAKE_PREFIX_PATH=/home/tomoni11/Documents/ROS2/study_ws/install/study_interface:/home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg:/home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg:/home/tomoni11/Documents/ROS2/study_ws/install/interface_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/study_ws/build/ransac_pkg -- -j24 -l24
+[0.033s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.055s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.130s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.152s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.162s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.169s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.178s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.237s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.238s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.299s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.366s] -- Found study_interface: 0.0.0 (/home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/cmake)
+[0.681s] -- Found Python3: /usr/include/python3.12 (found version "3.12.3") found components: Development NumPy Interpreter Development.Module Development.Embed 
+[0.682s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.748s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.748s] -- Configured cppcheck include dirs: /home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg
+[0.748s] -- Configured cppcheck exclude dirs and/or files: 
+[0.748s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.748s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.749s] -- Added test 'lint_cmake' to check CMake code style
+[0.749s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.749s] -- Added test 'uncrustify' to check C / C++ code style
+[0.749s] -- Configured uncrustify additional arguments: 
+[0.749s] -- Added test 'xmllint' to check XML markup files
+[0.750s] -- Configuring done (0.7s)
+[0.763s] -- Generating done (0.0s)
+[0.767s] -- Build files have been written to: /home/tomoni11/Documents/ROS2/study_ws/build/ransac_pkg
+[0.803s] [ 25%] [32mBuilding CXX object CMakeFiles/drower.dir/src/circle_drower.cpp.o[0m
+[0.809s] [ 50%] [32mBuilding CXX object CMakeFiles/circle.dir/src/circle_main.cpp.o[0m
+[1.392s] In file included from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_drower.cpp:2[m[K:
+[1.392s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/matplotlibcpp.h:[m[K In constructor ‘[01m[Kmatplotlibcpp::detail::_interpreter::[01;32m[K_interpreter[m[K()[m[K’:
+[1.392s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/matplotlibcpp.h:182:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid[01;32m[K Py_SetProgramName[m[K(const wchar_t*)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[1.392s]   182 |                         [01;35m[KPy_SetProgramName(name)[m[K;
+[1.392s]       |                         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[1.392s] In file included from [01m[K/usr/include/python3.12/Python.h:94[m[K,
+[1.392s]                  from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/matplotlibcpp.h:5[m[K:
+[1.392s] [01m[K/usr/include/python3.12/pylifecycle.h:37:38:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.392s]    37 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) [01;36m[KPy_SetProgramName[m[K(const wchar_t *);
+[1.392s]       |                                      [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[1.392s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/matplotlibcpp.h:190:38:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid[01;32m[K PySys_SetArgv[m[K(int, wchar_t**)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[1.392s]   190 |                         [01;35m[KPySys_SetArgv(argc, const_cast<wchar_t **>(argv))[m[K;
+[1.392s]       |                         [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.392s] In file included from [01m[K/usr/include/python3.12/Python.h:96[m[K:
+[1.392s] [01m[K/usr/include/python3.12/sysmodule.h:13:38:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.392s]    13 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) [01;36m[KPySys_SetArgv[m[K(int, wchar_t **);
+[1.392s]       |                                      [01;36m[K^~~~~~~~~~~~~[m[K
+[2.522s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_drower.cpp:[m[K In member function ‘[01m[Kvoid Sircle_drower::[01;32m[Kchatter_callback[m[K(study_interface::msg::Circle_<std::allocator<void> >::SharedPtr) const[m[K’:
+[2.522s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_drower.cpp:43:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kpi[m[K’ was not declared in this scope
+[2.523s]    43 |             double theta_unit = 2.0 * [01;31m[Kpi[m[K / points_num;
+[2.523s]       |                                       [01;31m[K^~[m[K
+[2.523s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_drower.cpp:44:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.523s]    44 |             for (size_t i = 0; [01;35m[Ki < points_num[m[K, i++)
+[2.523s]       |                                [01;35m[K~~^~~~~~~~~~~~[m[K
+[2.523s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_drower.cpp:44:34:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[2.523s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_drower.cpp:44:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+[2.523s]    44 |             for (size_t i = 0; i < points_num, i++[01;31m[K)[m[K
+[2.523s]       |                                                   [01;31m[K^[m[K
+[2.529s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_drower.cpp:46:19:[m[K [01;31m[Kerror: [m[K‘[01m[K_x[m[K’ was not declared in this scope; did you mean ‘[01m[K_1[m[K’?
+[2.529s]    46 |                   [01;31m[K_x[m[K.push_back(cos(theta_unit * i) * msg.radius);
+[2.529s]       |                   [01;31m[K^~[m[K
+[2.529s]       |                   [32m[K_1[m[K
+[2.529s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_drower.cpp:46:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst study_interface::msg::Circle_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<study_interface::msg::Circle_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kradius[m[K’
+[2.529s]    46 |                   _x.push_back(cos(theta_unit * i) * msg.[01;31m[Kradius[m[K);
+[2.529s]       |                                                          [01;31m[K^~~~~~[m[K
+[2.543s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_drower.cpp:47:19:[m[K [01;31m[Kerror: [m[K‘[01m[K_y[m[K’ was not declared in this scope; did you mean ‘[01m[K_1[m[K’?
+[2.543s]    47 |                   [01;31m[K_y[m[K.push_back(sin(theta_unit * i) * msg.radius);
+[2.543s]       |                   [01;31m[K^~[m[K
+[2.543s]       |                   [32m[K_1[m[K
+[2.544s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_drower.cpp:47:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst study_interface::msg::Circle_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<study_interface::msg::Circle_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kradius[m[K’
+[2.544s]    47 |                   _y.push_back(sin(theta_unit * i) * msg.[01;31m[Kradius[m[K);
+[2.544s]       |                                                          [01;31m[K^~~~~~[m[K
+[4.264s] gmake[2]: *** [CMakeFiles/drower.dir/build.make:76: CMakeFiles/drower.dir/src/circle_drower.cpp.o] エラー 1
+[4.265s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/drower.dir/all] エラー 2
+[4.265s] gmake[1]: *** 未完了のジョブを待っています....
+[8.413s] [ 75%] [32m[1mLinking CXX executable circle[0m
+[8.667s] [ 75%] Built target circle
+[8.668s] gmake: *** [Makefile:146: all] エラー 2
+[8.670s] Invoked command in '/home/tomoni11/Documents/ROS2/study_ws/build/ransac_pkg' returned '2': CMAKE_PREFIX_PATH=/home/tomoni11/Documents/ROS2/study_ws/install/study_interface:/home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg:/home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg:/home/tomoni11/Documents/ROS2/study_ws/install/interface_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/study_ws/build/ransac_pkg -- -j24 -l24

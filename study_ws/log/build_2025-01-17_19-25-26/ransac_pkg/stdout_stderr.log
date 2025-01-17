@@ -1,0 +1,44 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/drower.dir/src/circle_drower.cpp.o[0m
+[ 75%] Built target circle
+In file included from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_drower.cpp:2[m[K:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/matplotlibcpp.h:[m[K In constructor ‘[01m[Kmatplotlibcpp::detail::_interpreter::[01;32m[K_interpreter[m[K()[m[K’:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/matplotlibcpp.h:182:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid[01;32m[K Py_SetProgramName[m[K(const wchar_t*)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  182 |                         [01;35m[KPy_SetProgramName(name)[m[K;
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/usr/include/python3.12/Python.h:94[m[K,
+                 from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/matplotlibcpp.h:5[m[K:
+[01m[K/usr/include/python3.12/pylifecycle.h:37:38:[m[K [01;36m[Knote: [m[Kdeclared here
+   37 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) [01;36m[KPy_SetProgramName[m[K(const wchar_t *);
+      |                                      [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/matplotlibcpp.h:190:38:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid[01;32m[K PySys_SetArgv[m[K(int, wchar_t**)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  190 |                         [01;35m[KPySys_SetArgv(argc, const_cast<wchar_t **>(argv))[m[K;
+      |                         [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/python3.12/Python.h:96[m[K:
+[01m[K/usr/include/python3.12/sysmodule.h:13:38:[m[K [01;36m[Knote: [m[Kdeclared here
+   13 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) [01;36m[KPySys_SetArgv[m[K(int, wchar_t **);
+      |                                      [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_drower.cpp:[m[K In member function ‘[01m[Kvoid Sircle_drower::[01;32m[Kchatter_callback[m[K(study_interface::msg::Circle_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_drower.cpp:46:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   46 |             for (size_t i = 0; [01;35m[Ki < points_num[m[K, i++)
+      |                                [01;35m[K~~^~~~~~~~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_drower.cpp:46:34:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_drower.cpp:46:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+   46 |             for (size_t i = 0; i < points_num, i++[01;31m[K)[m[K
+      |                                                   [01;31m[K^[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_drower.cpp:48:19:[m[K [01;31m[Kerror: [m[K‘[01m[K_x[m[K’ was not declared in this scope; did you mean ‘[01m[K_1[m[K’?
+   48 |                   [01;31m[K_x[m[K.push_back(cos(theta_unit * i) * msg.radius);
+      |                   [01;31m[K^~[m[K
+      |                   [32m[K_1[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_drower.cpp:48:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst study_interface::msg::Circle_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<study_interface::msg::Circle_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kradius[m[K’
+   48 |                   _x.push_back(cos(theta_unit * i) * msg.[01;31m[Kradius[m[K);
+      |                                                          [01;31m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_drower.cpp:49:19:[m[K [01;31m[Kerror: [m[K‘[01m[K_y[m[K’ was not declared in this scope; did you mean ‘[01m[K_1[m[K’?
+   49 |                   [01;31m[K_y[m[K.push_back(sin(theta_unit * i) * msg.radius);
+      |                   [01;31m[K^~[m[K
+      |                   [32m[K_1[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_drower.cpp:49:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst study_interface::msg::Circle_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<study_interface::msg::Circle_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kradius[m[K’
+   49 |                   _y.push_back(sin(theta_unit * i) * msg.[01;31m[Kradius[m[K);
+      |                                                          [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/drower.dir/build.make:76: CMakeFiles/drower.dir/src/circle_drower.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/drower.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

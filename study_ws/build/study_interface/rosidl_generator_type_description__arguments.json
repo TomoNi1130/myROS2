@@ -2,7 +2,8 @@
   "package_name": "study_interface",
   "output_dir": "/home/tomoni11/Documents/ROS2/study_ws/build/study_interface/rosidl_generator_type_description/study_interface",
   "idl_tuples": [
-    "/home/tomoni11/Documents/ROS2/study_ws/build/study_interface/rosidl_adapter/study_interface:msg/Cloud.idl"
+    "/home/tomoni11/Documents/ROS2/study_ws/build/study_interface/rosidl_adapter/study_interface:msg/Cloud.idl",
+    "/home/tomoni11/Documents/ROS2/study_ws/build/study_interface/rosidl_adapter/study_interface:msg/Circle.idl"
   ],
   "include_paths": [
     "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",

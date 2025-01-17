@@ -1,0 +1,29 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/circle.dir/src/circle_main.cpp.o[0m
+In file included from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:4[m[K:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:[m[K In member function ‘[01m[Kcircle RANSAC::[01;32m[Kcircle_ransac[m[K(std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >)[m[K’:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:14:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   14 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:9:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    9 | circle RANSAC::circle_ransac(std::vector<double> _x, [01;35m[Kstd::vector<double> _y[m[K)
+      |                                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~^~[m[K
+[100%] [32m[1mLinking CXX executable circle[0m
+[100%] Built target circle
+-- Install configuration: ""
+-- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/lib/ransac_pkg/circle
+-- Set non-toolchain portion of runtime path of "/home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/lib/ransac_pkg/circle" to ""
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ament_index/resource_index/package_run_dependencies/ransac_pkg
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ament_index/resource_index/parent_prefix_path/ransac_pkg
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/environment/path.sh
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/environment/path.dsv
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/local_setup.bash
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/local_setup.sh
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/local_setup.zsh
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/local_setup.dsv
+-- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/package.dsv
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ament_index/resource_index/packages/ransac_pkg
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/cmake/ransac_pkgConfig.cmake
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/cmake/ransac_pkgConfig-version.cmake
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/package.xml

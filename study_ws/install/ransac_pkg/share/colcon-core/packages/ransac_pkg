@@ -1,1 +1,1 @@
-interface_pkg:rclcpp:std_msgs:study_interface
+rclcpp:ros2launch:study_interface

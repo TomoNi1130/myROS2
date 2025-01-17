@@ -1,5 +1,8 @@
 #include <rclcpp/rclcpp.hpp>
-#include <study_interface/msg/cloud.hpp> // 自作メッセージのヘッダーをインクルード
+#include <iostream>
+#include <study_interface/msg/cloud.hpp>
+#include <study_interface/msg/circle.hpp>
+#include <vector>
 #include "ransac.hpp"
 #include "circle_ransac.cpp"
 
@@ -13,6 +16,7 @@ public:
             subscription_ = this->create_subscription<study_interface::msg::Cloud>(
                 "cloud_data", 10, // トピック名とキューサイズ
                 std::bind(&CircleRansac::topicCallback, this, std::placeholders::_1));
+            publisher_ = this->create_publisher<study_interface::msg::Circle>("circle_data", 10);
 
             RCLCPP_INFO(this->get_logger(), "CircleRansac node has been started.");
       }
@@ -20,15 +24,27 @@ public:
 private:
       void topicCallback(const study_interface::msg::Cloud::SharedPtr msg)
       {
-            // 受信したメッセージのデータを表示（例として最初の3つのデータを出力）
-            RCLCPP_INFO(this->get_logger(), "Received Cloud Data:");
-            for (size_t i = 0; i < msg->cloudx.size(); ++i)
+            std::vector<double> _x;
+            std::vector<double> _y;
+            RANSAC ransac_device(1500, 0.1);
+            for (size_t i = 0; i < msg->cloudx.size(); i++)
             {
-                  RCLCPP_INFO(this->get_logger(), "data[%zu] = %f", i, msg->cloudx[i]);
+                  _x.push_back(msg->cloudx[i]);
+                  _y.push_back(msg->cloudy[i]);
             }
+            std::vector<circle> answers = ransac_device.circle_ransac(_x, _y, 1);
+            study_interface::msg::Circle pub_circle;
+            for (size_t i = 0; i < answers.size(); i++)
+            {
+                  pub_circle.centerx.push_back(answers[i].center_x);
+                  pub_circle.centery.push_back(answers[i].center_y);
+                  pub_circle.radius.push_back(answers[i].radius);
+            }
+            publisher_->publish(pub_circle);
       }
 
       rclcpp::Subscription<study_interface::msg::Cloud>::SharedPtr subscription_; // サブスクライバー
+      rclcpp::Publisher<study_interface::msg::Circle>::SharedPtr publisher_;
 };
 
 int main(int argc, char *argv[])

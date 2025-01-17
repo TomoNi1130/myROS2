@@ -70,8 +70,10 @@ include /home/tomoni11/Documents/ROS2/study_ws/build/study_interface/study_inter
 /home/tomoni11/Documents/ROS2/study_ws/build/study_interface/study_interface__py/CMakeFiles/study_interface__py: rosidl_generator_py/study_interface/_study_interface_s.ep.rosidl_typesupport_introspection_c.c
 /home/tomoni11/Documents/ROS2/study_ws/build/study_interface/study_interface__py/CMakeFiles/study_interface__py: rosidl_generator_py/study_interface/_study_interface_s.ep.rosidl_typesupport_c.c
 /home/tomoni11/Documents/ROS2/study_ws/build/study_interface/study_interface__py/CMakeFiles/study_interface__py: rosidl_generator_py/study_interface/msg/_cloud.py
+/home/tomoni11/Documents/ROS2/study_ws/build/study_interface/study_interface__py/CMakeFiles/study_interface__py: rosidl_generator_py/study_interface/msg/_circle.py
 /home/tomoni11/Documents/ROS2/study_ws/build/study_interface/study_interface__py/CMakeFiles/study_interface__py: rosidl_generator_py/study_interface/msg/__init__.py
 /home/tomoni11/Documents/ROS2/study_ws/build/study_interface/study_interface__py/CMakeFiles/study_interface__py: rosidl_generator_py/study_interface/msg/_cloud_s.c
+/home/tomoni11/Documents/ROS2/study_ws/build/study_interface/study_interface__py/CMakeFiles/study_interface__py: rosidl_generator_py/study_interface/msg/_circle_s.c
 
 rosidl_generator_py/study_interface/_study_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/study_interface/_study_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_py/__init__.py
@@ -87,6 +89,7 @@ rosidl_generator_py/study_interface/_study_interface_s.ep.rosidl_typesupport_fas
 rosidl_generator_py/study_interface/_study_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/study_interface/_study_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/study_interface/_study_interface_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/study_interface/msg/Cloud.idl
+rosidl_generator_py/study_interface/_study_interface_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/study_interface/msg/Circle.idl
 rosidl_generator_py/study_interface/_study_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl
 rosidl_generator_py/study_interface/_study_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_generator_py/study_interface/_study_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -161,16 +164,24 @@ rosidl_generator_py/study_interface/_study_interface_s.ep.rosidl_typesupport_c.c
 rosidl_generator_py/study_interface/msg/_cloud.py: rosidl_generator_py/study_interface/_study_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/study_interface/msg/_cloud.py
 
+rosidl_generator_py/study_interface/msg/_circle.py: rosidl_generator_py/study_interface/_study_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/study_interface/msg/_circle.py
+
 rosidl_generator_py/study_interface/msg/__init__.py: rosidl_generator_py/study_interface/_study_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/study_interface/msg/__init__.py
 
 rosidl_generator_py/study_interface/msg/_cloud_s.c: rosidl_generator_py/study_interface/_study_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/study_interface/msg/_cloud_s.c
 
+rosidl_generator_py/study_interface/msg/_circle_s.c: rosidl_generator_py/study_interface/_study_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/study_interface/msg/_circle_s.c
+
 study_interface__py: rosidl_generator_py/study_interface/_study_interface_s.ep.rosidl_typesupport_c.c
 study_interface__py: rosidl_generator_py/study_interface/_study_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 study_interface__py: rosidl_generator_py/study_interface/_study_interface_s.ep.rosidl_typesupport_introspection_c.c
 study_interface__py: rosidl_generator_py/study_interface/msg/__init__.py
+study_interface__py: rosidl_generator_py/study_interface/msg/_circle.py
+study_interface__py: rosidl_generator_py/study_interface/msg/_circle_s.c
 study_interface__py: rosidl_generator_py/study_interface/msg/_cloud.py
 study_interface__py: rosidl_generator_py/study_interface/msg/_cloud_s.c
 study_interface__py: /home/tomoni11/Documents/ROS2/study_ws/build/study_interface/study_interface__py/CMakeFiles/study_interface__py

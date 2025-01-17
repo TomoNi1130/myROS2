@@ -99,12 +99,6 @@ circle: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/libst
 circle: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/libstudy_interface__rosidl_typesupport_introspection_cpp.so
 circle: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/libstudy_interface__rosidl_typesupport_cpp.so
 circle: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/libstudy_interface__rosidl_generator_py.so
-circle: /home/tomoni11/Documents/ROS2/study_ws/install/interface_pkg/lib/libinterface_pkg__rosidl_typesupport_fastrtps_c.so
-circle: /home/tomoni11/Documents/ROS2/study_ws/install/interface_pkg/lib/libinterface_pkg__rosidl_typesupport_fastrtps_cpp.so
-circle: /home/tomoni11/Documents/ROS2/study_ws/install/interface_pkg/lib/libinterface_pkg__rosidl_typesupport_introspection_c.so
-circle: /home/tomoni11/Documents/ROS2/study_ws/install/interface_pkg/lib/libinterface_pkg__rosidl_typesupport_introspection_cpp.so
-circle: /home/tomoni11/Documents/ROS2/study_ws/install/interface_pkg/lib/libinterface_pkg__rosidl_typesupport_cpp.so
-circle: /home/tomoni11/Documents/ROS2/study_ws/install/interface_pkg/lib/libinterface_pkg__rosidl_generator_py.so
 circle: /opt/ros/jazzy/lib/liblibstatistics_collector.so
 circle: /opt/ros/jazzy/lib/librcl.so
 circle: /opt/ros/jazzy/lib/librmw_implementation.so
@@ -152,8 +146,6 @@ circle: /opt/ros/jazzy/lib/libtracetools.so
 circle: /opt/ros/jazzy/lib/librcl_logging_interface.so
 circle: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/libstudy_interface__rosidl_typesupport_c.so
 circle: /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/lib/libstudy_interface__rosidl_generator_c.so
-circle: /home/tomoni11/Documents/ROS2/study_ws/install/interface_pkg/lib/libinterface_pkg__rosidl_typesupport_c.so
-circle: /home/tomoni11/Documents/ROS2/study_ws/install/interface_pkg/lib/libinterface_pkg__rosidl_generator_c.so
 circle: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
 circle: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
 circle: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
@@ -162,9 +154,10 @@ circle: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 circle: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
 circle: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
 circle: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
+circle: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_c.so
+circle: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_generator_c.so
 circle: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
 circle: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_cpp.so
-circle: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_py.so
 circle: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
 circle: /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_c.so
 circle: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
@@ -179,10 +172,8 @@ circle: /opt/ros/jazzy/lib/librosidl_typesupport_introspection_c.so
 circle: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 circle: /opt/ros/jazzy/lib/librosidl_typesupport_cpp.so
 circle: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_py.so
-circle: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_c.so
 circle: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_c.so
 circle: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
-circle: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_generator_c.so
 circle: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so
 circle: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so
 circle: /opt/ros/jazzy/lib/librosidl_typesupport_c.so

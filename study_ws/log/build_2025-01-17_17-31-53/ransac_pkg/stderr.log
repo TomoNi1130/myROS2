@@ -1,0 +1,23 @@
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:[m[K In member function ‘[01m[Kvoid CircleRansac::[01;32m[KtopicCallback[m[K(study_interface::msg::Cloud_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:26:62:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstudy_interface::msg::Cloud_<std::allocator<void> >::_cloudx_type[m[K’ {aka ‘[01m[Kstd::array<double, 150>[m[K’} to ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’
+   26 |             circle answer = ransac_device.circle_ransac([01;31m[Kmsg->cloudx[m[K, msg->cloudy, 1);
+      |                                                         [01;31m[K~~~~~^~~~~~[m[K
+      |                                                              [01;31m[K|[m[K
+      |                                                              [01;31m[Kstudy_interface::msg::Cloud_<std::allocator<void> >::_cloudx_type {aka std::array<double, 150>}[m[K
+In file included from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:5[m[K:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:10:63:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::vector<circle> RANSAC::[01;32m[Kcircle_ransac[m[K(std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >, int)[m[K’
+   10 | std::vector<circle> RANSAC::circle_ransac([01;36m[Kstd::vector<double> _x[m[K, std::vector<double> _y, const int circle_num)
+      |                                           [01;36m[K~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:30:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::vector<double, std::allocator<double> >[m[K’ has no member named ‘[01m[Kpushback[m[K’; did you mean ‘[01m[Kpush_back[m[K’?
+   30 |                   _x.[01;31m[Kpushback[m[K(msg.cloudx[i]);
+      |                      [01;31m[K^~~~~~~~[m[K
+      |                      [32m[Kpush_back[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:30:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst study_interface::msg::Cloud_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<study_interface::msg::Cloud_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kcloudx[m[K’
+   30 |                   _x.pushback(msg.[01;31m[Kcloudx[m[K[i]);
+      |                                   [01;31m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:26:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kanswer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   26 |             circle [01;35m[Kanswer[m[K = ransac_device.circle_ransac(msg->cloudx, msg->cloudy, 1);
+      |                    [01;35m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/circle.dir/build.make:76: CMakeFiles/circle.dir/src/circle_main.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/circle.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

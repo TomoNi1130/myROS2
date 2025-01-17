@@ -1,0 +1,56 @@
+[0.008s] Invoking command in '/home/tomoni11/Documents/ROS2/study_ws/build/ransac_pkg': CMAKE_PREFIX_PATH=/home/tomoni11/Documents/ROS2/study_ws/install/study_interface:/home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg:/home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg:/home/tomoni11/Documents/ROS2/study_ws/install/interface_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/study_ws/build/ransac_pkg -- -j24 -l24
+[0.035s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.067s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.152s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.175s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.181s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.190s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.199s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.248s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.249s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.305s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.360s] -- Found study_interface: 0.0.0 (/home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/cmake)
+[0.403s] -- Found interface_pkg: 0.0.0 (/home/tomoni11/Documents/ROS2/study_ws/install/interface_pkg/share/interface_pkg/cmake)
+[0.633s] -- Found Python3: /usr/include/python3.12 (found version "3.12.3") found components: Development NumPy Interpreter Development.Module Development.Embed 
+[0.634s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.716s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.716s] -- Configured cppcheck include dirs: /home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg
+[0.716s] -- Configured cppcheck exclude dirs and/or files: 
+[0.716s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.717s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.717s] -- Added test 'lint_cmake' to check CMake code style
+[0.717s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.717s] -- Added test 'uncrustify' to check C / C++ code style
+[0.717s] -- Configured uncrustify additional arguments: 
+[0.717s] -- Added test 'xmllint' to check XML markup files
+[0.718s] -- Configuring done (0.7s)
+[0.731s] -- Generating done (0.0s)
+[0.736s] -- Build files have been written to: /home/tomoni11/Documents/ROS2/study_ws/build/ransac_pkg
+[0.770s] [ 25%] [32mBuilding CXX object CMakeFiles/drower.dir/src/circle_main.cpp.o[0m
+[0.777s] [ 75%] Built target circle
+[7.703s] [100%] [32m[1mLinking CXX executable drower[0m
+[8.039s] [100%] Built target drower
+[8.057s] Invoked command in '/home/tomoni11/Documents/ROS2/study_ws/build/ransac_pkg' returned '0': CMAKE_PREFIX_PATH=/home/tomoni11/Documents/ROS2/study_ws/install/study_interface:/home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg:/home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg:/home/tomoni11/Documents/ROS2/study_ws/install/interface_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/study_ws/build/ransac_pkg -- -j24 -l24
+[8.058s] Invoking command in '/home/tomoni11/Documents/ROS2/study_ws/build/ransac_pkg': CMAKE_PREFIX_PATH=/home/tomoni11/Documents/ROS2/study_ws/install/study_interface:/home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg:/home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg:/home/tomoni11/Documents/ROS2/study_ws/install/interface_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tomoni11/Documents/ROS2/study_ws/build/ransac_pkg
+[8.067s] -- Install configuration: ""
+[8.067s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/lib/ransac_pkg/circle
+[8.067s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/lib/ransac_pkg/drower
+[8.074s] -- Set non-toolchain portion of runtime path of "/home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/lib/ransac_pkg/drower" to ""
+[8.076s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/launch
+[8.076s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/launch/circle.launch.py
+[8.076s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ament_index/resource_index/package_run_dependencies/ransac_pkg
+[8.077s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ament_index/resource_index/parent_prefix_path/ransac_pkg
+[8.077s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/environment/ament_prefix_path.sh
+[8.077s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/environment/ament_prefix_path.dsv
+[8.077s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/environment/path.sh
+[8.077s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/environment/path.dsv
+[8.077s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/local_setup.bash
+[8.078s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/local_setup.sh
+[8.078s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/local_setup.zsh
+[8.079s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/local_setup.dsv
+[8.079s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/package.dsv
+[8.079s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ament_index/resource_index/packages/ransac_pkg
+[8.079s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/cmake/ransac_pkgConfig.cmake
+[8.080s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/cmake/ransac_pkgConfig-version.cmake
+[8.080s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg/share/ransac_pkg/package.xml
+[8.080s] Invoked command in '/home/tomoni11/Documents/ROS2/study_ws/build/ransac_pkg' returned '0': CMAKE_PREFIX_PATH=/home/tomoni11/Documents/ROS2/study_ws/install/study_interface:/home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg:/home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg:/home/tomoni11/Documents/ROS2/study_ws/install/interface_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tomoni11/Documents/ROS2/study_ws/build/ransac_pkg

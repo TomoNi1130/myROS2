@@ -8,9 +8,8 @@ using std::placeholders::_1;
 class SimpleListener : public rclcpp::Node
 {
 public:
-      // コンストラクタ
       SimpleListener()
-          : Node("simple_listener") // ノード名をsimple_listenerで初期化
+          : Node("simple_listener")
       {
             subscription_ = this->create_subscription<std_msgs::msg::String>(
                 "chatter", 10, std::bind(&SimpleListener::chatter_callback, this, _1));

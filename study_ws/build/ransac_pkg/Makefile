@@ -210,6 +210,43 @@ circle/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/circle.dir/build.make CMakeFiles/circle.dir/build
 .PHONY : circle/fast
 
+#=============================================================================
+# Target rules for targets named circle_drower
+
+# Build rule for target.
+circle_drower: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 circle_drower
+.PHONY : circle_drower
+
+# fast build rule for target.
+circle_drower/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/circle_drower.dir/build.make CMakeFiles/circle_drower.dir/build
+.PHONY : circle_drower/fast
+
+src/circle_drower.o: src/circle_drower.cpp.o
+.PHONY : src/circle_drower.o
+
+# target to build an object file
+src/circle_drower.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/circle_drower.dir/build.make CMakeFiles/circle_drower.dir/src/circle_drower.cpp.o
+.PHONY : src/circle_drower.cpp.o
+
+src/circle_drower.i: src/circle_drower.cpp.i
+.PHONY : src/circle_drower.i
+
+# target to preprocess a source file
+src/circle_drower.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/circle_drower.dir/build.make CMakeFiles/circle_drower.dir/src/circle_drower.cpp.i
+.PHONY : src/circle_drower.cpp.i
+
+src/circle_drower.s: src/circle_drower.cpp.s
+.PHONY : src/circle_drower.s
+
+# target to generate assembly for a file
+src/circle_drower.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/circle_drower.dir/build.make CMakeFiles/circle_drower.dir/src/circle_drower.cpp.s
+.PHONY : src/circle_drower.cpp.s
+
 src/circle_main.o: src/circle_main.cpp.o
 .PHONY : src/circle_main.o
 
@@ -250,6 +287,10 @@ help:
 	@echo "... ransac_pkg_uninstall"
 	@echo "... uninstall"
 	@echo "... circle"
+	@echo "... circle_drower"
+	@echo "... src/circle_drower.o"
+	@echo "... src/circle_drower.i"
+	@echo "... src/circle_drower.s"
 	@echo "... src/circle_main.o"
 	@echo "... src/circle_main.i"
 	@echo "... src/circle_main.s"

@@ -1,0 +1,6 @@
+[31mCMake Error at CMakeLists.txt:45 (target_include_directories):
+  Cannot specify include directories for target "circledrower" which is not
+  built by this project.
+
+[0m
+gmake: *** [Makefile:308: cmake_check_build_system] エラー 1

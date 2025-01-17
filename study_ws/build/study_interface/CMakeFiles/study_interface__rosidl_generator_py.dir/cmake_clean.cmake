@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/study_interface__rosidl_generator_py.dir/rosidl_generator_py/study_interface/msg/_circle_s.c.o"
+  "CMakeFiles/study_interface__rosidl_generator_py.dir/rosidl_generator_py/study_interface/msg/_circle_s.c.o.d"
   "CMakeFiles/study_interface__rosidl_generator_py.dir/rosidl_generator_py/study_interface/msg/_cloud_s.c.o"
   "CMakeFiles/study_interface__rosidl_generator_py.dir/rosidl_generator_py/study_interface/msg/_cloud_s.c.o.d"
   "libstudy_interface__rosidl_generator_py.pdb"

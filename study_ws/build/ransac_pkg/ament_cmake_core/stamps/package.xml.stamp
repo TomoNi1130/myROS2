@@ -12,10 +12,10 @@
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
 
+  <depend>ros2launch</depend>
+
   <depend>rclcpp</depend>
   <depend>study_interface</depend>
-  <depend>interface_pkg</depend>
-  <depend>std_msgs</depend>
 
   <export>
     <build_type>ament_cmake</build_type>
