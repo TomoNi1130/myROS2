@@ -1,0 +1,11 @@
+[31mCMake Error at CMakeLists.txt:40 (target_include_directories):
+  Cannot specify include directories for target "listener" which is not built
+  by this project.
+
+[0m
+[31mCMake Error at CMakeLists.txt:41 (target_link_libraries):
+  Cannot specify link libraries for target "listener" which is not built by
+  this project.
+
+[0m
+gmake: *** [Makefile:311: cmake_check_build_system] エラー 1

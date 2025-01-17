@@ -1,0 +1,10 @@
+[0.007s] Invoking command in '/home/tomoni11/Documents/ROS2/study_ws/build/make_cloud_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/study_ws/build/make_cloud_pkg -- -j24 -l24
+[0.062s] [ 50%] [32mBuilding CXX object CMakeFiles/circle.dir/src/circle.cpp.o[0m
+[1.845s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/circle.cpp:[m[K In member function ‘[01m[Kvoid SimpleTalker::[01;32m[Ktimer_callback[m[K()[m[K’:
+[1.845s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/circle.cpp:27:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing study_interface::msg::Cloud = struct study_interface::msg::Cloud_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct study_interface::msg::Cloud_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ka[m[K’
+[1.845s]    27 |             msg_cloud.[01;31m[Ka[m[K = 0.1;
+[1.845s]       |                       [01;31m[K^[m[K
+[2.602s] gmake[2]: *** [CMakeFiles/circle.dir/build.make:76: CMakeFiles/circle.dir/src/circle.cpp.o] エラー 1
+[2.602s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/circle.dir/all] エラー 2
+[2.602s] gmake: *** [Makefile:146: all] エラー 2
+[2.604s] Invoked command in '/home/tomoni11/Documents/ROS2/study_ws/build/make_cloud_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/study_ws/build/make_cloud_pkg -- -j24 -l24

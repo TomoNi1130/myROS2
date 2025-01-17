@@ -1,0 +1,26 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/circle.dir/src/circle_main.cpp.o[0m
+In file included from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:4[m[K:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:[m[K In member function ‘[01m[Kcircle RANSAC::[01;32m[Kransac[m[K(std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >)[m[K’:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:9:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+    9 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:7:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    7 | circle RANSAC::ransac([01;35m[Kstd::vector<double> _x[m[K, std::vector<double> _y)
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:7:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    7 | circle RANSAC::ransac(std::vector<double> _x, [01;35m[Kstd::vector<double> _y[m[K)
+      |                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:[m[K At global scope:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:11:8:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kdouble RANSAC::[01;32m[Kfind_error[m[K(double, double, double, double, double, double) const[m[K’
+   11 | double [01;31m[KRANSAC[m[K::find_error(double a, double b, double c, double d, double _x, double _y) const
+      |        [01;31m[K^~~~~~[m[K
+In file included from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:3[m[K:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/ransac.hpp:23:14:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kdouble RANSAC::[01;32m[Kfind_error[m[K(double, double, double, double, double) const[m[K’
+   23 |       double [01;36m[Kfind_error[m[K(double a, double b, double c, double _x, double _y) const;
+      |              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/ransac.hpp:13:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass RANSAC[m[K’ defined here
+   13 | class [01;36m[KRANSAC[m[K
+      |       [01;36m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/circle.dir/build.make:76: CMakeFiles/circle.dir/src/circle_main.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/circle.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

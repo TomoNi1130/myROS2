@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "interface_pkg__py",
+		"source" : "/home/tomoni11/Documents/ROS2/study_ws/build/interface_pkg/interface_pkg__py"
+	}
+}

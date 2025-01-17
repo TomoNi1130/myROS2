@@ -1,0 +1,25 @@
+[0.007s] Invoking command in '/home/tomoni11/Documents/ROS2/study_ws/build/make_cloud_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/study_ws/build/make_cloud_pkg -- -j24 -l24
+[0.058s] [ 50%] [32mBuilding CXX object CMakeFiles/circle.dir/src/circle.cpp.o[0m
+[2.979s] [100%] [32m[1mLinking CXX executable circle[0m
+[3.122s] [100%] Built target circle
+[3.133s] Invoked command in '/home/tomoni11/Documents/ROS2/study_ws/build/make_cloud_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/study_ws/build/make_cloud_pkg -- -j24 -l24
+[3.134s] Invoking command in '/home/tomoni11/Documents/ROS2/study_ws/build/make_cloud_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tomoni11/Documents/ROS2/study_ws/build/make_cloud_pkg
+[3.141s] -- Install configuration: ""
+[3.141s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/lib/make_cloud_pkg/circle
+[3.142s] -- Set non-toolchain portion of runtime path of "/home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/lib/make_cloud_pkg/circle" to ""
+[3.142s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/ament_index/resource_index/package_run_dependencies/make_cloud_pkg
+[3.143s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/ament_index/resource_index/parent_prefix_path/make_cloud_pkg
+[3.143s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/make_cloud_pkg/environment/ament_prefix_path.sh
+[3.143s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/make_cloud_pkg/environment/ament_prefix_path.dsv
+[3.143s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/make_cloud_pkg/environment/path.sh
+[3.143s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/make_cloud_pkg/environment/path.dsv
+[3.143s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/make_cloud_pkg/local_setup.bash
+[3.143s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/make_cloud_pkg/local_setup.sh
+[3.143s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/make_cloud_pkg/local_setup.zsh
+[3.143s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/make_cloud_pkg/local_setup.dsv
+[3.143s] -- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/make_cloud_pkg/package.dsv
+[3.143s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/ament_index/resource_index/packages/make_cloud_pkg
+[3.143s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/make_cloud_pkg/cmake/make_cloud_pkgConfig.cmake
+[3.143s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/make_cloud_pkg/cmake/make_cloud_pkgConfig-version.cmake
+[3.143s] -- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/make_cloud_pkg/package.xml
+[3.145s] Invoked command in '/home/tomoni11/Documents/ROS2/study_ws/build/make_cloud_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tomoni11/Documents/ROS2/study_ws/build/make_cloud_pkg

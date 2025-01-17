@@ -1,0 +1,7 @@
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/circle.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kstudy_interface/msg/cloud.msg: そのようなファイルやディレクトリはありません
+    8 | #include [01;31m[K"study_interface/msg/cloud.msg"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/circle.dir/build.make:76: CMakeFiles/circle.dir/src/circle.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/circle.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

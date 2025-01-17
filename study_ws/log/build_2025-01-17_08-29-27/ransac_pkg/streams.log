@@ -1,0 +1,31 @@
+[0.007s] Invoking command in '/home/tomoni11/Documents/ROS2/study_ws/build/ransac_pkg': CMAKE_PREFIX_PATH=/home/tomoni11/Documents/ROS2/study_ws/install/study_interface:/home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/study_ws/build/ransac_pkg -- -j24 -l24
+[0.035s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.263s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.290s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.298s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.307s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.320s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.380s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.381s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.450s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.516s] -- Found study_interface: 0.0.0 (/home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/cmake)
+[0.572s] [31mCMake Error at CMakeLists.txt:12 (find_package):
+[0.572s]   By not providing "Findinterface_pkg.cmake" in CMAKE_MODULE_PATH this
+[0.573s]   project has asked CMake to find a package configuration file provided by
+[0.573s]   "interface_pkg", but CMake did not find one.
+[0.573s] 
+[0.573s]   Could not find a package configuration file provided by "interface_pkg"
+[0.573s]   with any of the following names:
+[0.573s] 
+[0.573s]     interface_pkgConfig.cmake
+[0.576s]     interface_pkg-config.cmake
+[0.576s] 
+[0.576s]   Add the installation prefix of "interface_pkg" to CMAKE_PREFIX_PATH or set
+[0.576s]   "interface_pkg_DIR" to a directory containing one of the above files.  If
+[0.576s]   "interface_pkg" provides a separate development package or SDK, be sure it
+[0.576s]   has been installed.
+[0.576s] 
+[0.576s] [0m
+[0.576s] -- Configuring incomplete, errors occurred!
+[0.585s] gmake: *** [Makefile:267: cmake_check_build_system] エラー 1
+[0.587s] Invoked command in '/home/tomoni11/Documents/ROS2/study_ws/build/ransac_pkg' returned '2': CMAKE_PREFIX_PATH=/home/tomoni11/Documents/ROS2/study_ws/install/study_interface:/home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/study_ws/build/ransac_pkg -- -j24 -l24

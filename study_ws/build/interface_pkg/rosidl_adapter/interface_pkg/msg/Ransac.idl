@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from interface_pkg/msg/Ransac.msg
+// generated code does not contain a copyright notice
+
+
+module interface_pkg {
+  module msg {
+    struct Ransac {
+      double low_x;
+
+      double high_x;
+
+      double low_y;
+
+      double high_y;
+
+      double a;
+
+      double b;
+
+      double c;
+
+      double distance;
+
+      double theta;
+    };
+  };
+};

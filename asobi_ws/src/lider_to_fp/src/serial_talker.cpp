@@ -27,7 +27,7 @@ private:
 
             std::string message = std::to_string(msg.theta) + "/";
             boost::asio::write(serial, buffer(message), ec);
-            RCLCPP_INFO(this->get_logkgger(), "send:%s", message.c_str());
+            RCLCPP_INFO(this->get_logger(), "send:%s", message.c_str());
             if (ec)
             {
                   RCLCPP_ERROR(this->get_logger(), "Error writing to serial port: %s", ec.message().c_str());

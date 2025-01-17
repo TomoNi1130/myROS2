@@ -1,0 +1,24 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/circle.dir/src/circle.cpp.o[0m
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/circle.cpp:40:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kseed_gen[m[K’ is not a type
+   40 |       std::mt19937 engine([01;31m[Kseed_gen[m[K());
+      |                           [01;31m[K^~~~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/circle.cpp:41:52:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K-[m[K’ token
+   41 |       std::uniform_real_distribution<double> dist1([01;31m[K-[m[K1.0f, 1.0f);
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/circle.cpp:41:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K-[m[K’ token
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/circle.cpp:[m[K In member function ‘[01m[Kvoid SimpleTalker::[01;32m[Ktimer_callback[m[K()[m[K’:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/circle.cpp:28:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing study_interface::msg::Cloud = struct study_interface::msg::Cloud_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct study_interface::msg::Cloud_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksize[m[K’
+   28 |             for (int i = 0; i < msg_cloud.[01;31m[Ksize[m[K())
+      |                                           [01;31m[K^~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/circle.cpp:28:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+   28 |             for (int i = 0; i < msg_cloud.size()[01;31m[K)[m[K
+      |                                                 [01;31m[K^[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/circle.cpp:30:41:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kstd::mt19937 SimpleTalker::[01;32m[Kengine[m[K(int (*)())[m[K’
+   30 |                   double length = dist1([01;31m[Kengine[m[K);
+      |                                         [01;31m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/circle.cpp:40:20:[m[K [01;36m[Knote: [m[Kdeclared here
+   40 |       std::mt19937 [01;36m[Kengine[m[K(seed_gen());
+      |                    [01;36m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/circle.dir/build.make:76: CMakeFiles/circle.dir/src/circle.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/circle.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

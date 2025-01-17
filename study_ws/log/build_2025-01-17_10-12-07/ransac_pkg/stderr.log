@@ -1,0 +1,50 @@
+In file included from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:3[m[K:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/ransac.hpp:18:62:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kdouble b[m[K’
+   18 |       double find_error(double a, double b, double c, [01;31m[Kdouble b[m[K, double _x, double _y) const;
+      |                                                       [01;31m[K~~~~~~~^[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/ransac.hpp:18:42:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble b[m[K’ previously declared here
+   18 |       double find_error(double a, [01;36m[Kdouble b[m[K, double c, double b, double _x, double _y) const;
+      |                                   [01;36m[K~~~~~~~^[m[K
+In file included from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:1[m[K,
+                 from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:4[m[K:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/ransac.hpp:6:8:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kstruct circle[m[K’
+    6 | struct [01;31m[Kcircle[m[K // 一般形で表す
+      |        [01;31m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/ransac.hpp:6:8:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kstruct circle[m[K’
+    6 | struct [01;36m[Kcircle[m[K // 一般形で表す
+      |        [01;36m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/ransac.hpp:11:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass RANSAC[m[K’
+   11 | class [01;31m[KRANSAC[m[K
+      |       [01;31m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/ransac.hpp:11:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass RANSAC[m[K’
+   11 | class [01;36m[KRANSAC[m[K
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:7:1:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kransac[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+    7 | [01;31m[KRANSAC[m[K::ransac(std::vector<double> _x, std::vector<double> _y)
+      | [01;31m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:7:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kint RANSAC::[01;32m[Kransac[m[K(std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >)[m[K’
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/ransac.hpp:15:14:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kcircle RANSAC::[01;32m[Kransac[m[K(std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >)[m[K’
+   15 |       circle [01;36m[Kransac[m[K(std::vector<double> _x, std::vector<double> _y);
+      |              [01;36m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/ransac.hpp:11:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass RANSAC[m[K’ defined here
+   11 | class [01;36m[KRANSAC[m[K
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:11:57:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kdouble b[m[K’
+   11 | RANSAC::find_error(double a, double b, double c, [01;31m[Kdouble b[m[K, double _x, double _y) const
+      |                                                  [01;31m[K~~~~~~~^[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:11:37:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble b[m[K’ previously declared here
+   11 | RANSAC::find_error(double a, [01;36m[Kdouble b[m[K, double c, double b, double _x, double _y) const
+      |                              [01;36m[K~~~~~~~^[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:11:1:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kfind_error[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   11 | [01;31m[KRANSAC[m[K::find_error(double a, double b, double c, double b, double _x, double _y) const
+      | [01;31m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:11:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kint RANSAC::[01;32m[Kfind_error[m[K(...) const[m[K’
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/ransac.hpp:18:14:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kdouble RANSAC::[01;32m[Kfind_error[m[K(...) const[m[K’
+   18 |       double [01;36m[Kfind_error[m[K(double a, double b, double c, double b, double _x, double _y) const;
+      |              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/ransac.hpp:11:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass RANSAC[m[K’ defined here
+   11 | class [01;36m[KRANSAC[m[K
+      |       [01;36m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/circle.dir/build.make:76: CMakeFiles/circle.dir/src/circle_main.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/circle.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

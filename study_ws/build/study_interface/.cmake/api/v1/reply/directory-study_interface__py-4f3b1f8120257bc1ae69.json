@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "study_interface__py",
+		"source" : "/home/tomoni11/Documents/ROS2/study_ws/build/study_interface/study_interface__py"
+	}
+}

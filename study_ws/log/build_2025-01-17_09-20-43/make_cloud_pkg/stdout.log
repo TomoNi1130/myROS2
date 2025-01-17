@@ -1,0 +1,26 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/circle.dir/src/circle.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/drower.dir/src/drower.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable circle[0m
+[ 75%] Built target circle
+[100%] [32m[1mLinking CXX executable drower[0m
+[100%] Built target drower
+-- Install configuration: ""
+-- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/lib/make_cloud_pkg/circle
+-- Set non-toolchain portion of runtime path of "/home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/lib/make_cloud_pkg/circle" to ""
+-- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/lib/make_cloud_pkg/drower
+-- Set non-toolchain portion of runtime path of "/home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/lib/make_cloud_pkg/drower" to ""
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/ament_index/resource_index/package_run_dependencies/make_cloud_pkg
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/ament_index/resource_index/parent_prefix_path/make_cloud_pkg
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/make_cloud_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/make_cloud_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/make_cloud_pkg/environment/path.sh
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/make_cloud_pkg/environment/path.dsv
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/make_cloud_pkg/local_setup.bash
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/make_cloud_pkg/local_setup.sh
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/make_cloud_pkg/local_setup.zsh
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/make_cloud_pkg/local_setup.dsv
+-- Installing: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/make_cloud_pkg/package.dsv
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/ament_index/resource_index/packages/make_cloud_pkg
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/make_cloud_pkg/cmake/make_cloud_pkgConfig.cmake
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/make_cloud_pkg/cmake/make_cloud_pkgConfig-version.cmake
+-- Up-to-date: /home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg/share/make_cloud_pkg/package.xml

@@ -1,0 +1,25 @@
+[0.007s] Invoking command in '/home/tomoni11/Documents/ROS2/study_ws/build/make_cloud_pkg': CMAKE_PREFIX_PATH=/home/tomoni11/Documents/ROS2/study_ws/install/study_interface:/home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg:/home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg:/home/tomoni11/Documents/ROS2/study_ws/install/interface_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/study_ws/build/make_cloud_pkg -- -j24 -l24
+[0.030s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.227s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.248s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.254s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.262s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.270s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.317s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.318s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.376s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.430s] -- Found study_interface: 0.0.0 (/home/tomoni11/Documents/ROS2/study_ws/install/study_interface/share/study_interface/cmake)
+[0.849s] -- Found Python3: /usr/include/python3.12 (found version "3.12.3") found components: Development NumPy Interpreter Development.Module Development.Embed 
+[0.850s] [31mCMake Error at CMakeLists.txt:40 (target_include_directories):
+[0.850s]   Cannot specify include directories for target "listener" which is not built
+[0.850s]   by this project.
+[0.850s] 
+[0.851s] [0m
+[0.851s] [31mCMake Error at CMakeLists.txt:41 (target_link_libraries):
+[0.851s]   Cannot specify link libraries for target "listener" which is not built by
+[0.851s]   this project.
+[0.851s] 
+[0.851s] [0m
+[0.851s] -- Configuring incomplete, errors occurred!
+[0.859s] gmake: *** [Makefile:311: cmake_check_build_system] エラー 1
+[0.861s] Invoked command in '/home/tomoni11/Documents/ROS2/study_ws/build/make_cloud_pkg' returned '2': CMAKE_PREFIX_PATH=/home/tomoni11/Documents/ROS2/study_ws/install/study_interface:/home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg:/home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg:/home/tomoni11/Documents/ROS2/study_ws/install/interface_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/study_ws/build/make_cloud_pkg -- -j24 -l24

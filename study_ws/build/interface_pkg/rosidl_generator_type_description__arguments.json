@@ -1,0 +1,11 @@
+{
+  "package_name": "interface_pkg",
+  "output_dir": "/home/tomoni11/Documents/ROS2/study_ws/build/interface_pkg/rosidl_generator_type_description/interface_pkg",
+  "idl_tuples": [
+    "/home/tomoni11/Documents/ROS2/study_ws/build/interface_pkg/rosidl_adapter/interface_pkg:msg/Ransac.idl"
+  ],
+  "include_paths": [
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs"
+  ]
+}

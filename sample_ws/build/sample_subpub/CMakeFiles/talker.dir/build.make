@@ -69,28 +69,28 @@ include CMakeFiles/talker.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/talker.dir/flags.make
 
-CMakeFiles/talker.dir/src/pub.cpp.o: CMakeFiles/talker.dir/flags.make
-CMakeFiles/talker.dir/src/pub.cpp.o: /home/tomoni11/Documents/ROS2/sample_ws/src/sample_subpub/src/pub.cpp
-CMakeFiles/talker.dir/src/pub.cpp.o: CMakeFiles/talker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tomoni11/Documents/ROS2/sample_ws/build/sample_subpub/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/talker.dir/src/pub.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/talker.dir/src/pub.cpp.o -MF CMakeFiles/talker.dir/src/pub.cpp.o.d -o CMakeFiles/talker.dir/src/pub.cpp.o -c /home/tomoni11/Documents/ROS2/sample_ws/src/sample_subpub/src/pub.cpp
+CMakeFiles/talker.dir/src/pubb.cpp.o: CMakeFiles/talker.dir/flags.make
+CMakeFiles/talker.dir/src/pubb.cpp.o: /home/tomoni11/Documents/ROS2/sample_ws/src/sample_subpub/src/pubb.cpp
+CMakeFiles/talker.dir/src/pubb.cpp.o: CMakeFiles/talker.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tomoni11/Documents/ROS2/sample_ws/build/sample_subpub/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/talker.dir/src/pubb.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/talker.dir/src/pubb.cpp.o -MF CMakeFiles/talker.dir/src/pubb.cpp.o.d -o CMakeFiles/talker.dir/src/pubb.cpp.o -c /home/tomoni11/Documents/ROS2/sample_ws/src/sample_subpub/src/pubb.cpp
 
-CMakeFiles/talker.dir/src/pub.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/talker.dir/src/pub.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tomoni11/Documents/ROS2/sample_ws/src/sample_subpub/src/pub.cpp > CMakeFiles/talker.dir/src/pub.cpp.i
+CMakeFiles/talker.dir/src/pubb.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/talker.dir/src/pubb.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tomoni11/Documents/ROS2/sample_ws/src/sample_subpub/src/pubb.cpp > CMakeFiles/talker.dir/src/pubb.cpp.i
 
-CMakeFiles/talker.dir/src/pub.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/talker.dir/src/pub.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tomoni11/Documents/ROS2/sample_ws/src/sample_subpub/src/pub.cpp -o CMakeFiles/talker.dir/src/pub.cpp.s
+CMakeFiles/talker.dir/src/pubb.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/talker.dir/src/pubb.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tomoni11/Documents/ROS2/sample_ws/src/sample_subpub/src/pubb.cpp -o CMakeFiles/talker.dir/src/pubb.cpp.s
 
 # Object files for target talker
 talker_OBJECTS = \
-"CMakeFiles/talker.dir/src/pub.cpp.o"
+"CMakeFiles/talker.dir/src/pubb.cpp.o"
 
 # External object files for target talker
 talker_EXTERNAL_OBJECTS =
 
-talker: CMakeFiles/talker.dir/src/pub.cpp.o
+talker: CMakeFiles/talker.dir/src/pubb.cpp.o
 talker: CMakeFiles/talker.dir/build.make
 talker: /opt/ros/jazzy/lib/librclcpp.so
 talker: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so

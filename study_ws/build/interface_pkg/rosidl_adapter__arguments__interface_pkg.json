@@ -1,0 +1,6 @@
+{
+  "package_name": "interface_pkg",
+  "non_idl_tuples": [
+    "/home/tomoni11/Documents/ROS2/study_ws/src/interface_pkg:msg/Ransac.msg"
+  ]
+}

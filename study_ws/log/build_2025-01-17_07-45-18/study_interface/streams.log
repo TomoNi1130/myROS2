@@ -1,0 +1,16 @@
+[0.008s] Invoking command in '/home/tomoni11/Documents/ROS2/study_ws/build/study_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/study_ws/build/study_interface -- -j24 -l24
+[0.029s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.200s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.202s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.236s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.258s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.430s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:192 (message):
+[0.430s]   rosidl_generate_interfaces() the passed dependency 'geometry_msgs' has not
+[0.430s]   been found before using find_package()
+[0.430s] Call Stack (most recent call first):
+[0.430s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[0.430s] 
+[0.430s] [0m
+[0.430s] -- Configuring incomplete, errors occurred!
+[0.435s] gmake: *** [Makefile:226: cmake_check_build_system] エラー 1
+[0.437s] Invoked command in '/home/tomoni11/Documents/ROS2/study_ws/build/study_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/study_ws/build/study_interface -- -j24 -l24

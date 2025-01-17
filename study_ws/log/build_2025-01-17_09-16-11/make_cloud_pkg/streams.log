@@ -1,0 +1,34 @@
+[0.008s] Invoking command in '/home/tomoni11/Documents/ROS2/study_ws/build/make_cloud_pkg': CMAKE_PREFIX_PATH=/home/tomoni11/Documents/ROS2/study_ws/install/study_interface:/home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg:/home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg:/home/tomoni11/Documents/ROS2/study_ws/install/interface_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/study_ws/build/make_cloud_pkg -- -j24 -l24
+[0.061s] [ 50%] Built target circle
+[0.062s] [ 75%] [32mBuilding CXX object CMakeFiles/drower.dir/src/drower.cpp.o[0m
+[1.605s] In file included from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/drower.cpp:5[m[K:
+[1.605s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/include/make_cloud_pkg/matplotlibcpp.h:[m[K In constructor ‘[01m[Kmatplotlibcpp::detail::_interpreter::[01;32m[K_interpreter[m[K()[m[K’:
+[1.605s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/include/make_cloud_pkg/matplotlibcpp.h:182:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid[01;32m[K Py_SetProgramName[m[K(const wchar_t*)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[1.605s]   182 |                         [01;35m[KPy_SetProgramName(name)[m[K;
+[1.605s]       |                         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[1.605s] In file included from [01m[K/usr/include/python3.12/Python.h:94[m[K,
+[1.605s]                  from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/include/make_cloud_pkg/matplotlibcpp.h:5[m[K:
+[1.605s] [01m[K/usr/include/python3.12/pylifecycle.h:37:38:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.605s]    37 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) [01;36m[KPy_SetProgramName[m[K(const wchar_t *);
+[1.605s]       |                                      [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[1.605s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/include/make_cloud_pkg/matplotlibcpp.h:190:38:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid[01;32m[K PySys_SetArgv[m[K(int, wchar_t**)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[1.605s]   190 |                         [01;35m[KPySys_SetArgv(argc, const_cast<wchar_t **>(argv))[m[K;
+[1.605s]       |                         [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.605s] In file included from [01m[K/usr/include/python3.12/Python.h:96[m[K:
+[1.606s] [01m[K/usr/include/python3.12/sysmodule.h:13:38:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.606s]    13 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) [01;36m[KPySys_SetArgv[m[K(int, wchar_t **);
+[1.606s]       |                                      [01;36m[K^~~~~~~~~~~~~[m[K
+[1.654s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/drower.cpp:[m[K In member function ‘[01m[Kvoid Drower::[01;32m[Kchatter_callback[m[K(study_interface::msg::Cloud_<std::allocator<void> >::SharedPtr) const[m[K’:
+[1.654s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/drower.cpp:40:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst study_interface::msg::Cloud_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<study_interface::msg::Cloud_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kcloudx[m[K’
+[1.654s]    40 |             for (size_t i = 0; i < msg.[01;31m[Kcloudx[m[K.size(); i++)
+[1.654s]       |                                        [01;31m[K^~~~~~[m[K
+[1.654s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/drower.cpp:41:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst study_interface::msg::Cloud_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<study_interface::msg::Cloud_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kcloudx[m[K’
+[1.654s]    41 |                   plt::scatter(msg.[01;31m[Kcloudx[m[K[i], msg.cloudy[i]);
+[1.654s]       |                                    [01;31m[K^~~~~~[m[K
+[1.654s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/drower.cpp:41:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst study_interface::msg::Cloud_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<study_interface::msg::Cloud_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kcloudy[m[K’
+[1.654s]    41 |                   plt::scatter(msg.cloudx[i], msg.[01;31m[Kcloudy[m[K[i]);
+[1.654s]       |                                                   [01;31m[K^~~~~~[m[K
+[3.018s] gmake[2]: *** [CMakeFiles/drower.dir/build.make:76: CMakeFiles/drower.dir/src/drower.cpp.o] エラー 1
+[3.018s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/drower.dir/all] エラー 2
+[3.018s] gmake: *** [Makefile:146: all] エラー 2
+[3.020s] Invoked command in '/home/tomoni11/Documents/ROS2/study_ws/build/make_cloud_pkg' returned '2': CMAKE_PREFIX_PATH=/home/tomoni11/Documents/ROS2/study_ws/install/study_interface:/home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg:/home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg:/home/tomoni11/Documents/ROS2/study_ws/install/interface_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/study_ws/build/make_cloud_pkg -- -j24 -l24

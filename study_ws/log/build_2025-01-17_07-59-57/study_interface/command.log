@@ -1,0 +1,2 @@
+Invoking command in '/home/tomoni11/Documents/ROS2/study_ws/build/study_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/study_ws/build/study_interface -- -j24 -l24
+Invoked command in '/home/tomoni11/Documents/ROS2/study_ws/build/study_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/study_ws/build/study_interface -- -j24 -l24

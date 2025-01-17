@@ -1,0 +1,31 @@
+[0.007s] Invoking command in '/home/tomoni11/Documents/ROS2/asobi_ws/build/lider_to_fp': AMENT_PREFIX_PATH=/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/asobi_ws/build/lider_to_fp -- -j24 -l24
+[0.063s] [ 50%] Built target ransac_unit
+[0.069s] [ 75%] [32mBuilding CXX object CMakeFiles/serial_talker.dir/src/serial_talker.cpp.o[0m
+[2.604s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[2.604s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[2.605s]                  from [01m[K/home/tomoni11/Documents/ROS2/asobi_ws/src/lider_to_fp/src/serial_talker.cpp:3[m[K:
+[2.605s] [01m[K/home/tomoni11/Documents/ROS2/asobi_ws/src/lider_to_fp/src/serial_talker.cpp:[m[K In member function ‘[01m[Kvoid serial_talker::[01;32m[Ktopic_callback[m[K(const interface_pkg::msg::Ransac&)[m[K’:
+[2.605s] [01m[K/home/tomoni11/Documents/ROS2/asobi_ws/src/lider_to_fp/src/serial_talker.cpp:30:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass serial_talker[m[K’ has no member named ‘[01m[Kget_logkgger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[2.605s]    30 |             RCLCPP_INFO(this->[01;31m[Kget_logkgger[m[K(), "send:%s", message.c_str());
+[2.605s]       |                               [01;31m[K^~~~~~~~~~~~[m[K
+[2.605s] [01m[K/home/tomoni11/Documents/ROS2/asobi_ws/src/lider_to_fp/src/serial_talker.cpp:30:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass serial_talker[m[K’ has no member named ‘[01m[Kget_logkgger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[2.605s] [01m[K/home/tomoni11/Documents/ROS2/asobi_ws/src/lider_to_fp/src/serial_talker.cpp:30:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.605s]    30 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logkgger(), "send:%s", message.c_str());
+[2.605s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[2.605s] [01m[K/home/tomoni11/Documents/ROS2/asobi_ws/src/lider_to_fp/src/serial_talker.cpp:30:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.605s]    30 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logkgger(), "send:%s", message.c_str());
+[2.605s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[2.605s] [01m[K/home/tomoni11/Documents/ROS2/asobi_ws/src/lider_to_fp/src/serial_talker.cpp:30:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.605s]    30 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logkgger(), "send:%s", message.c_str());
+[2.605s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[2.605s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K:
+[2.605s] [01m[K/home/tomoni11/Documents/ROS2/asobi_ws/src/lider_to_fp/src/serial_talker.cpp:30:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass serial_talker[m[K’ has no member named ‘[01m[Kget_logkgger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[2.605s]    30 |             RCLCPP_INFO(this->[01;31m[Kget_logkgger[m[K(), "send:%s", message.c_str());
+[2.605s]       |                               [01;31m[K^~~~~~~~~~~~[m[K
+[2.605s] [01m[K/home/tomoni11/Documents/ROS2/asobi_ws/src/lider_to_fp/src/serial_talker.cpp:30:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass serial_talker[m[K’ has no member named ‘[01m[Kget_logkgger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[2.605s]    30 |             RCLCPP_INFO(this->[01;31m[Kget_logkgger[m[K(), "send:%s", message.c_str());
+[2.605s]       |                               [01;31m[K^~~~~~~~~~~~[m[K
+[4.034s] gmake[2]: *** [CMakeFiles/serial_talker.dir/build.make:76: CMakeFiles/serial_talker.dir/src/serial_talker.cpp.o] エラー 1
+[4.034s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/serial_talker.dir/all] エラー 2
+[4.034s] gmake: *** [Makefile:146: all] エラー 2
+[4.036s] Invoked command in '/home/tomoni11/Documents/ROS2/asobi_ws/build/lider_to_fp' returned '2': AMENT_PREFIX_PATH=/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tomoni11/Documents/ROS2/asobi_ws/install/interface_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/asobi_ws/build/lider_to_fp -- -j24 -l24

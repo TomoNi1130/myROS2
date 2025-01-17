@@ -1,0 +1,42 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/circle.dir/src/circle_main.cpp.o[0m
+In file included from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:4[m[K:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:3:1:[m[K [01;31m[Kerror: [m[K‘[01m[KRANSAC[m[K’ does not name a type
+    3 | [01;31m[KRANSAC[m[K::RANSAC()
+      | [01;31m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:7:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kcircle[m[K’ does not name a type
+    7 | [01;31m[Kcircle[m[K RANSAC::ransac(std::vector<double> _x, std::vector<double> _y)
+      | [01;31m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:11:8:[m[K [01;31m[Kerror: [m[K‘[01m[KRANSAC[m[K’ has not been declared
+   11 | double [01;31m[KRANSAC[m[K::find_error(double a, double b, double c, double b, double _x, double _y) const
+      |        [01;31m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:11:64:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kdouble b[m[K’
+   11 | double RANSAC::find_error(double a, double b, double c, [01;31m[Kdouble b[m[K, double _x, double _y) const
+      |                                                         [01;31m[K~~~~~~~^[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:11:44:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble b[m[K’ previously declared here
+   11 | double RANSAC::find_error(double a, [01;36m[Kdouble b[m[K, double c, double b, double _x, double _y) const
+      |                                     [01;36m[K~~~~~~~^[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:11:89:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kdouble[01;32m[K find_error[m[K(...)[m[K’ cannot have cv-qualifier
+   11 | double RANSAC::find_error(double a, double b, double c, double b, double _x, double _y) [01;31m[Kconst[m[K
+      |                                                                                         [01;31m[K^~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:[m[K In function ‘[01m[Kdouble[01;32m[K find_error[m[K(...)[m[K’:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:13:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   13 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:11:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   11 | double RANSAC::find_error([01;35m[Kdouble a[m[K, double b, double c, double b, double _x, double _y) const
+      |                           [01;35m[K~~~~~~~^[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:11:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kb[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   11 | double RANSAC::find_error(double a, [01;35m[Kdouble b[m[K, double c, double b, double _x, double _y) const
+      |                                     [01;35m[K~~~~~~~^[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:11:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   11 | double RANSAC::find_error(double a, double b, [01;35m[Kdouble c[m[K, double b, double _x, double _y) const
+      |                                               [01;35m[K~~~~~~~^[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:11:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   11 | double RANSAC::find_error(double a, double b, double c, double b, [01;35m[Kdouble _x[m[K, double _y) const
+      |                                                                   [01;35m[K~~~~~~~^~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:11:85:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   11 | double RANSAC::find_error(double a, double b, double c, double b, double _x, [01;35m[Kdouble _y[m[K) const
+      |                                                                              [01;35m[K~~~~~~~^~[m[K
+gmake[2]: *** [CMakeFiles/circle.dir/build.make:76: CMakeFiles/circle.dir/src/circle_main.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/circle.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

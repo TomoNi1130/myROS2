@@ -1,0 +1,21 @@
+In file included from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/drower.cpp:5[m[K:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/include/make_cloud_pkg/matplotlibcpp.h:[m[K In constructor ‘[01m[Kmatplotlibcpp::detail::_interpreter::[01;32m[K_interpreter[m[K()[m[K’:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/include/make_cloud_pkg/matplotlibcpp.h:182:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid[01;32m[K Py_SetProgramName[m[K(const wchar_t*)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  182 |                         [01;35m[KPy_SetProgramName(name)[m[K;
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/usr/include/python3.12/Python.h:94[m[K,
+                 from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/include/make_cloud_pkg/matplotlibcpp.h:5[m[K:
+[01m[K/usr/include/python3.12/pylifecycle.h:37:38:[m[K [01;36m[Knote: [m[Kdeclared here
+   37 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) [01;36m[KPy_SetProgramName[m[K(const wchar_t *);
+      |                                      [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/include/make_cloud_pkg/matplotlibcpp.h:190:38:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid[01;32m[K PySys_SetArgv[m[K(int, wchar_t**)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  190 |                         [01;35m[KPySys_SetArgv(argc, const_cast<wchar_t **>(argv))[m[K;
+      |                         [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/python3.12/Python.h:96[m[K:
+[01m[K/usr/include/python3.12/sysmodule.h:13:38:[m[K [01;36m[Knote: [m[Kdeclared here
+   13 | Py_DEPRECATED(3.11) PyAPI_FUNC(void) [01;36m[KPySys_SetArgv[m[K(int, wchar_t **);
+      |                                      [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/drower.cpp:[m[K In member function ‘[01m[Kvoid Drower::[01;32m[Kchatter_callback[m[K(study_interface::msg::Cloud_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/drower.cpp:36:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   36 |       void chatter_callback([01;35m[Kconst study_interface::msg::Cloud::SharedPtr msg[m[K) const
+      |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K

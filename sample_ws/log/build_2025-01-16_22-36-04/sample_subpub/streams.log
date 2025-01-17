@@ -1,0 +1,44 @@
+[0.008s] Invoking command in '/home/tomoni11/Documents/ROS2/sample_ws/build/sample_subpub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/sample_ws/build/sample_subpub -- -j24 -l24
+[0.034s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.206s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.213s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.234s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.240s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.248s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.257s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.303s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.304s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.357s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.408s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.507s] -- Configuring done (0.5s)
+[0.522s] -- Generating done (0.0s)
+[0.526s] -- Build files have been written to: /home/tomoni11/Documents/ROS2/sample_ws/build/sample_subpub
+[0.560s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subb.cpp.o[0m
+[0.560s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/pubb.cpp.o[0m
+[4.192s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[4.326s] [ 75%] Built target talker
+[5.239s] [100%] [32m[1mLinking CXX executable listener[0m
+[5.445s] [100%] Built target listener
+[5.455s] Invoked command in '/home/tomoni11/Documents/ROS2/sample_ws/build/sample_subpub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/sample_ws/build/sample_subpub -- -j24 -l24
+[5.463s] Invoking command in '/home/tomoni11/Documents/ROS2/sample_ws/build/sample_subpub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tomoni11/Documents/ROS2/sample_ws/build/sample_subpub
+[5.471s] -- Install configuration: ""
+[5.471s] -- Execute custom install script
+[5.471s] -- Up-to-date symlink: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/lib/sample_subpub//talker
+[5.471s] -- Up-to-date symlink: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/lib/sample_subpub//listener
+[5.471s] -- Up-to-date symlink: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/launch/subpub.launch.py
+[5.472s] -- Up-to-date symlink: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/ament_index/resource_index/package_run_dependencies/sample_subpub
+[5.472s] -- Up-to-date symlink: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/ament_index/resource_index/parent_prefix_path/sample_subpub
+[5.472s] -- Up-to-date symlink: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/environment/ament_prefix_path.sh
+[5.472s] -- Up-to-date symlink: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/environment/ament_prefix_path.dsv
+[5.472s] -- Up-to-date symlink: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/environment/path.sh
+[5.472s] -- Up-to-date symlink: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/environment/path.dsv
+[5.472s] -- Up-to-date symlink: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/local_setup.bash
+[5.472s] -- Up-to-date symlink: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/local_setup.sh
+[5.472s] -- Up-to-date symlink: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/local_setup.zsh
+[5.472s] -- Up-to-date symlink: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/local_setup.dsv
+[5.472s] -- Symlinking: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/package.dsv
+[5.480s] -- Up-to-date symlink: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/ament_index/resource_index/packages/sample_subpub
+[5.480s] -- Up-to-date symlink: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/cmake/sample_subpubConfig.cmake
+[5.480s] -- Up-to-date symlink: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/cmake/sample_subpubConfig-version.cmake
+[5.480s] -- Up-to-date symlink: /home/tomoni11/Documents/ROS2/sample_ws/install/sample_subpub/share/sample_subpub/package.xml
+[5.482s] Invoked command in '/home/tomoni11/Documents/ROS2/sample_ws/build/sample_subpub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tomoni11/Documents/ROS2/sample_ws/build/sample_subpub

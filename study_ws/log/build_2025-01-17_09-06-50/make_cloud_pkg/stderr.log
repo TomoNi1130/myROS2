@@ -1,0 +1,9 @@
+In file included from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/drower.cpp:5[m[K:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/include/make_cloud_pkg/matplotlibcpp.h:5:10:[m[K [01;31m[Kfatal error: [m[KPython.h: そのようなファイルやディレクトリはありません
+    5 | #include [01;31m[K<Python.h>[m[K
+      |          [01;31m[K^~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/circle.dir/build.make:90: CMakeFiles/circle.dir/src/drower.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/circle.dir/all] エラー 2
+gmake[1]: *** 未完了のジョブを待っています....
+gmake: *** [Makefile:146: all] エラー 2

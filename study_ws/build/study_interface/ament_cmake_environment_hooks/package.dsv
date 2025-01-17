@@ -1,0 +1,4 @@
+source;share/study_interface/local_setup.bash
+source;share/study_interface/local_setup.dsv
+source;share/study_interface/local_setup.sh
+source;share/study_interface/local_setup.zsh

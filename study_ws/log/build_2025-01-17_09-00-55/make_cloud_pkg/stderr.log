@@ -1,0 +1,8 @@
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/circle.cpp:[m[K In member function ‘[01m[Kvoid cloud_maker::[01;32m[Ktimer_callback[m[K()[m[K’:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/make_cloud_pkg/src/circle.cpp:35:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg_cloudx[m[K’ was not declared in this scope; did you mean ‘[01m[Kmsg_cloud[m[K’?
+   35 |             double theta_unit = 2.0 * pi / [01;31m[Kmsg_cloudx[m[K.size();
+      |                                            [01;31m[K^~~~~~~~~~[m[K
+      |                                            [32m[Kmsg_cloud[m[K
+gmake[2]: *** [CMakeFiles/circle.dir/build.make:76: CMakeFiles/circle.dir/src/circle.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/circle.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

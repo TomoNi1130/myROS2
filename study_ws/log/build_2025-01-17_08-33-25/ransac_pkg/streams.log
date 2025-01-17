@@ -1,0 +1,78 @@
+[0.019s] Invoking command in '/home/tomoni11/Documents/ROS2/study_ws/build/ransac_pkg': AMENT_PREFIX_PATH=/home/tomoni11/Documents/ROS2/study_ws/install/interface_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tomoni11/Documents/ROS2/study_ws/install/interface_pkg:/home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg:/home/tomoni11/Documents/ROS2/study_ws/install/study_interface:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tomoni11/Documents/ROS2/study_ws/install/interface_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tomoni11/Documents/ROS2/study_ws/install/interface_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/study_ws/build/ransac_pkg -- -j24 -l24
+[0.070s] [ 50%] [32mBuilding CXX object CMakeFiles/circle.dir/src/circle_main.cpp.o[0m
+[1.789s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:12:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kコンストラクタ[m[K’ does not name a type
+[1.789s]    12 |       [01;31m[Kコンストラクタ[m[K
+[1.789s]       |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.790s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:23:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kinterface[m[K’ does not name a type
+[1.790s]    23 |       void topic_callback(const [01;31m[Kinterface[m[K::msg::Ransac::SharedPtr &msg) const
+[1.790s]       |                                 [01;31m[K^~~~~~~~~[m[K
+[1.790s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:23:47:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[1.790s]    23 |       void topic_callback(const interface::msg[01;31m[K::[m[KRansac::SharedPtr &msg) const
+[1.790s]       |                                               [01;31m[K^~[m[K
+[1.790s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:23:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[1.790s]    23 |       void topic_callback[34m[K([m[Kconst interface::msg[01;31m[K:[m[K[32m[K:[m[KRansac::SharedPtr &msg) const
+[1.790s]       |                          [34m[K~[m[K                    [01;31m[K^[m[K[32m[K~[m[K
+[1.791s]       |                                               [32m[K)[m[K
+[1.791s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:23:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.791s]    23 |       void topic_callback(const interface::[01;31m[Kmsg[m[K::Ransac::SharedPtr &msg) const
+[1.791s]       |                                            [01;31m[K^~~[m[K
+[1.791s]       |                                               [32m[K;[m[K
+[1.793s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:23:49:[m[K [01;31m[Kerror: [m[K‘[01m[KRansac[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+[1.793s]    23 |       void topic_callback(const interface::msg::[01;31m[KRansac[m[K::SharedPtr &msg) const
+[1.793s]       |                                                 [01;31m[K^~~~~~[m[K
+[1.799s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:28:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kinterface[m[K’ was not declared in this scope; did you mean ‘[01m[Kinterface_pkg[m[K’?
+[1.799s]    28 |       rclcpp::Subscription<[01;31m[Kinterface[m[K::msg::Ransac>::SharedPtr subscription_;
+[1.799s]       |                            [01;31m[K^~~~~~~~~[m[K
+[1.799s]       |                            [32m[Kinterface_pkg[m[K
+[1.799s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:28:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.799s]    28 |       rclcpp::Subscription<interface::msg::Ransac[01;31m[K>[m[K::SharedPtr subscription_;
+[1.799s]       |                                                  [01;31m[K^[m[K
+[1.799s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:28:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[1.799s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:28:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[1.799s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:28:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[1.799s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:28:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.799s]    28 |       rclcpp::Subscription<interface::msg::Ransac>::[01;31m[KSharedPtr[m[K subscription_;
+[1.799s]       |                                                     [01;31m[K^~~~~~~~~[m[K
+[1.799s]       |                                                              [32m[K;[m[K
+[1.801s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:28:63:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[1.801s]    28 |       rclcpp::Subscription<interface::msg::Ransac>::SharedPtr [01;31m[Ksubscription_[m[K;
+[1.801s]       |                                                               [01;31m[K^~~~~~~~~~~~~[m[K
+[1.801s]       |                                                               [32m[Krmw_subscription_t[m[K
+[2.215s] In file included from [01m[K/usr/include/c++/13/bits/stl_tempbuf.h:61[m[K,
+[2.215s]                  from [01m[K/usr/include/c++/13/memory:66[m[K,
+[2.215s]                  from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:1[m[K:
+[2.215s] /usr/include/c++/13/bits/stl_construct.h: In instantiation of ‘[01m[Kvoid std::[01;32m[K_Construct[m[K(_Tp*, _Args&& ...) [35m[K[with _Tp = circle_ransac; _Args = {}][m[K[m[K’:
+[2.215s] [01m[K/usr/include/c++/13/bits/alloc_traits.h:661:19:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<void> >::[01;32m[Kconstruct[m[K(allocator_type&, _Up*, _Args&& ...) [35m[K[with _Up = circle_ransac; _Args = {}; allocator_type = std::allocator<void>][m[K[m[K’
+[2.215s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:604:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::[01;32m[K_Sp_counted_ptr_inplace[m[K(_Alloc, _Args&& ...) [35m[K[with _Args = {}; _Tp = circle_ransac; _Alloc = std::allocator<void>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K[m[K’
+[2.215s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:971:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::[01;32m[K__shared_count[m[K(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [35m[K[with _Tp = circle_ransac; _Alloc = std::allocator<void>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K[m[K’
+[2.215s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:1712:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::[01;32m[K__shared_ptr[m[K(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [35m[K[with _Alloc = std::allocator<void>; _Args = {}; _Tp = circle_ransac; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K[m[K’
+[2.215s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:464:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::[01;32m[Kshared_ptr[m[K(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [35m[K[with _Alloc = std::allocator<void>; _Args = {}; _Tp = circle_ransac][m[K[m[K’
+[2.215s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1009:14:[m[K   required from ‘[01m[Kstd::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...) [35m[K[with _Tp = circle_ransac; _Args = {}; typename enable_if<(! is_array< <template-parameter-1-1> >::value), _Tp>::type = circle_ransac][m[K[m[K’
+[2.215s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:34:51:[m[K   required from here
+[2.215s] [01m[K/usr/include/c++/13/bits/stl_construct.h:119:7:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[Kcircle_ransac::[01;32m[Kcircle_ransac[m[K()[m[K’
+[2.215s]   119 |       [01;31m[K::new((void*)__p) _Tp(std::forward<_Args>(__args)...)[m[K;
+[2.216s]       |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.216s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:9:7:[m[K [01;36m[Knote: [m[K‘[01m[Kcircle_ransac::[01;32m[Kcircle_ransac[m[K()[m[K’ is implicitly deleted because the default definition would be ill-formed:
+[2.216s]     9 | class [01;36m[Kcircle_ransac[m[K : public rclcpp::Node
+[2.216s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[2.216s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:9:7:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node()[m[K’
+[2.216s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.216s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.216s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+[2.216s]                  from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:3[m[K:
+[2.216s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1629:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::[01;32m[KNode[m[K(const rclcpp::Node&, const std::string&)[m[K’
+[2.216s]  1629 |   [01;36m[KNode[m[K(
+[2.216s]       |   [01;36m[K^~~~[m[K
+[2.216s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1629:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[2.216s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:103:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::[01;32m[KNode[m[K(const std::string&, const std::string&, const rclcpp::NodeOptions&)[m[K’
+[2.216s]   103 |   explicit [01;36m[KNode[m[K(
+[2.216s]       |            [01;36m[K^~~~[m[K
+[2.216s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:103:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[2.216s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:91:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::[01;32m[KNode[m[K(const std::string&, const rclcpp::NodeOptions&)[m[K’
+[2.216s]    91 |   explicit [01;36m[KNode[m[K(
+[2.216s]       |            [01;36m[K^~~~[m[K
+[2.216s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:91:12:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[2.292s] gmake[2]: *** [CMakeFiles/circle.dir/build.make:76: CMakeFiles/circle.dir/src/circle_main.cpp.o] エラー 1
+[2.292s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/circle.dir/all] エラー 2
+[2.292s] gmake: *** [Makefile:146: all] エラー 2
+[2.294s] Invoked command in '/home/tomoni11/Documents/ROS2/study_ws/build/ransac_pkg' returned '2': AMENT_PREFIX_PATH=/home/tomoni11/Documents/ROS2/study_ws/install/interface_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tomoni11/Documents/ROS2/study_ws/install/interface_pkg:/home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg:/home/tomoni11/Documents/ROS2/study_ws/install/study_interface:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tomoni11/Documents/ROS2/study_ws/install/interface_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tomoni11/Documents/ROS2/study_ws/install/interface_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/study_ws/build/ransac_pkg -- -j24 -l24

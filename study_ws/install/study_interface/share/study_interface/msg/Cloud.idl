@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from study_interface/msg/Cloud.msg
+// generated code does not contain a copyright notice
+
+
+module study_interface {
+  module msg {
+    typedef double double__150[150];
+    struct Cloud {
+      double__150 cloudx;
+
+      double__150 cloudy;
+    };
+  };
+};

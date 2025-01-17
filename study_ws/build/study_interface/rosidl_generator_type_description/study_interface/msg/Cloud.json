@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "study_interface/msg/Cloud",
+      "fields": [
+        {
+          "name": "cloudx",
+          "type": {
+            "type_id": 59,
+            "capacity": 150,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "cloudy",
+          "type": {
+            "type_id": 59,
+            "capacity": 150,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "study_interface/msg/Cloud",
+      "hash_string": "RIHS01_13300014ce02e7a7371b5218ec7afe07678370b21e717823b5f6f7485e8d2055"
+    }
+  ]
+}

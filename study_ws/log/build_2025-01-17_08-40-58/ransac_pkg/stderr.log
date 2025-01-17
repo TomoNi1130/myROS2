@@ -1,0 +1,15 @@
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:[m[K In member function ‘[01m[Kvoid CloudSubscriber::[01;32m[KtopicCallback[m[K(study_interface::msg::Cloud_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:23:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<study_interface::msg::Cloud_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct study_interface::msg::Cloud_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct study_interface::msg::Cloud_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdata[m[K’
+   23 |             for (size_t i = 0; i < std::min(size_t(3), msg->[01;31m[Kdata[m[K.size()); ++i)
+      |                                                             [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:1[m[K:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:25:77:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<study_interface::msg::Cloud_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct study_interface::msg::Cloud_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct study_interface::msg::Cloud_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdata[m[K’
+   25 |          RCLCPP_INFO(this->get_logger(), "data[%zu] = %f", i, msg->[01;31m[Kdata[m[K[i]);
+      |                                                                    [01;31m[K^~~~[m[K
+
+gmake[2]: *** [CMakeFiles/circle.dir/build.make:76: CMakeFiles/circle.dir/src/circle_main.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/circle.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

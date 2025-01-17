@@ -1,0 +1,8 @@
+setup.py
+study_interface/__init__.py
+study_interface.egg-info/PKG-INFO
+study_interface.egg-info/SOURCES.txt
+study_interface.egg-info/dependency_links.txt
+study_interface.egg-info/top_level.txt
+study_interface/msg/__init__.py
+study_interface/msg/_cloud.py
