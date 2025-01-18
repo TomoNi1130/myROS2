@@ -6,6 +6,7 @@
 #include <vector>
 #include "ransac.hpp"
 #include "circle_ransac.cpp"
+#include "line_ransac.cpp"
 
 class CircleRansac : public rclcpp::Node
 {

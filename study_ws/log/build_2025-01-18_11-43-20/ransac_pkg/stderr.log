@@ -1,0 +1,35 @@
+In file included from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:9[m[K:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/line_ransac.cpp:7:27:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kstd::vector<line_segment> RANSAC::[01;32m[Kline_ransac[m[K(int)[m[K’
+    7 | std::vector<line_segment> [01;31m[KRANSAC[m[K::line_ransac(const int line_num)
+      |                           [01;31m[K^~~~~~[m[K
+In file included from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:8[m[K:
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:78:27:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<line_segment> RANSAC::[01;32m[Kline_ransac[m[K(int)[m[K’ previously defined here
+   78 | std::vector<line_segment> [01;36m[KRANSAC[m[K::line_ransac(const int line_num)
+      |                           [01;36m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/line_ransac.cpp:78:8:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kdouble RANSAC::[01;32m[Kfind_error[m[K(line&, double&, double&) const[m[K’
+   78 | double [01;31m[KRANSAC[m[K::find_error(line &line, double &_x, double &_y) const
+      |        [01;31m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:154:8:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble RANSAC::[01;32m[Kfind_error[m[K(line&, double&, double&) const[m[K’ previously defined here
+  154 | double [01;36m[KRANSAC[m[K::find_error(line &line, double &_x, double &_y) const
+      |        [01;36m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/line_ransac.cpp:83:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kline RANSAC::[01;32m[Kfit_line[m[K(double, double, double, double) const[m[K’
+   83 | line [01;31m[KRANSAC[m[K::fit_line(double _x1, double _y1, double _x2, double _y2) const // 二点の距離から直線を割り出す
+      |      [01;31m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:169:6:[m[K [01;36m[Knote: [m[K‘[01m[Kline RANSAC::[01;32m[Kfit_line[m[K(double, double, double, double) const[m[K’ previously defined here
+  169 | line [01;36m[KRANSAC[m[K::fit_line(double _x1, double _y1, double _x2, double _y2) const // 二点の距離から直線を割り出す
+      |      [01;36m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/line_ransac.cpp:92:8:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kdouble RANSAC::[01;32m[Kget_theta[m[K(double, double, double) const[m[K’
+   92 | double [01;31m[KRANSAC[m[K::get_theta(double a, double b, double c) const
+      |        [01;31m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:178:8:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble RANSAC::[01;32m[Kget_theta[m[K(double, double, double) const[m[K’ previously defined here
+  178 | double [01;36m[KRANSAC[m[K::get_theta(double a, double b, double c) const
+      |        [01;36m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/line_ransac.cpp:118:8:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kdouble RANSAC::[01;32m[Kget_distance_line[m[K(double, double, double, double) const[m[K’
+  118 | double [01;31m[KRANSAC[m[K::get_distance_line(double x1, double y1, double x2, double y2) const
+      |        [01;31m[K^~~~~~[m[K
+[01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:204:8:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble RANSAC::[01;32m[Kget_distance_line[m[K(double, double, double, double) const[m[K’ previously defined here
+  204 | double [01;36m[KRANSAC[m[K::get_distance_line(double x1, double y1, double x2, double y2) const
+      |        [01;36m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/circle.dir/build.make:76: CMakeFiles/circle.dir/src/circle_main.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/circle.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

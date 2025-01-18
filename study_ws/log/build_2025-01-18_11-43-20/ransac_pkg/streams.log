@@ -1,0 +1,40 @@
+[0.011s] Invoking command in '/home/tomoni11/Documents/ROS2/study_ws/build/ransac_pkg': CMAKE_PREFIX_PATH=/home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg:/home/tomoni11/Documents/ROS2/study_ws/install/study_interface:/home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg:/home/tomoni11/Documents/ROS2/study_ws/install/interface_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/study_ws/build/ransac_pkg -- -j24 -l24
+[0.071s] [ 16%] [32mBuilding CXX object CMakeFiles/circle.dir/src/circle_main.cpp.o[0m
+[0.072s] [ 50%] Built target circle_drower
+[0.072s] [ 83%] Built target line_drower
+[1.917s] In file included from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:9[m[K:
+[1.917s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/line_ransac.cpp:7:27:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kstd::vector<line_segment> RANSAC::[01;32m[Kline_ransac[m[K(int)[m[K’
+[1.917s]     7 | std::vector<line_segment> [01;31m[KRANSAC[m[K::line_ransac(const int line_num)
+[1.917s]       |                           [01;31m[K^~~~~~[m[K
+[1.917s] In file included from [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:8[m[K:
+[1.917s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:78:27:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<line_segment> RANSAC::[01;32m[Kline_ransac[m[K(int)[m[K’ previously defined here
+[1.917s]    78 | std::vector<line_segment> [01;36m[KRANSAC[m[K::line_ransac(const int line_num)
+[1.917s]       |                           [01;36m[K^~~~~~[m[K
+[1.917s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/line_ransac.cpp:78:8:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kdouble RANSAC::[01;32m[Kfind_error[m[K(line&, double&, double&) const[m[K’
+[1.917s]    78 | double [01;31m[KRANSAC[m[K::find_error(line &line, double &_x, double &_y) const
+[1.917s]       |        [01;31m[K^~~~~~[m[K
+[1.917s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:154:8:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble RANSAC::[01;32m[Kfind_error[m[K(line&, double&, double&) const[m[K’ previously defined here
+[1.917s]   154 | double [01;36m[KRANSAC[m[K::find_error(line &line, double &_x, double &_y) const
+[1.917s]       |        [01;36m[K^~~~~~[m[K
+[1.917s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/line_ransac.cpp:83:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kline RANSAC::[01;32m[Kfit_line[m[K(double, double, double, double) const[m[K’
+[1.918s]    83 | line [01;31m[KRANSAC[m[K::fit_line(double _x1, double _y1, double _x2, double _y2) const // 二点の距離から直線を割り出す
+[1.918s]       |      [01;31m[K^~~~~~[m[K
+[1.918s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:169:6:[m[K [01;36m[Knote: [m[K‘[01m[Kline RANSAC::[01;32m[Kfit_line[m[K(double, double, double, double) const[m[K’ previously defined here
+[1.918s]   169 | line [01;36m[KRANSAC[m[K::fit_line(double _x1, double _y1, double _x2, double _y2) const // 二点の距離から直線を割り出す
+[1.918s]       |      [01;36m[K^~~~~~[m[K
+[1.918s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/line_ransac.cpp:92:8:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kdouble RANSAC::[01;32m[Kget_theta[m[K(double, double, double) const[m[K’
+[1.918s]    92 | double [01;31m[KRANSAC[m[K::get_theta(double a, double b, double c) const
+[1.918s]       |        [01;31m[K^~~~~~[m[K
+[1.918s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:178:8:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble RANSAC::[01;32m[Kget_theta[m[K(double, double, double) const[m[K’ previously defined here
+[1.918s]   178 | double [01;36m[KRANSAC[m[K::get_theta(double a, double b, double c) const
+[1.918s]       |        [01;36m[K^~~~~~[m[K
+[1.918s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/line_ransac.cpp:118:8:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kdouble RANSAC::[01;32m[Kget_distance_line[m[K(double, double, double, double) const[m[K’
+[1.918s]   118 | double [01;31m[KRANSAC[m[K::get_distance_line(double x1, double y1, double x2, double y2) const
+[1.918s]       |        [01;31m[K^~~~~~[m[K
+[1.918s] [01m[K/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp:204:8:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble RANSAC::[01;32m[Kget_distance_line[m[K(double, double, double, double) const[m[K’ previously defined here
+[1.918s]   204 | double [01;36m[KRANSAC[m[K::get_distance_line(double x1, double y1, double x2, double y2) const
+[1.918s]       |        [01;36m[K^~~~~~[m[K
+[4.329s] gmake[2]: *** [CMakeFiles/circle.dir/build.make:76: CMakeFiles/circle.dir/src/circle_main.cpp.o] エラー 1
+[4.329s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/circle.dir/all] エラー 2
+[4.329s] gmake: *** [Makefile:146: all] エラー 2
+[4.331s] Invoked command in '/home/tomoni11/Documents/ROS2/study_ws/build/ransac_pkg' returned '2': CMAKE_PREFIX_PATH=/home/tomoni11/Documents/ROS2/study_ws/install/make_cloud_pkg:/home/tomoni11/Documents/ROS2/study_ws/install/study_interface:/home/tomoni11/Documents/ROS2/study_ws/install/ransac_pkg:/home/tomoni11/Documents/ROS2/study_ws/install/interface_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomoni11/Documents/ROS2/study_ws/build/ransac_pkg -- -j24 -l24

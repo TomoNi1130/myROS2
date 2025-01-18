@@ -20,6 +20,7 @@ CMakeFiles/circle.dir/src/circle_main.cpp.o
  /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/line.hpp
  /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/rosidl_generator_cpp__visibility_control.hpp
  /home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp
+ /home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/line_ransac.cpp
  /home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/ransac.hpp
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp

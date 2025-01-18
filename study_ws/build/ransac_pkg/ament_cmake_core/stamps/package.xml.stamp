@@ -13,6 +13,7 @@
   <test_depend>ament_lint_common</test_depend>
 
   <depend>ros2launch</depend>
+  <depend>make_cloud_pkg</depend>
 
   <depend>rclcpp</depend>
   <depend>study_interface</depend>

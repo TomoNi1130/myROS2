@@ -19,6 +19,7 @@ CMakeFiles/circle.dir/src/circle_main.cpp.o: /home/tomoni11/Documents/ROS2/study
   /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/line.hpp \
   /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/rosidl_generator_cpp__visibility_control.hpp \
   /home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/circle_ransac.cpp \
+  /home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/line_ransac.cpp \
   /home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/ransac.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
@@ -1061,6 +1062,8 @@ CMakeFiles/circle.dir/src/circle_main.cpp.o: /home/tomoni11/Documents/ROS2/study
 
 /usr/include/c++/13/cassert:
 
+/usr/include/c++/13/bits/vector.tcc:
+
 /opt/ros/jazzy/include/rclcpp/rclcpp/publisher_options.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
@@ -1078,8 +1081,6 @@ CMakeFiles/circle.dir/src/circle_main.cpp.o: /home/tomoni11/Documents/ROS2/study
 /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_topics_interface_traits.hpp:
-
-/usr/include/c++/13/bits/vector.tcc:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_topics_interface.hpp:
 
@@ -1299,21 +1300,9 @@ CMakeFiles/circle.dir/src/circle_main.cpp.o: /home/tomoni11/Documents/ROS2/study
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/subscription_intra_process_buffer.hpp:
-
-/opt/ros/jazzy/include/rmw/rmw/events_statuses/liveliness_changed.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/network_flow_endpoint.hpp:
-
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/ros_message_intra_process_buffer.hpp:
 
 /opt/ros/jazzy/include/rcl/rcl/graph.h:
 
@@ -1409,6 +1398,12 @@ CMakeFiles/circle.dir/src/circle_main.cpp.o: /home/tomoni11/Documents/ROS2/study
 
 /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:
 
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:
+
 /home/tomoni11/Documents/ROS2/study_ws/install/study_interface/include/study_interface/study_interface/msg/detail/line__builder.hpp:
 
 /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp:
@@ -1491,10 +1486,6 @@ CMakeFiles/circle.dir/src/circle_main.cpp.o: /home/tomoni11/Documents/ROS2/study
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/allocator/allocator_deleter.hpp:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h:
-
-/usr/include/c++/13/bits/charconv.h:
-
 /usr/include/c++/13/random:
 
 /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/time.hpp:
@@ -1547,11 +1538,17 @@ CMakeFiles/circle.dir/src/circle_main.cpp.o: /home/tomoni11/Documents/ROS2/study
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp:
 
-/usr/include/x86_64-linux-gnu/asm/errno.h:
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp:
+/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/subscription_intra_process_buffer.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:
+/opt/ros/jazzy/include/rmw/rmw/events_statuses/liveliness_changed.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/network_flow_endpoint.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/ros_message_intra_process_buffer.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:
 
 /opt/ros/jazzy/include/rcl/rcl/service.h:
 
@@ -1586,6 +1583,20 @@ CMakeFiles/circle.dir/src/circle_main.cpp.o: /home/tomoni11/Documents/ROS2/study
 /opt/ros/jazzy/include/rcl/rcl/visibility_control.h:
 
 /opt/ros/jazzy/include/rcl/rcl/wait.h:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp:
+
+/opt/ros/jazzy/include/rcl/rcl/node_options.h:
+
+/opt/ros/jazzy/include/rcpputils/rcpputils/visibility_control.hpp:
+
+/opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/visibility_control.h:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp:
 
 /home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/src/circle_main.cpp:
 
@@ -1635,20 +1646,6 @@ CMakeFiles/circle.dir/src/circle_main.cpp.o: /home/tomoni11/Documents/ROS2/study
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp:
-
-/opt/ros/jazzy/include/rcl/rcl/node_options.h:
-
-/opt/ros/jazzy/include/rcpputils/rcpputils/visibility_control.hpp:
-
-/opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/visibility_control.h:
-
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp:
@@ -1693,17 +1690,11 @@ CMakeFiles/circle.dir/src/circle_main.cpp.o: /home/tomoni11/Documents/ROS2/study
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/executors/events_executor/events_executor_event_types.hpp:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:
-
-/usr/include/c++/13/bits/predefined_ops.h:
-
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp:
+
+/home/tomoni11/Documents/ROS2/study_ws/src/ransac_pkg/include/ransac_pkg/line_ransac.cpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp:
 
@@ -1778,6 +1769,18 @@ CMakeFiles/circle.dir/src/circle_main.cpp.o: /home/tomoni11/Documents/ROS2/study
 /opt/ros/jazzy/include/rcpputils/rcpputils/scope_exit.hpp:
 
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_hash.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:
+
+/usr/include/c++/13/bits/predefined_ops.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h:
+
+/usr/include/c++/13/bits/charconv.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/qos_overriding_options.hpp:
 

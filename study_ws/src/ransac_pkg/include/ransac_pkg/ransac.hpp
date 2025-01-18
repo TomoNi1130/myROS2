@@ -64,4 +64,10 @@ private:
       std::vector<bool> inlier;
 };
 
+inline RANSAC::RANSAC(int max_iterations, double threshold, std::vector<double> _x, std::vector<double> _y)
+    : max_iterations(max_iterations), threshold(threshold), _x(_x), _y(_y)
+{
+      inlier.resize(_x.size(), false);
+}
+
 #endif
